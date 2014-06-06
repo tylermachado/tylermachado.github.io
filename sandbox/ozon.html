@@ -51,47 +51,48 @@
         background:#3074a4;
         }
 </style>
-<nav id='menu-ui' class='menu-ui'></nav>
+<nav id='menu-ui' class='menu-ui'><button onclick="gogogo();">Play</button></nav>
 <div id='map'></div>
 
 <script>
 var map = L.map('map').setView([57.8915,86.8359], 3);
-var layers = document.getElementById('menu-ui');
 
-addLayer(L.mapbox.tileLayer('tylermachado.7xu07ldi'), 'Base Map', 1);
-addLayer(L.mapbox.tileLayer('tylermachado.wv29be29'), '2011', 2);
-addLayer(L.mapbox.tileLayer('tylermachado.d08p8pvi'), '2012', 3);
-addLayer(L.mapbox.tileLayer('tylermachado.0tivygb9'), '2013', 3);
-addLayer(L.mapbox.tileLayer('tylermachado.lv8l4n29'), '2014', 3);
-addLayer(L.mapbox.tileLayer('tylermachado.mlr9hpvi'), '2015', 3);
-
+// this just adds the basemap only
+addLayer(L.mapbox.tileLayer('tylermachado.7xu07ldi'), 'Base Map', -1);
 function addLayer(layer, name, zIndex) {
     layer
         .setZIndex(zIndex)
         .addTo(map);
-
-    // Create a simple layer switcher that
-    // toggles layers on and off.
-    var link = document.createElement('a');
-        link.href = '#';
-        link.className = 'active';
-        link.innerHTML = name;
-
-    link.onclick = function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-
-        if (map.hasLayer(layer)) {
-            map.removeLayer(layer);
-            this.className = '';
-        } else {
-            map.addLayer(layer);
-            this.className = 'active';
-        }
-    };
-
-    layers.appendChild(link);
 }
+
+var animation;
+
+var layers =  [L.mapbox.tileLayer('tylermachado.wv29be29'),
+      L.mapbox.tileLayer('tylermachado.d08p8pvi'),
+      L.mapbox.tileLayer('tylermachado.0tivygb9'),
+      L.mapbox.tileLayer('tylermachado.lv8l4n29'),
+      L.mapbox.tileLayer('tylermachado.mlr9hpvi')
+      ];
+
+var arrayLength = layers.length;
+
+var i = 0;                     
+
+function gogogo () {           
+   setTimeout(function () {    
+      addLayer(layers[i], 1);
+          function addLayer(layer, zIndex) {
+          layer
+              .setZIndex(zIndex)
+              .addTo(map);
+        }         //  your code here
+      i++;                     
+      if (i < arrayLength) {            
+         gogogo();             
+      }                        
+   }, 2000)
+}
+
 </script>
 </body>
 </html>
