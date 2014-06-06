@@ -55,18 +55,20 @@
 <div id='map'></div>
 
 <script>
+// define map
 var map = L.map('map').setView([57.8915,86.8359], 3);
 
-// this just adds the basemap only
-addLayer(L.mapbox.tileLayer('tylermachado.7xu07ldi'), 'Base Map', -1);
+// define addLayer function
 function addLayer(layer, name, zIndex) {
     layer
         .setZIndex(zIndex)
         .addTo(map);
 }
 
-var animation;
+// add basemap only
+addLayer(L.mapbox.tileLayer('tylermachado.7xu07ldi'), 'Base Map', -1);
 
+// here are the new layers we're going to add
 var layers =  [L.mapbox.tileLayer('tylermachado.wv29be29'),
       L.mapbox.tileLayer('tylermachado.d08p8pvi'),
       L.mapbox.tileLayer('tylermachado.0tivygb9'),
@@ -74,23 +76,21 @@ var layers =  [L.mapbox.tileLayer('tylermachado.wv29be29'),
       L.mapbox.tileLayer('tylermachado.mlr9hpvi')
       ];
 
+// and the length of said array so that the timer will stop
 var arrayLength = layers.length;
 
+// set the counter for the timer
 var i = 0;                     
 
+// set the timer delay function to add layers to map, calling function name in HTML button
 function gogogo () {           
    setTimeout(function () {    
-      addLayer(layers[i], 1);
-          function addLayer(layer, zIndex) {
-          layer
-              .setZIndex(zIndex)
-              .addTo(map);
-        }         //  your code here
+      addLayer(layers[i], i); // adding one layer at a time from the array
       i++;                     
       if (i < arrayLength) {            
          gogogo();             
       }                        
-   }, 2000)
+   }, 2000); // delay between layer adds in milliseconds
 }
 
 </script>
