@@ -1,3 +1,7 @@
+* {
+	font-family:Helvetica;
+}
+
 #play, #reset {
 	color:#fff;
 	padding:20px;
@@ -8,7 +12,6 @@
 	top:50%;
 	left:50%;
 	z-index:105;
-	font-family:Helvetica;
 	text-align:center;
 }
 
@@ -20,4 +23,17 @@
 #reset {
 	background-color:#BF1111;
 	display:none; 
+}
+
+#monthSpace {
+	position:absolute;
+	top:1%;
+	left:50%;
+	margin:0 0 0 -90px;
+	font-size:20px;
+	font-weight:bold;
+	color:#082E61;
+	z-index:104;
+	width: 180px;
+	text-align: center;
 }
