@@ -5,11 +5,11 @@ body {
   width: 580px;
   margin:0;
   padding:0;
-  font-size:14px;
+  font-size:15px;
 }
 
 #column1 {
-	width:40%;
+	width:45%;
 	display:inline;
 	float:left;
 }
@@ -32,20 +32,22 @@ body {
 .focusheader {
 	margin:0 0 5px 0;
 	font-weight:bold;
-	color:#fff;
-	padding:10px;
+	padding:8px;
 }
 
 #focus1 {
-	background-color:#f68b1f;
+	background-color:#fff;
+	color:#fb6405;
 }
 
 #focus2 {
-	background-color:#39b54a;
+	background-color:#fff;
+	color:#25c624;
 }
 
 #focus3 {
-	background-color:#2772b2;
+	background-color:#fff;
+	color:#0284fd;
 }
 
 /* menu */
@@ -58,15 +60,17 @@ form {
 
 #menu label a {
 	width: 33%;
+	background-color:#e6e6e6;
 	display: inline;
-	margin: 0 10px 5px;
+	margin: 5 10px 5px;
 	padding:10px;
 	text-align: center;
 }
 
 .menuSelected {
-	border-bottom:5px solid #aaa;
+	background-color:#646464;
 	font-weight:bold;
+	color: #fff;
 }
 
 /* pie plate */
@@ -78,7 +82,8 @@ form {
 
 /* infoboxes */
 #infoContainer {
-	width:28%;
+	width:25%;
+	margin:5px;
 	float:left;
 }
 
