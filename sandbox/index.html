@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
 body {
@@ -51,6 +52,10 @@ text.subcategory {
   font-size:12px;
 }
 
+text.xAxisRepeat {
+  fill:#aaa;
+}
+
 /*.aspectgroup:nth-child(3) .x .tick text, .aspectgroup:nth-child(3n+2) .x .tick text, .aspectgroup:nth-child(3n+1) .x .tick text {
   display: none;
 }*/
@@ -66,9 +71,9 @@ text.subcategory {
 var spacingBetweenBars = 5;
 var leftoffset = 100;
 
-var margin = {left: 95, bottom: 40, right: 30, top: 40},
-    height = 3000 - margin.top - margin.bottom,
-    width = window.innerWidth - leftoffset - margin.left - margin.right;
+var margin = {left: 30, bottom: 0, right: 30, top: 0},
+    height = 3400 - margin.top - margin.bottom,
+    width = window.innerWidth - margin.left - margin.right - leftoffset;
 
 var color = d3.scale.ordinal()
     .range(["#f00404", "#2dbafc", "#2ea51a", "#fc6103", "#01594c", "#012497", "#a815f3"]);
@@ -77,20 +82,20 @@ var x = d3.scale.linear()
     .range([width, 0]);
 
 var y0 = d3.scale.ordinal()
-    .rangeRoundBands([height, 0], .3);
+    .rangeRoundBands([height, 0], .4);
 
 var y1 = d3.scale.ordinal();
 
 var xAxis = d3.svg.axis()
     .scale(x)
     .orient("top")
-    .tickValues([0, 10, 20, 30, 40, 50, 60, 70])
+    .tickValues([0, 10, 20, 30, 40, 50, 60, 67])
     .tickSize(-height);
 
  var xAxisRepeat = d3.svg.axis()
     .scale(x)
     .orient("top")
-    .tickValues([0, 10, 20, 30, 40, 50, 60, 70])
+    .tickValues([0, 10, 20, 30, 40, 50, 60, 67])
     .tickSize(0);
 
 var yAxis = d3.svg.axis()
@@ -105,10 +110,10 @@ var yAxisText = d3.svg.axis()
     .tickSize(0);
 
 var svg = d3.select("body").append("svg")
-    .attr("width", width + margin.right + margin.left)
+    .attr("width", width + margin.right + margin.left + leftoffset)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
-    .attr("transform", "translate(" + margin.right + "," + margin.top + ")");
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 d3.tsv("data.tsv", function(error, data) {
   var ageNames = d3.keys(data[0]).filter(function(key) { return key !== "aspect"; });
@@ -124,13 +129,13 @@ d3.tsv("data.tsv", function(error, data) {
         // establish x axis
   svg.append("g")
       .attr("class", "x axis")
-      .attr("transform", "translate(" + leftoffset + ",0)")
+      .attr("transform", "translate(" + leftoffset + ",22)")
       .call(xAxis);
 
         // establish y axis
   svg.append("g")
       .attr("class", "y axis")
-      .attr("transform", "translate(" + leftoffset + ",0)")
+      .attr("transform", "translate(" + leftoffset + ",22)")
       .call(yAxis);
 
         // append a group for each aspect of the data
@@ -223,7 +228,9 @@ d3.tsv("data.tsv", function(error, data) {
           // add the extra X axes with big categories
   var extraAxisText = svg.selectAll('.categorygroup').append("g")
       .attr("transform", "translate(0,-30)")
-      .call(xAxisRepeat);
+      .call(xAxisRepeat)
+      .selectAll("text")
+      .attr("class","xAxisRepeat");
 
 
 
