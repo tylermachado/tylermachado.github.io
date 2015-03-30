@@ -1,0 +1,48 @@
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.x.axis path {
+  display: none;
+}
+
+text {
+  font-family:National;
+  font-size:14px;
+}
+
+.legend text, text.axislabel {
+  fill:#aaa;
+  text-transform:uppercase;
+  font-weight:700;
+  font-size:12px;
+}
+
+.tick text {
+  fill:#555;
+  font-weight:900;
+}
+
+text.category {
+  fill:#333;
+  font-weight:900;
+  font-size:16px;
+}
+
+text.subcategory {
+  fill:#555;
+  text-transform:uppercase;
+  font-weight:900;
+  font-size:12px;
+}
+
+text.xAxisRepeat {
+  fill:#aaa;
+}

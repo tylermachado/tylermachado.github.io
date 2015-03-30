@@ -1,0 +1,199 @@
+body {
+	max-width:100%;
+	font-size: 100%;
+	}
+
+li
+{
+    list-style-type: none;
+}
+
+#advice-container {
+	background-color:#ffffff;
+	position:relative;
+	padding:0;
+	display:-webkit-flex;
+	-webkit-flex-flow:row wrap;
+	--ms-flex-flow: row wrap;
+	-ms-align-content: flex-start;
+	-webkit-align-content: flex-start;
+	align-content: flex-start;
+	border-bottom:2px solid #b7b7b7;
+}
+
+.advice-type{
+	width: 42.5%;
+	border-bottom:1px solid #b7b7b7;
+}
+
+.advice-type:nth-child(even){
+	background-color:#e6e6e6;
+}
+
+.advice-type2{
+	width: 15%;
+	border-bottom:1px solid #b7b7b7;
+}
+
+.advice1{
+	width: 42.5%;
+	border-bottom:1px solid #b7b7b7;
+}
+
+.advice1:nth-child(3n+2){
+	background-color:#e6e6e6;
+}
+
+.advice2{
+	width: 15%;
+	border-bottom:1px solid #b7b7b7;
+}
+
+.box{
+	padding:1em;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.button-stroked{
+	border-style: solid;
+	border-width: 0.1875rem;
+	cursor: pointer;
+	font-family: "National", Candara, Calibri, Segoe, Arial, sans-serif;
+	font-weight: 700;
+	line-height: normal;
+	margin: 0 0 1.25rem;
+	position: absolute;
+	right:0;
+	text-decoration: none;
+	text-align: center;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	display: inline-block;
+	padding-top: 0.6875rem;
+	padding-right: 1.625rem;
+	padding-bottom: 0.75rem;
+	padding-left: 1.625rem;
+	font-size: 0.8125rem;
+	background-color: transparent;
+	border-color: gray;
+	color: gray;
+}
+
+#button-container {
+    position: relative;
+    min-height: 50px;
+    right:0;
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+  background-color: #fff;
+  color:gray;
+}
+
+/* TYPE */
+
+.utility{
+	letter-spacing: 0.05rem;
+}
+
+/* COLORS */
+
+.magenta{
+	color:#ea007b !important;
+}
+
+.red{
+	color: #f00404 !important;
+}
+
+.light-blue{
+	color: #2dbafc !important;
+}
+
+.light-green{
+	color: #2ea51a !important;
+}
+
+.orange{
+	color: #fc6103 !important;
+}
+
+.dark-green{
+	color: #01594c !important;
+}
+
+.dark-blue{
+	color: #012497 !important;
+}
+
+.purple{
+	color: #a815f3 !important;
+}
+
+/* RESPONSIVE FOR SMALL SCREENS -------------------- */
+
+
+@media only screen and (max-width: 35.5em) { 
+
+	.advice1{
+		width: 100%;
+		border:none;
+		background-color:#ffffff;
+	}
+
+	.advice1:nth-child(3n+2){
+		background-color:#ffffff;
+	}
+
+	.advice1:nth-child(3n+2):before{
+		content:"Advice for Leaders on the World Stage";
+		text-transform:uppercase;
+		font-weight:700;
+		font-size:0.875rem;
+		color:#888888 !important;
+		padding:1em 1em 0 1em;
+	}
+
+	.advice1:nth-child(3n):before{
+		content:"Advice for people working with those leaders";
+		text-transform:uppercase;
+		font-weight:700;
+		font-size:0.875rem;
+		color:#888888 !important;
+		padding:1em;
+	}
+
+	.advice2{
+		padding-top:1em;
+		width: 100%;
+		border-bottom:none;
+		border-top:1px solid #b7b7b7;
+		background-color:#ffffff;
+	}
+
+	.utility{
+		font-size: 0.875rem;
+	}
+	.advice2:nth-child(1){
+		border:none;
+		background-color:blue;
+	}
+
+	.advice-type{
+		display:none;
+	}
+
+	.advice-type2{
+		display:none;
+	}
+
+	.box{
+		padding-top:.5em;
+		padding-bottom:1.5em;
+	}
+}

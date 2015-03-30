@@ -1,73 +1,3 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-
-body {
-  margin:0;
-}
-
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #ddd;
-  shape-rendering: crispEdges;
-}
-
-.bar {
-  fill: steelblue;
-}
-
-.x.axis path {
-  display: none;
-}
-
-text {
-  font-family:National;
-  font-size:14px;
-}
-
-.legend text {
-  fill:#aaa;
-  text-transform:uppercase;
-  font-weight:700;
-  font-size:12px;
-}
-
-.tick text {
-  fill:#555;
-  font-weight:900;
-}
-
-text.category {
-  fill:#333;
-  font-weight:900;
-  font-size:16px;
-}
-
-text.subcategory {
-  fill:#555;
-  text-transform:uppercase;
-  font-weight:900;
-  font-size:12px;
-}
-
-text.xAxisRepeat {
-  fill:#aaa;
-}
-
-/*.aspectgroup:nth-child(3) .x .tick text, .aspectgroup:nth-child(3n+2) .x .tick text, .aspectgroup:nth-child(3n+1) .x .tick text {
-  display: none;
-}*/
-
-</style>
-
-<link rel="stylesheet" href="resources/css/hbr-fonts.css"/>
-
-<body>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script>
-
 var spacingBetweenBars = 5;
 var leftoffset = 100;
 
@@ -86,17 +16,28 @@ var y0 = d3.scale.ordinal()
 
 var y1 = d3.scale.ordinal();
 
+var tickFormatter = function(d) { 
+  if (d == 0) {
+    return d + "%"; 
+  } else {
+    return d;
+  }
+}
+
 var xAxis = d3.svg.axis()
     .scale(x)
     .orient("top")
-    .tickValues([0, 10, 20, 30, 40, 50, 60, 67])
-    .tickSize(-height);
+    // .style("text-anchor", "start")
+    .tickValues([0, 10, 20, 30, 40, 50, 60])
+    .tickSize(-height)
+    .tickFormat(tickFormatter);
 
  var xAxisRepeat = d3.svg.axis()
     .scale(x)
     .orient("top")
-    .tickValues([0, 10, 20, 30, 40, 50, 60, 67])
-    .tickSize(0);
+    .tickValues([0, 10, 20, 30, 40, 50, 60])
+    .tickSize(0)
+    .tickFormat(tickFormatter);
 
 var yAxis = d3.svg.axis()
     .scale(y0)
@@ -109,7 +50,7 @@ var yAxisText = d3.svg.axis()
     .orient("right")
     .tickSize(0);
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#d3-container").append("svg")
     .attr("width", width + margin.right + margin.left + leftoffset)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -131,6 +72,8 @@ d3.tsv("data.tsv", function(error, data) {
       .attr("class", "x axis")
       .attr("transform", "translate(" + leftoffset + ",22)")
       .call(xAxis);
+
+      svg.select(".x.axis .tick text").style("text-anchor","start");
 
         // establish y axis
   svg.append("g")
@@ -232,8 +175,30 @@ d3.tsv("data.tsv", function(error, data) {
       .selectAll("text")
       .attr("class","xAxisRepeat");
 
+  svg.append("text")      // text label for the x axis
+        .attr("x", 0 )
+        .attr("y",  10 )
+        .attr("transform", "translate(90,0)")
+        .attr("class", "axislabel")
+        .style("text-anchor", "end");
+
+  svg.select(".axislabel")
+        .append("tspan")
+        .attr("x", "0")
+        .attr("dy", "0")
+        .text("Percentage of");
+
+  svg.select(".axislabel")
+        .append("tspan")
+        .attr("x", "0")
+        .attr("dy", "1em")
+        .text("Executives With");
+
+  svg.select(".axislabel")
+        .append("tspan")
+        .attr("x", "0")
+        .attr("dy", "1em")
+        .text("Strength in Area");
 
 
 });
-
-</script>
