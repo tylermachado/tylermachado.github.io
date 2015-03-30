@@ -1,9 +1,9 @@
 var spacingBetweenBars = 5;
-var leftoffset = 100;
+var leftoffset = 90;
 
 var margin = {left: 30, bottom: 0, right: 30, top: 0},
     height = 3400 - margin.top - margin.bottom,
-    width = window.innerWidth - margin.left - margin.right - leftoffset;
+    width = window.innerWidth - margin.left - margin.right - leftoffset - 20;
 
 var color = d3.scale.ordinal()
     .range(["#f00404", "#2dbafc", "#2ea51a", "#fc6103", "#01594c", "#012497", "#a815f3"]);
@@ -27,15 +27,14 @@ var tickFormatter = function(d) {
 var xAxis = d3.svg.axis()
     .scale(x)
     .orient("top")
-    // .style("text-anchor", "start")
-    .tickValues([0, 10, 20, 30, 40, 50, 60])
+    .tickValues([0, 10, 20, 30, 40, 50, 60, 67])
     .tickSize(-height)
     .tickFormat(tickFormatter);
 
  var xAxisRepeat = d3.svg.axis()
     .scale(x)
     .orient("top")
-    .tickValues([0, 10, 20, 30, 40, 50, 60])
+    .tickValues([0, 10, 20, 30, 40, 50, 60, 67])
     .tickSize(0)
     .tickFormat(tickFormatter);
 
@@ -199,6 +198,11 @@ d3.tsv("data.tsv", function(error, data) {
         .attr("x", "0")
         .attr("dy", "1em")
         .text("Strength in Area");
+
+  svg.selectAll(".legend").filter(":nth-child(15)").select("text").append("tspan")
+        .attr("x", "-10")
+        .attr("dy", "1em")
+        .text("Africa");
 
 
 });
