@@ -7,10 +7,20 @@ li
 {
     list-style-type: none;
 }
+#opacity {
+	width: 100%;
+  	background-color: rgba(255, 255, 255, 0.75);
+  	position: absolute;
+  	z-index: 2;
+  	top: 0;
+  	height: 3400px;
+  	display:none;
+}
 
 #advice-container {
 	background-color:#ffffff;
-	position:relative;
+	position:absolute;
+	z-index:3;
 	padding:0;
 	display:-webkit-flex;
 	-webkit-flex-flow:row wrap;
@@ -18,35 +28,35 @@ li
 	-ms-align-content: flex-start;
 	-webkit-align-content: flex-start;
 	align-content: flex-start;
-	border-bottom:2px solid #b7b7b7;
+	border-bottom:1px solid #b7b7b7;
+	width:100%;
 }
 
 .advice-type{
-	width: 42.5%;
+	width: 41.5%;
 	border-bottom:1px solid #b7b7b7;
-}
-
-.advice-type:nth-child(even){
-	background-color:#e6e6e6;
+	border-left: 1px solid #b7b7b7;
+	line-height: 1em;
+	display:inline-block;
 }
 
 .advice-type2{
 	width: 15%;
 	border-bottom:1px solid #b7b7b7;
+	display:inline-block;
 }
 
 .advice1{
-	width: 42.5%;
+	width: 41.5%;
 	border-bottom:1px solid #b7b7b7;
-}
-
-.advice1:nth-child(3n+2){
-	background-color:#e6e6e6;
+	border-left: 1px solid #b7b7b7;
+	display:inline-block;
 }
 
 .advice2{
 	width: 15%;
 	border-bottom:1px solid #b7b7b7;
+	display:inline-block;
 }
 
 .box{
@@ -57,6 +67,18 @@ li
     position: absolute;
     top: 0px;
     right: 0px;
+}
+
+.alt-action {
+	width: 100%;
+}
+
+#charts-button {
+	text-align: right;
+	padding: 5px;
+	cursor:pointer;
+	width: 115px;
+  	float: right;
 }
 
 .button-stroked{
@@ -88,11 +110,17 @@ li
     position: relative;
     min-height: 50px;
     right:0;
+    z-index:3;
 }
 
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #fff;
-  color:gray;
+ 	background-color: #fff;
+ 	color:gray;
+}
+#d3-container {
+	border-top: 1px solid #ccc;
+  	border-bottom: 1px solid #ccc;
+  	padding-top:16px;
 }
 
 /* TYPE */

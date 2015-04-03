@@ -18,16 +18,23 @@ text {
   font-size:14px;
 }
 
-.legend text, text.axislabel {
+text.axislabel {
   fill:#aaa;
+}
+
+.legend text {
+  fill:#555;
+}
+
+.legend text, text.axislabel {
   text-transform:uppercase;
-  font-weight:700;
+  font-weight:400;
   font-size:12px;
 }
 
 .tick text {
-  fill:#555;
-  font-weight:900;
+  fill:#aaa;
+  font-weight:700;
 }
 
 text.category {
@@ -45,4 +52,6 @@ text.subcategory {
 
 text.xAxisRepeat {
   fill:#aaa;
+  font-size:12px;
+  font-weight:400;
 }
