@@ -25,11 +25,90 @@
 	.circle-green {
 		background-color:green;
 	}	
+
+	.appDest {
+		width:100%;
+		text-transform:uppercase;
+		font-weight:bold;
+		font-size:30px;
+		margin-top:50px;
+	}
+
+	.appDest:nth-child(1) {
+		margin-top:10px;
+	}
+	.appUnit {
+		width:100%;
+		display:block;
+		border-bottom:2px solid gray;
+		padding:30px 0;
+		position:relative;
+	}
+	.appPred {
+		font-size: 44px;
+		font-weight: bold;
+		float: right;
+		background-color: lightcyan;
+		padding: 30px;
+		position: absolute;
+  		right: 0;
+  		top:0;
+	}
+
+	.appRoute {
+		font-size:30px;
+	}
+
+	.appStop {
+		font-size:14px;
+		color:gray;
+	}
 </style>
 <body>
 
-<h1>To Red Line <div class="circle circle-red"></div></h1>
-<div>85 to Kendall: <span id="p91Outbound"></span></div>
+<div class="appDest"><div class="circle circle-red"></div> To Red Line</div>
+<div class="appUnit">
+	<div class="appPred" id="p85Inbound">???</div>
+	<div class="appRoute">85 to Kendall</div>
+	<div class="appStop">walk 1 min to front door</div>
+</div>
+<div class="appUnit">
+	<div class="appPred" id="p91Inbound">???</div>
+	<div class="appRoute">91 to Central</div>
+	<div class="appStop">walk 5 min to Union Square (at Brass Union)</div>
+</div>
+<div class="appUnit">
+	<div class="appPred" id="p86Inbound">???</div>
+	<div class="appRoute">86 to Harvard</div>
+	<div class="appStop">walk 5 min to Washington & Webster (at Sherman Cafe)</div>
+</div>
+<div class="appUnit">
+	<div class="appPred" id="p87Outbound">???</div>
+	<div class="appRoute">87 to Porter/Davis</div>
+	<div class="appStop">walk 1 min to front door</div>
+</div>
+
+<div class="appDest"><div class="circle circle-orange"></div> To Orange Line</div>
+<div class="appUnit">
+	<div class="appPred" id="p86Outbound"></div>
+	<div class="appRoute">86 to Sullivan</div>
+	<div class="appStop">walk 5 min to Washington @ Kingman</div>
+</div>
+<div class="appUnit">
+	<div class="appPred" id="p91Outbound"></div>
+	<div class="appRoute">91 to Sullivan</div>
+	<div class="appStop">walk 7 min to 30 Prospect (opp Dunkin Donuts)</div>
+</div>
+
+<div class="appDest"><div class="circle circle-green"></div> To Green Line</div>
+<div class="appUnit">
+	<div class="appPred" id="p87Inbound"></div>
+	<div class="appRoute">86 to Lechmere</div>
+	<div class="appStop">walk 3 min to Somerville & Church (at Bull McCabe's)</div>
+</div>
+
+<!-- <h1>To Red Line <div class="circle circle-red"></div></h1>
+<div>85 to Kendall: <span id="p85Inbound"></span></div>
 <div>91 to Central: <span id="p91Inbound"></span></div>
 <div>86 to Harvard/Cleveland Circle: <span id="p86Inbound"></span></div>
 <div>87 to Porter/Davis: <span id="p87Outbound"></span></div>
@@ -39,7 +118,7 @@
 <div>91 to Sullivan: <span id="p91Outbound"></span></div>
 
 <h1>To Green Line <div class="circle circle-green"></div></h1>
-<div>87 to Lechmere: <span id="p87Inbound"></span></div>
+<div>87 to Lechmere: <span id="p87Inbound"></span></div> -->
 
 
 
