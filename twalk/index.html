@@ -1,0 +1,90 @@
+<!doctype html>
+<head>
+
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	body {
+		font-family:Helvetica;
+		font-size:16px;
+	}
+
+	.circle {
+		height:1em;
+		width:1em;
+		border-radius:50%;
+		display:inline-block;
+	}
+	.circle-red {
+		background-color:red;
+	}
+	.circle-orange {
+		background-color:orange;
+	}
+	.circle-green {
+		background-color:green;
+	}	
+</style>
+<body>
+
+<h1>To Red Line <div class="circle circle-red"></div></h1>
+<div>85 to Kendall: <span id="p91Outbound"></span></div>
+<div>91 to Central: <span id="p91Inbound"></span></div>
+<div>86 to Harvard/Cleveland Circle: <span id="p86Inbound"></span></div>
+<div>87 to Porter/Davis: <span id="p87Outbound"></span></div>
+
+<h1>To Orange Line <div class="circle circle-orange"></div></h1>
+<div>86 to Sullivan: <span id="p86Outbound"></span></div>
+<div>91 to Sullivan: <span id="p91Outbound"></span></div>
+
+<h1>To Green Line <div class="circle circle-green"></div></h1>
+<div>87 to Lechmere: <span id="p87Inbound"></span></div>
+
+
+
+
+<script type="text/javascript">
+var predictions = {};
+
+function minutesTil(prediction) {
+			var d = new Date(0);
+			d = d.setUTCSeconds(prediction);
+
+			var n = new Date();
+			n = n.getTime();
+
+			return Math.round(((d-n)/1000)/60);
+		}
+
+function getData(routeNumber, direction, stopID) {
+		$.getJSON( "http://realtime.mbta.com/developer/api/v2/predictionsbystop?api_key=wX9NwuHnZU2ToO7GmGR9uw&stop=" + stopID + "&format=json#", function( data ) {
+			var thisRoute = $.grep(data.mode[0].route, function(e){ return e.route_name === routeNumber.toString(); });
+			var epoch = thisRoute[0].direction[0].trip[0].pre_dt;
+			predictions[routeNumber] = minutesTil(epoch);
+			$("#p" + routeNumber + direction).text(predictions[routeNumber] + " min");
+		});
+	}
+
+getData(86, "Inbound", 2613);
+getData(86, "Outbound", 25713);
+getData(87, "Outbound", 26131);
+getData(87, "Inbound", 2595);
+getData(91, "Inbound", 2612);
+getData(91, "Outbound", 2531);
+getData(87, "Inbound", 2574);
+
+		// 86 to Harvard/Cleveland Circle, stop: Washington Ave @ Webster Ave
+	// $.getJSON( "http://realtime.mbta.com/developer/api/v2/predictionsbystop?api_key=wX9NwuHnZU2ToO7GmGR9uw&stop=2613&format=json#", function( data ) {
+	// 	var thisRoute = $.grep(data.mode[0].route, function(e){ return e.route_name === '86'; });
+	// 	var epoch = thisRoute[0].direction[0].trip[0].pre_dt;
+	// 	i86 = minutesTil(epoch);
+	// 	$("#p86").text(i86 + " minutes");
+	// });
+
+	
+
+
+</script>
+</body>
+</html>
