@@ -8,10 +8,10 @@ document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
     $_GET[decode(arguments[1])] = decode(arguments[2]);
 });
 
-var response = new Object();
+var sendback = new Object();
 
-response.command = $_GET['command'];
-response.text = $_GET['token'];
-response.token = $_GET['token'];
+sendback.command = $_GET['command'];
+sendback.text = $_GET['token'];
+sendback.token = $_GET['token'];
 
-return response;
+return JSON.stringify(sendback);
