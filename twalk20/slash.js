@@ -1,3 +1,3 @@
-function(data) {
+function() {
 	return "the bot is working";
 }
