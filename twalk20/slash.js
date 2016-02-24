@@ -1,8 +1,17 @@
-function(name, url) {
-	if (!url) url = window.location.href;
-	var myCar = new Object();
-	myCar.year = 1969;
-	myCar.text = "Everything works, cool";
+var $_GET = {};
 
-	return JSON.stringify(myCar);
-}
+document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
+    function decode(s) {
+        return decodeURIComponent(s.split("+").join(" "));
+    }
+
+    $_GET[decode(arguments[1])] = decode(arguments[2]);
+});
+
+var response = new Object();
+
+response.command = $_GET['command'];
+response.text = $_GET['token'];
+response.token = $_GET['token'];
+
+return response;
