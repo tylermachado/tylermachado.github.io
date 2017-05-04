@@ -65,7 +65,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 18px/28px 'Open Sans', Helvetica, Helvetica Neue, Arial;
+    font: 18px/28px Helvetica Neue, Helvetica, Arial;
     color:#222;
 }
 
@@ -75,12 +75,16 @@ h1 {
     text-align:center;
     margin-top:0px;
     color:#fff;
-    font-family:'Bungee',sans-serif;
+    font-family:'Catamaran', sans-serif;
+    font-weight:800;
+    text-transform:uppercase;
 }
 
 h3 {
     font-size:1.8em;
     line-height: 1em;
+    font-family:'Catamaran', sans-serif;
+    font-weight:600;
 }
 
 header, footer {
