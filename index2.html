@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>TITLE</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="../../../../../css/hbr-fonts.css"/>
+	<link rel="stylesheet" href="css/custom.css">
+
+	<script src="js/libs/jquery.js"></script>
+	<script src="js/libs/pym.min.js"></script>
+	<script src="js/libs/handlebars-v4.0.5.js"></script>
+	
+
+</head>
+
+<body>
+
+	<div id="package-container"></div>
+
+	<script id="template" type="text/x-handlebars-template">
+		{{#users}}
+			<div class="card-container">
+				<div class="card">
+					<div class="front">
+						<h2>{{front}}</h2>
+					</div>
+					<div class="back">
+						{{{back}}}
+					</div>
+				</div>
+			</div>
+		{{/users}}
+	</script>
+
+	<script src="js/app.js"></script>
+</body>
+</html>
