@@ -28,14 +28,16 @@ a {
 	color:#4a3cb4;
 	text-decoration:none;
 	font-weight:bold;
+    cursor:pointer;
 }
 
-a:visited {
+/*a:visited {
 	color:#80A8BE;
-}
+}*/
 
 a:hover, a:active {
 	color:#222;
+    border-bottom: 1px #222 dotted;
 }
 
 img {
@@ -52,13 +54,6 @@ textarea {
     resize: vertical;
 }
 
-.chromeframe {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
 
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
@@ -67,6 +62,7 @@ textarea {
 body {
     font: 18px/28px Helvetica Neue, Helvetica, Arial;
     color:#222;
+    margin:0;
 }
 
 h1 {
@@ -75,16 +71,16 @@ h1 {
     text-align:center;
     margin-top:0px;
     color:#fff;
-    font-family:'Catamaran', sans-serif;
-    font-weight:800;
+    font-family:'Raleway', sans-serif;
+    font-weight:900;
     text-transform:uppercase;
 }
 
 h3 {
     font-size:1.8em;
     line-height: 1em;
-    font-family:'Catamaran', sans-serif;
-    font-weight:600;
+    font-family:'Raleway', sans-serif;
+    font-weight:900;
 }
 
 header, footer {
@@ -120,10 +116,6 @@ footer {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-p.large {
-	font-size:140%;
-}
-
 #portfolio {
 	margin:0 0 0 -1.33%;
 }
@@ -158,9 +150,17 @@ p.large {
 }
 
 footer {
-	text-align:center;
-	margin:0 auto;
-	font-size:12px;
+	text-align:right;
+    font-family:'Raleway', sans-serif;
+    font-weight:500;
+}
+
+footer a {
+    color:#fff;
+}
+
+footer span {
+    display:block;
 }
 
 
@@ -213,12 +213,12 @@ footer {
 
 @media only screen and (max-width: 767px) {
 	h1 {
-        font-size:2em;
-		line-height:2.5em;
+        font-size: 1.7em;
+        line-height: 2.7em;
 	}
 
     h3 {
-        font-size:1.6em;
+        font-size:1.3em;
     }
 	
 	.wrapper {
@@ -241,50 +241,6 @@ footer {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    *text-indent: -9999px;
-}
-
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
-}
-
-.hidden {
-    display: none !important;
-    visibility: hidden;
-}
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-.invisible {
-    visibility: hidden;
-}
 
 .clearfix:before,
 .clearfix:after {
