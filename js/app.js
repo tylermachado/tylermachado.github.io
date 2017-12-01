@@ -7,10 +7,10 @@ var portfolio = {
         link: "https://hbr.org/2017/12/the-most-and-least-digital-jobs-and-how-well-they-pay",
         image: "img/jobs.png",
     }, { 
-        title: "When America Was Most Innovative, and Why",
-        source: "Harvard Business Review, March 2017",
-        link: "https://hbr.org/2017/03/when-america-was-most-innovative-and-why",
-        image: "img/map.png",
+        title: "Connecting Around the World",
+        source: "Harvard Business Review, September 2017",
+        link: "https://hbr.org/2017/09/connecting-around-the-world",
+        image: "img/connecting.png",
     }, { 
         title: "HBR Bot for Slack",
         source: "Harvard Business Review, October 2016",
@@ -46,11 +46,6 @@ var portfolio = {
         source: "Harvard Business Review, November 2015",
         link: "https://hbr.org/2015/11/the-best-performing-ceos-in-the-world",
         image: "img/top100ceos.png",
-    }, { 
-        title: "The Orchestrator Model",
-        source: "Harvard Business Review, July 2014",
-        link: "http://hbr.org/2014/07/the-ultimate-marketing-machine/ar/5",
-        image: "img/thinkfeeldo.png",
     }, { 
         title: "Thirty Years Later, Phish Are Still in the Groove",
         link: "http://www.sevendaysvt.com/general/multimedia/interactives/110613_phish/index.html",
