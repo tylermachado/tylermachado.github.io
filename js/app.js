@@ -2,6 +2,11 @@ var width = window.innerWidth;
 
 var portfolio = { 
     projects: [ { 
+        title: "The Most and Least Digital Jobs – and How Well They Pay",
+        source: "Harvard Business Review, December 2017",
+        link: "https://hbr.org/2017/12/the-most-and-least-digital-jobs-and-how-well-they-pay",
+        image: "img/jobs.png",
+    }, { 
         title: "When America Was Most Innovative, and Why",
         source: "Harvard Business Review, March 2017",
         link: "https://hbr.org/2017/03/when-america-was-most-innovative-and-why",
