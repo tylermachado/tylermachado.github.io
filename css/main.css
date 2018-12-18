@@ -9,15 +9,37 @@ body {
     font-family:"Overpass",Helvetica,Arial,sans-serif;
 }
 
+a {
+    color:#1796b1;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover {
+    border-bottom: 3px solid #1796b1;
+    line-height: 1;
+    display: inline-block;
+}
+
+section.standard {
+    display:block;
+    clear:both;
+    margin-bottom:2em;
+}
+
 h2.sectionheading {
     display:inline;
     font-weight:700;
 }
 
+.portfolio-cards {
+    display:inline-block;
+}
+
 .portfolio-item {
-    width:calc(33% - 30px);
-    margin-left:30px;
-    padding:6px;
+    width:calc(33.3% - 20px);
+    margin-left:10px;
+    padding:4px;
     float:left;
     display:inline-block;
     background:black;
@@ -27,9 +49,14 @@ h2.sectionheading {
     margin-left:0;
 }
 
+.portfolio-item:hover {
+    background:#1796b1;
+    cursor:pointer;
+}
+
 .portfolio-item img {
-    width: calc(100% + 6px);
-    margin: -3px;
+    width: calc(100% + 4px);
+    margin: -2px;
 }
 
 .portfolio-item a {
@@ -41,12 +68,15 @@ h2.sectionheading {
     font-size:1.2rem;
     font-weight:700;
     line-height: 1.1;
+    padding:0 5px;
     display:block;
 }
 
 .portfolio-dateline {
-    color:gray;
+    color:#c3c3c3;
     font-size:1rem;
+    font-weight:400;
     line-height: 1;
+    padding:0 5px;
     display: block;
 }
