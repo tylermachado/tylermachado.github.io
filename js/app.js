@@ -1,41 +1,49 @@
 var width = window.innerWidth;
 
-var portfolio = { 
+var portfolio_data = { 
     projects: [ { 
         title: "The Most and Least Digital Jobs – and How Well They Pay",
         source: "Harvard Business Review, December 2017",
         link: "https://hbr.org/2017/12/the-most-and-least-digital-jobs-and-how-well-they-pay",
         image: "img/jobs.png",
     }, { 
-        title: "Connecting Around the World",
-        source: "Harvard Business Review, September 2017",
-        link: "https://hbr.org/2017/09/connecting-around-the-world",
-        image: "img/connecting.png",
-    }, { 
-        title: "HBR Bot for Slack",
-        source: "Harvard Business Review, October 2016",
-        link: "http://digiday.com/publishers/harvard-business-review-launched-slackbot-delivers-workplace-advice/",
-        image: "img/slack.png",
-    }, { 
-        title: "School Leaders Affect Test Scores and Budgets Even After They Leave",
-        source: "Harvard Business Review, October 2016",
-        link: "https://hbr.org/2016/10/the-one-type-of-leader-who-can-turn-around-a-failing-school",
-        image: "img/schools.png",
-    }, { 
         title: "New England vs. Columbus Matchday Handout Poster",
         source: "New England Revolution, July 2016",
         link: "https://twitter.com/tylermachado/status/751944653616939008",
         image: "img/revs.png",
-    }, { 
+    },{ 
         title: "The Decline of Yahoo in Its Own Words",
         source: "Harvard Business Review, June 2016",
         link: "https://hbr.org/2016/06/the-decline-of-yahoo-in-its-own-words",
         image: "img/yahoo.png",
+    }]
+};
+
+var portfolio_design = { 
+    projects: [ { 
+        title: "INN Brand Guidelines",
+        link: "http://www.sevendaysvt.com/general/multimedia/interactives/110613_phish/index.html",
+        source: "Institute for Nonprofit News, December 2018",
+        image: "img/phish.jpg",
+    }, { 
+        title: "New Montana Free Press Website",
+        source: "Institute for Nonprofit News, October 2018",
+        link: "https://montanafreepress.org",
+        image: "img/interlocks.png",
     }, { 
         title: "How Corporate Boards Connect, in Charts",
         source: "Harvard Business Review, April 2016",
         link: "https://hbr.org/2016/04/how-corporate-boards-connect-in-charts",
         image: "img/interlocks.png",
+    }]
+};
+
+var portfolio_dev = { 
+    projects: [ { 
+        title: "HBR Bots for Slack",
+        link: "http://digiday.com/publishers/harvard-business-review-launched-slackbot-delivers-workplace-advice/",
+        source: "Harvard Business Review, October 2016",
+        image: "img/slack.png",
     }, { 
         title: "Estimate the Cost of a Meeting with This Calculator",
         source: "Harvard Business Review, January 2016",
@@ -46,28 +54,15 @@ var portfolio = {
         source: "Harvard Business Review, November 2015",
         link: "https://hbr.org/2015/11/the-best-performing-ceos-in-the-world",
         image: "img/top100ceos.png",
-    }, { 
-        title: "Thirty Years Later, Phish Are Still in the Groove",
-        link: "http://www.sevendaysvt.com/general/multimedia/interactives/110613_phish/index.html",
-        source: "Seven Days, November 2013",
-        image: "img/phish.jpg",
-    }, { 
-        title: "Vermont Restaurant Week Website",
-        source: "Seven Days, February 2013",
-        link: "http://www.vermontrestaurantweek.com/",
-        image: "img/vtrw.jpg",
-    }, { 
-        title: "Crowdsourced Map: Tropical Storm Irene Photos",
-        source: "Seven Days, August 2011",
-        link: "http://www.sevendaysvt.com/vermont/irenes-impact-on-vermont-a-crowdsourced-map-of-storm-photos-and-videos-updated-91/Content?oid=2178259",
-        image: "img/irene.jpg",
     }]
 }; 
 
 var portfoliosource   = $("#portfoliotemplate").html();
 var portfoliotemplate = Handlebars.compile(portfoliosource);
 
-$('#portfolio').append(portfoliotemplate(portfolio));
+$('#portfolio_data').append(portfoliotemplate(portfolio_data));
+$('#portfolio_design').append(portfoliotemplate(portfolio_design));
+$('#portfolio_dev').append(portfoliotemplate(portfolio_dev));
 
 
 
