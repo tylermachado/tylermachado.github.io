@@ -165,3 +165,31 @@ nav ul li a:hover {
     padding:0 5px;
     display: block;
 }
+
+@media screen and (max-width:767px) {
+    header {
+        margin-top: 3em;
+    }
+
+    header h1 {
+        position: unset;
+        width: 100%;
+        font-size: 5em;
+        line-height: 1;
+        text-align: center;
+    }
+
+    header .imagefilter {
+        width:100%;
+    }
+
+    nav ul li a {
+        font-size:12px;
+    }
+
+    .portfolio-item {
+        width: calc(100% - 8px);
+        margin-left:0;
+        margin-bottom:1em;
+    }
+}
