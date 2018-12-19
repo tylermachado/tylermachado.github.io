@@ -69,6 +69,11 @@ $('#portfolio_dev').append(portfoliotemplate(portfolio_dev));
 
 var talks = { 
     items: [ {
+        link: "https://etherpad.opennews.org/p/SRCCONWORK2017-boosting-careers",
+        title: "Building Careers Without the Ladder",
+        source: "SRCCON:WORK, December 2017"
+
+    }, {
         link: "https://medium.com/@tylermachado/a-data-analysis-of-my-drinking-habits-a7a626bf17ed",
         title: "A Data Analysis of My Drinking Habits",
         source: "written for a statistics class in December 2015 and repurposed for a SRCCON lightning talk in July 2016"

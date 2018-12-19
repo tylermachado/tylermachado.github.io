@@ -7,6 +7,7 @@ body {
 
 * {
     font-family:"Overpass",Helvetica,Arial,sans-serif;
+    font-size:1em;
 }
 
 a {
@@ -21,6 +22,36 @@ a:hover {
     display: inline-block;
 }
 
+header {
+    display:flow-root;
+    margin-top: 6em;
+}
+
+header h1 {
+    position: absolute;
+    width:45%;
+    font-size: 8em;
+    line-height: 1;
+    margin-top: 0.2em;
+    text-align: right;
+    z-index:2;
+}
+
+header .imagefilter {
+    width:55%;
+    display:inline-block;
+    float:right;
+    background: #1796b1;
+    position: relative;
+}
+
+header .imagefilter img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.75;
+  width:100%;
+}
+
 section.standard {
     display:block;
     clear:both;
@@ -29,7 +60,55 @@ section.standard {
 
 h2.sectionheading {
     display:inline;
+    font-size:2em;
     font-weight:700;
+}
+
+div.intro p {
+    font-size:1.25em;
+}
+
+footer {
+    margin-top:3em;
+}
+
+footer span{
+        display:block;
+        font-size:0.75em;
+}
+
+nav {
+    width: calc(100% - 40px);
+    max-width:1170px;
+    background-color:#fffdfb;
+    position: fixed;
+    top:0;
+    z-index:3;
+}
+
+nav ul {
+    width: 100%;
+    max-width:1170px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 0 10px 0;
+    margin-bottom:0;
+    list-style:none;
+    border-bottom: 1px solid black;
+}
+
+nav ul li a {
+    text-transform:uppercase;
+    font-weight:400;
+    color:black;
+}
+
+nav ul li a:hover {
+    border-bottom:0;
+    display: inherit;
+    line-height: inherit;
+    color:#1796b1;
 }
 
 .portfolio-cards {
@@ -62,6 +141,12 @@ h2.sectionheading {
 .portfolio-item a {
     color:white;
     text-decoration:none;
+}
+
+.portfolio-item a:hover {
+    border-bottom: 0; 
+    line-height: unset; 
+    display: unset;
 }
 
 .portfolio-link {
