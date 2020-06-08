@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+html, body {
+    background-color: #e9eacf;
+}
+
+body {
+    max-width:900px;
+    margin:0 auto;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+@media screen and (min-width:768px) {
+    img.hero {
+        width: 66%;
+        float:right;
+    }
+
+    div.herotext {
+        position:absolute;
+        top: 250px;
+        width: 60%;
+        background-color: #e9eacf;
+    }
+}

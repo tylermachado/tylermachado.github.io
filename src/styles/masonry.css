@@ -1,0 +1,36 @@
+#colsContainer {
+    width: 100%;
+    margin: 2em auto;
+    position: relative;
+    top: 150px;
+}
+
+.cols {
+    -moz-column-count:2;
+    -moz-column-gap: 8%;
+    -moz-column-width: 46%;
+    -webkit-column-count:2;
+    -webkit-column-gap: 8%;
+    -webkit-column-width: 46%;
+    column-count: 2;
+    column-gap: 68;
+    column-width: 246;
+}
+
+.cols img {
+    width:100%;
+}
+
+@media screen and (min-width: 768px) {
+    .cols {
+        -moz-column-count:3;
+        -moz-column-gap: 6%;
+        -moz-column-width: 27.3%;
+        -webkit-column-count:3;
+        -webkit-column-gap: 6%;
+        -webkit-column-width: 27.3%;
+        column-count: 3;
+        column-gap: 6%;
+        column-width: 27.3%;
+    }
+}
