@@ -15,6 +15,9 @@
     column-count: 2;
     column-gap: 3%;
     column-width: 48.5%;
+    -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
 }
 
 .cols img {
@@ -23,6 +26,9 @@
 
 div.portfolio-card {
     margin-bottom: 3rem;
+    -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
 }
 
 .portfolio-card {
