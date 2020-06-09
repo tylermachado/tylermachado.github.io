@@ -69,6 +69,7 @@ div.portfolio-card {
     }
 
     .cols {
+        columns: 3;
         -moz-column-count:3;
         -moz-column-gap: 2%;
         -moz-column-width: 32%;
