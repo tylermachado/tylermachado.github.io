@@ -1,259 +1,12 @@
 [
   {
-    "title": "Vermont Restaurant Week",
-    "publication": "Seven Days",
-    "date": "Feb 2013",
-    "link": "http://www.vermontrestaurantweek.com/",
-    "category": "development",
-    "show": 0
-  },
-  {
-    "title": "The Best-Performing CEOs in the World",
-    "publication": "Harvard Business Review",
-    "date": "Nov 2015",
-    "link": "https://hbr.org/2015/11/the-best-performing-ceos-in-the-world",
-    "category": "development, design, dataviz",
-    "show": 0
-  },
-  {
-    "title": "Meeting Cost Calculator",
-    "publication": "Harvard Business Review",
-    "date": "Jan 2016",
-    "link": "https://hbr.org/resources/html/infographics/2015/11/meeting-cost-calculator/index.html",
-    "category": "development",
-    "show": 1
-  },
-  {
-    "title": "How Corporate Boards Connect, in Charts",
-    "publication": "Harvard Business Review",
-    "date": "Apr 2016",
-    "link": "https://hbr.org/2016/04/how-corporate-boards-connect-in-charts",
-    "category": "dataviz, design",
-    "show": 1
-  },
-  {
-    "title": "The Decline of Yahoo in its Own Words",
-    "publication": "Harvard Business Review",
-    "date": "Jun 2016",
-    "link": "https://hbr.org/2016/06/the-decline-of-yahoo-in-its-own-words",
-    "category": "dataviz, design, development",
-    "show": 1
-  },
-  {
-    "title": "Matchday Poster",
-    "publication": "New England Revolution",
-    "date": "Jul 2016",
-    "link": "https://twitter.com/tylermachado/status/751944653616939008",
-    "category": "dataviz, design",
-    "show": 1
-  },
-  {
-    "title": "HBR Bots",
-    "publication": "Harvard Business Review",
-    "date": "Sep 2016",
-    "link": "http://digiday.com/publishers/harvard-business-review-launched-slackbot-delivers-workplace-advice/",
-    "category": "development",
-    "show": 0
-  },
-  {
-    "title": "School Leaders Affect Test Scores and Budgets Even After They Leave",
-    "publication": "Harvard Business Review",
-    "date": "Oct 2016",
-    "link": "https://hbr.org/2016/10/the-one-type-of-leader-who-can-turn-around-a-failing-school",
-    "category": "dataviz",
-    "show": 0
-  },
-  {
-    "title": "Last.fm Classics",
-    "publication": "personal",
-    "date": "Nov 2017",
-    "link": "https://github.com/tylermachado/lastfm-classics",
-    "category": "development",
-    "show": 0
-  },
-  {
-    "title": "The Most and Least Digital Jobs -- and How Well They Pay",
-    "publication": "Harvard Business Review",
-    "date": "Dec 2017",
-    "link": "https://hbr.org/2017/12/the-most-and-least-digital-jobs-and-how-well-they-pay",
-    "category": "dataviz",
-    "show": 1
-  },
-  {
-    "title": "Montana Free Press",
-    "publication": "Institute for Nonprofit News",
-    "date": "Aug 2018",
-    "link": "https://montanafreepress.org/",
-    "category": "development, design",
-    "show": 1
-  },
-  {
-    "title": "Tikkun",
-    "publication": "Institute for Nonprofit News",
-    "date": "Nov 2018",
-    "link": "http://tikkun.org",
-    "category": "development",
-    "show": 0
-  },
-  {
-    "title": "UNC-OurChatham",
-    "publication": "Institute for Nonprofit News",
-    "date": "Nov 2018",
-    "link": "https://ourchatham.com/",
-    "category": "development",
-    "show": 0
-  },
-  {
-    "title": "City Limits CommunityWire",
-    "publication": "Institute for Nonprofit News",
-    "date": "Dec 2018",
-    "link": "https://citylimits.org/communitywire-home/",
-    "category": "development",
-    "show": 0
-  },
-  {
-    "title": "INN Style Guide",
-    "publication": "Institute for Nonprofit News",
-    "date": "Feb 2019",
-    "link": "https://1l9nh32zekco14afdq2plfsw-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/INN-Standards-Manual-2019-03-20.pdf",
-    "category": "design",
-    "show": 1
-  },
-  {
-    "title": "Beyond Columbine",
-    "publication": "Institute for Nonprofit News",
-    "date": "Mar 2019",
-    "link": "https://projects.rmpbs.org/beyond-columbine/interactive.html",
-    "category": "dataviz, design",
-    "show": 0
-  },
-  {
-    "title": "Shining a light on bias against women in the 2020 presidential campaign",
-    "publication": "Northeastern University",
-    "date": "Apr 2019",
-    "link": "https://news.northeastern.edu/2019/04/23/northeastern-journalism-student-earns-national-attention-for-revealing-media-bias-against-female-presidential-candidates/",
-    "category": "dataviz",
-    "show": 0
-  },
-  {
-    "title": "Here are the 147 flags you’ll see students waving at Commencement this year",
-    "publication": "Northeastern University",
-    "date": "May 2019",
-    "link": "https://news.northeastern.edu/2019/05/01/here-are-the-147-flags-youll-see-waving-at-northeastern-commencement-2019/",
-    "category": "dataviz",
-    "show": 0
-  },
-  {
-    "title": "Soccer Tournament iCalendar",
-    "publication": "personal",
-    "date": "May 2019",
-    "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
-    "category": "development",
-    "show": 1
-  },
-  {
-    "title": "Fitness trackers need to go beyond counting steps. Here’s why.",
-    "publication": "Northeastern University",
-    "date": "May 2019",
-    "link": "https://news.northeastern.edu/2019/05/22/fitness-trackers-need-to-offer-more-support-to-help-low-income-families-to-improve-their-health-says-northeastern-university-professor/",
-    "category": "dataviz",
-    "show": 0
-  },
-  {
-    "title": "A Century of Women's Right to Vote",
-    "publication": "Northeastern University",
-    "date": "Jun 2019",
-    "link": "https://news.northeastern.edu/2019/06/03/the-boston-globe-photo-archive-helps-show-journey-of-womens-suffrage-and-100-years-of-the-19th-amendment/",
-    "category": "development",
-    "show": 0
-  },
-  {
-    "title": "Facing the Future",
-    "publication": "Northeastern University",
-    "date": "Jun 2019",
-    "link": "https://www.northeastern.edu/gallup/",
-    "category": "dataviz",
-    "show": 0
-  },
-  {
-    "title": "This is the course 11,000 athletes will row for the Head of the Charles Regatta",
-    "publication": "Northeastern University",
-    "date": "Oct 2019",
-    "link": "https://news.northeastern.edu/2019/10/16/this-is-the-course-11000-athletes-will-row-for-bostons-head-of-the-charles-regatta/",
-    "category": "development, design",
-    "show": 1
-  },
-  {
-    "title": "Race, gender, shape high school students’ support for First Amendment protections",
-    "publication": "Northeastern University",
-    "date": "Dec 2019",
-    "link": "https://news.northeastern.edu/2019/12/16/has-cyberbullying-changed-how-high-school-students-think-about-the-first-amendment/",
-    "category": "dataviz",
-    "show": 0
-  },
-  {
-    "title": "Can gun violence be traced back to its root causes?",
-    "publication": "Northeastern University",
-    "date": "Jan 2020",
-    "link": "https://news.northeastern.edu/2020/01/06/can-gun-violence-be-traced-back-to-socioeconomic-root-causes/",
-    "category": "dataviz, development",
-    "show": 0
-  },
-  {
-    "title": "President Trump’s impeachment trial is underway. Here’s how we got here",
-    "publication": "Northeastern University",
-    "date": "Jan 2020",
-    "link": "https://news.northeastern.edu/2020/01/22/president-trumps-impeachment-trial-is-underway-heres-how-we-got-here/",
-    "category": "development",
-    "show": 0
-  },
-  {
-    "title": "Here's every result ever from Boston's Beanpot hockey tournament",
-    "publication": "Northeastern University",
-    "date": "Jan 2020",
-    "link": "https://news.northeastern.edu/2020/01/31/heres-every-result-ever-from-bostons-beanpot-hockey-tournament/",
-    "category": "dataviz, development",
-    "show": 1
-  },
-  {
-    "title": "Do women publish less than men in scientific fields? Turns out, scientists have been asking the wrong question.",
-    "publication": "Northeastern University",
-    "date": "Mar 2020",
-    "link": "https://news.northeastern.edu/2020/03/05/do-women-publish-less-than-men-in-scientific-fields-turns-out-scientists-have-been-asking-the-wrong-question/",
-    "category": "dataviz",
-    "show": 1
-  },
-  {
-    "title": "NU COVID-19 updates site",
-    "publication": "Northeastern University",
-    "date": "Mar 2020",
-    "link": "https://news.northeastern.edu/coronavirus/",
-    "category": "development, design",
-    "show": 0
-  },
-  {
-    "title": "Around the world, people stopped going to restaurants—before governments told them to stay home",
-    "publication": "Northeastern University",
-    "date": "Mar 2020",
-    "link": "https://news.northeastern.edu/2020/03/18/around-the-world-people-stopped-going-to-restaurants-before-governments-told-them-to-stay-home/",
-    "category": "dataviz",
-    "show": 0
-  },
-  {
-    "title": "Is a recession necessary to fight COVID-19?",
-    "publication": "Northeastern University",
-    "date": "Mar 2020",
-    "link": "https://news.northeastern.edu/2020/03/26/us-unemployment-has-soared-is-a-recession-necessary-to-fight-covid-19/",
-    "category": "dataviz",
-    "show": 0
-  },
-  {
-    "title": "Interactive graphics show how the 2020 census guides federal program funding in each state",
+    "title": "The 2020 census and Title I funding for schools: Interactive maps to localize your state’s stakes",
     "publication": "Journalist's Resource",
-    "date": "Mar 2020",
-    "link": "https://journalistsresource.org/studies/government/2020-census-federal-state-funding-medicare/",
-    "category": "dataviz",
-    "show": 1
+    "date": "May 2020",
+    "link": "https://journalistsresource.org/studies/society/education/2020-census-title-i-maps/",
+    "category": "dataviz, development",
+    "show": 1,
+    "screenshot": "jr2.png"
   },
   {
     "title": "To fight the COVID-19 outbreak, first we have to track it",
@@ -261,7 +14,8 @@
     "date": "Apr 2020",
     "link": "https://news.northeastern.edu/2020/04/09/to-fight-the-covid-19-outbreak-first-we-have-to-track-it/",
     "category": "dataviz",
-    "show": 1
+    "show": 1,
+    "screenshot": "covidtrack.png"
   },
   {
     "title": "Here’s how COVID-19 brought the world to a standstill",
@@ -269,14 +23,295 @@
     "date": "Apr 2020",
     "link": "https://news.northeastern.edu/2020/04/29/apple-maps-data-shows-how-covid-19-brought-the-world-to-a-standstill/",
     "category": "dataviz, design, development",
-    "show": 1
+    "show": 1,
+    "screenshot": "covidmobility.png"
   },
   {
-    "title": "The 2020 census and Title I funding for schools: Interactive maps to localize your state’s stakes",
+    "title": "Do women publish less than men in scientific fields? Turns out, scientists have been asking the wrong question.",
+    "publication": "Northeastern University",
+    "date": "Mar 2020",
+    "link": "https://news.northeastern.edu/2020/03/05/do-women-publish-less-than-men-in-scientific-fields-turns-out-scientists-have-been-asking-the-wrong-question/",
+    "category": "dataviz",
+    "show": 1,
+    "screenshot": "sciwomen.png"
+  },
+  {
+    "title": "NU COVID-19 updates site",
+    "publication": "Northeastern University",
+    "date": "Mar 2020",
+    "link": "https://news.northeastern.edu/coronavirus/",
+    "category": "development, design",
+    "show": 1,
+    "screenshot": "covid.png"
+  },
+  {
+    "title": "Around the world, people stopped going to restaurants—before governments told them to stay home",
+    "publication": "Northeastern University",
+    "date": "Mar 2020",
+    "link": "https://news.northeastern.edu/2020/03/18/around-the-world-people-stopped-going-to-restaurants-before-governments-told-them-to-stay-home/",
+    "category": "dataviz",
+    "show": 1,
+    "screenshot": "opentable.png"
+  },
+  {
+    "title": "Is a recession necessary to fight COVID-19?",
+    "publication": "Northeastern University",
+    "date": "Mar 2020",
+    "link": "https://news.northeastern.edu/2020/03/26/us-unemployment-has-soared-is-a-recession-necessary-to-fight-covid-19/",
+    "category": "dataviz",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "Interactive graphics show how the 2020 census guides federal program funding in each state",
     "publication": "Journalist's Resource",
-    "date": "May 2020",
-    "link": "https://journalistsresource.org/studies/society/education/2020-census-title-i-maps/",
+    "date": "Mar 2020",
+    "link": "https://journalistsresource.org/studies/government/2020-census-federal-state-funding-medicare/",
+    "category": "dataviz",
+    "show": 1,
+    "screenshot": "jr1.png"
+  },
+  {
+    "title": "Can gun violence be traced back to its root causes?",
+    "publication": "Northeastern University",
+    "date": "Jan 2020",
+    "link": "https://news.northeastern.edu/2020/01/06/can-gun-violence-be-traced-back-to-socioeconomic-root-causes/",
     "category": "dataviz, development",
-    "show": 1
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "President Trump’s impeachment trial is underway. Here’s how we got here",
+    "publication": "Northeastern University",
+    "date": "Jan 2020",
+    "link": "https://news.northeastern.edu/2020/01/22/president-trumps-impeachment-trial-is-underway-heres-how-we-got-here/",
+    "category": "development",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "Here's every result ever from Boston's Beanpot hockey tournament",
+    "publication": "Northeastern University",
+    "date": "Jan 2020",
+    "link": "https://news.northeastern.edu/2020/01/31/heres-every-result-ever-from-bostons-beanpot-hockey-tournament/",
+    "category": "development",
+    "show": 1,
+    "screenshot": "beanpot.png"
+  },
+  {
+    "title": "Race, gender, shape high school students’ support for First Amendment protections",
+    "publication": "Northeastern University",
+    "date": "Dec 2019",
+    "link": "https://news.northeastern.edu/2019/12/16/has-cyberbullying-changed-how-high-school-students-think-about-the-first-amendment/",
+    "category": "dataviz",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "This is the course 11,000 athletes will row for the Head of the Charles Regatta",
+    "publication": "Northeastern University",
+    "date": "Oct 2019",
+    "link": "https://news.northeastern.edu/2019/10/16/this-is-the-course-11000-athletes-will-row-for-bostons-head-of-the-charles-regatta/",
+    "category": "development, design",
+    "show": 1,
+    "screenshot": "hocr.jpg"
+  },
+  {
+    "title": "A Century of Women's Right to Vote",
+    "publication": "Northeastern University",
+    "date": "Jun 2019",
+    "link": "https://news.northeastern.edu/2019/06/03/the-boston-globe-photo-archive-helps-show-journey-of-womens-suffrage-and-100-years-of-the-19th-amendment/",
+    "category": "development",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "Facing the Future",
+    "publication": "Northeastern University",
+    "date": "Jun 2019",
+    "link": "https://www.northeastern.edu/gallup/",
+    "category": "dataviz",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "Here are the 147 flags you’ll see students waving at Commencement this year",
+    "publication": "Northeastern University",
+    "date": "May 2019",
+    "link": "https://news.northeastern.edu/2019/05/01/here-are-the-147-flags-youll-see-waving-at-northeastern-commencement-2019/",
+    "category": "dataviz",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "Soccer tournament iCalendar",
+    "publication": "personal",
+    "date": "May 2019",
+    "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
+    "category": "development",
+    "show": 1,
+    "screenshot": "soccer.jpg"
+  },
+  {
+    "title": "Fitness trackers need to go beyond counting steps. Here’s why.",
+    "publication": "Northeastern University",
+    "date": "May 2019",
+    "link": "https://news.northeastern.edu/2019/05/22/fitness-trackers-need-to-offer-more-support-to-help-low-income-families-to-improve-their-health-says-northeastern-university-professor/",
+    "category": "dataviz",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "Shining a light on bias against women in the 2020 presidential campaign",
+    "publication": "Northeastern University",
+    "date": "Apr 2019",
+    "link": "https://news.northeastern.edu/2019/04/23/northeastern-journalism-student-earns-national-attention-for-revealing-media-bias-against-female-presidential-candidates/",
+    "category": "dataviz",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "Beyond Columbine",
+    "publication": "Institute for Nonprofit News",
+    "date": "Mar 2019",
+    "link": "https://projects.rmpbs.org/beyond-columbine/interactive.html",
+    "category": "dataviz, design",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "Institute for Nonprofit News style guide",
+    "publication": "Institute for Nonprofit News",
+    "date": "Feb 2019",
+    "link": "https://1l9nh32zekco14afdq2plfsw-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/INN-Standards-Manual-2019-03-20.pdf",
+    "category": "design",
+    "show": 1,
+    "screenshot": "innstyle.png"
+  },
+  {
+    "title": "City Limits CommunityWire",
+    "publication": "Institute for Nonprofit News",
+    "date": "Dec 2018",
+    "link": "https://citylimits.org/communitywire-home/",
+    "category": "development",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "Tikkun website rebuild",
+    "publication": "Institute for Nonprofit News",
+    "date": "Nov 2018",
+    "link": "http://tikkun.org",
+    "category": "development",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "UNC-OurChatham rebuild",
+    "publication": "Institute for Nonprofit News",
+    "date": "Nov 2018",
+    "link": "https://ourchatham.com/",
+    "category": "development",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "Montana Free Press website redesign and rebuild",
+    "publication": "Institute for Nonprofit News",
+    "date": "Aug 2018",
+    "link": "https://montanafreepress.org/",
+    "category": "development, design",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "The most and least digital jobs -- and how well they pay",
+    "publication": "Harvard Business Review",
+    "date": "Dec 2017",
+    "link": "https://hbr.org/2017/12/the-most-and-least-digital-jobs-and-how-well-they-pay",
+    "category": "dataviz",
+    "show": 1,
+    "screenshot": "digitaljobs.png"
+  },
+  {
+    "title": "Last.fm Classics",
+    "publication": "personal",
+    "date": "Nov 2017",
+    "link": "https://github.com/tylermachado/lastfm-classics",
+    "category": "development",
+    "show": 1,
+    "screenshot": "slackbot.png"
+  },
+  {
+    "title": "School Leaders Affect Test Scores and Budgets Even After They Leave",
+    "publication": "Harvard Business Review",
+    "date": "Oct 2016",
+    "link": "https://hbr.org/2016/10/the-one-type-of-leader-who-can-turn-around-a-failing-school",
+    "category": "dataviz",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "HBR Bots",
+    "publication": "Harvard Business Review",
+    "date": "Sep 2016",
+    "link": "http://digiday.com/publishers/harvard-business-review-launched-slackbot-delivers-workplace-advice/",
+    "category": "development",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "Matchday poster",
+    "publication": "New England Revolution",
+    "date": "Jul 2016",
+    "link": "https://twitter.com/tylermachado/status/751944653616939008",
+    "category": "dataviz, design",
+    "show": 1,
+    "screenshot": "revs.jpg"
+  },
+  {
+    "title": "The decline of Yahoo in its own words",
+    "publication": "Harvard Business Review",
+    "date": "Jun 2016",
+    "link": "https://hbr.org/2016/06/the-decline-of-yahoo-in-its-own-words",
+    "category": "dataviz, design, development",
+    "show": 1,
+    "screenshot": "yahoo.png"
+  },
+  {
+    "title": "How corporate boards connect, in charts",
+    "publication": "Harvard Business Review",
+    "date": "Apr 2016",
+    "link": "https://hbr.org/2016/04/how-corporate-boards-connect-in-charts",
+    "category": "dataviz, design",
+    "show": 1,
+    "screenshot": "interlocks.png"
+  },
+  {
+    "title": "Meeting Cost Calculator",
+    "publication": "Harvard Business Review",
+    "date": "Jan 2016",
+    "link": "https://hbr.org/resources/html/infographics/2015/11/meeting-cost-calculator/index.html",
+    "category": "development",
+    "show": 1,
+    "screenshot": "meetings.png"
+  },
+  {
+    "title": "The Best-Performing CEOs in the World",
+    "publication": "Harvard Business Review",
+    "date": "Nov 2015",
+    "link": "https://hbr.org/2015/11/the-best-performing-ceos-in-the-world",
+    "category": "development, design, dataviz",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "Vermont Restaurant Week",
+    "publication": "Seven Days",
+    "date": "Feb 2013",
+    "link": "http://www.vermontrestaurantweek.com/",
+    "category": "development",
+    "show": 0,
+    "screenshot": ""
   }
 ]

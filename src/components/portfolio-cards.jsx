@@ -1,23 +1,37 @@
 import React from "react"
 import "../styles/masonry.css"
 import portfolio from "../../content/portfolio.json"
-
-
+import SectionHeader from "../components/SectionHeader.jsx"
 
 const PortfolioCards = () => (
-  <div id="colsContainer" className="cols">
-      {portfolio
-          .filter((project) => {return project.show == 1})
-          .map((project, index) =>
-          {
-            return (
-                <div key={`content_item_${index}`} className="box portfolio-card">
-                    <img alt=" " src={`https://source.unsplash.com/random/300x${((index*4)+320)}`} />
-                    <h3>{project.title}</h3>
-                    <h4>{project.publication}, {project.date}</h4>
-                </div>
-            )
-      })}
-  </div>
+    <div>
+      <SectionHeader words="Selected Work" />
+      <div id="colsContainer" className="cols">
+          {portfolio
+              .filter((project) => {return project.show == 1})
+              .map((project, index) =>
+              {
+                return (
+
+                    <div key={`content_item_${index}`} className="portfolio-card">
+                        <a href={project.link} alt={project.title}>
+                            <div>
+                                <img alt=" " src={`../../static/screenshots/${project.screenshot}`} />
+                                <div>{project.title}</div>
+                                {
+                                    project.publication == 'personal' ?
+                                    '' :
+                                    <div className="subhed">{project.publication}</div>
+                                }
+                                {/* <h4>{project.publication}, {project.date}</h4> */}
+                            </div>
+                        </a>
+                    </div>
+
+
+                )
+          })}
+      </div>
+    </div>
 )
 export default PortfolioCards

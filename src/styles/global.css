@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;0,700;1,300;1,700&display=swap');
 
 html, body {
-    background-color: #e9eacf;
+    background-color: #fdfeec;
+    margin-bottom:5rem;
 }
 
 body {
@@ -11,16 +12,43 @@ body {
 
 }
 
+h1 {
+    font-size:3rem;
+}
+
+p {
+    font-size:1.25rem;
+}
+
+a {
+    font-weight:800;
+    text-decoration:none;
+    border-bottom:2px dotted black;
+    color:black;
+}
+
+a:hover, a:active {
+    color:#262f0f;
+    border-bottom:2px dotted #262f0f;
+}
+
 @media screen and (min-width:768px) {
     img.hero {
         width: 66%;
-        float:right;
+        float:left;
     }
 
     div.herotext {
-        position:absolute;
-        top: 250px;
-        width: 60%;
-        background-color: #e9eacf;
+        position: absolute;
+        top: 100px;
+        left: 200px;
+        width: 80%;
+        max-width:700px;
+        text-align:right;
+    }
+
+    div.herotext > * {
+        display:inline-block;
+        background-color: #fdfeec;
     }
 }
