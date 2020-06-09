@@ -4,7 +4,7 @@ import portfolio from "../../content/portfolio.json"
 import SectionHeader from "../components/SectionHeader.jsx"
 
 const PortfolioCards = () => (
-    <div>
+    <div id="work">
       <SectionHeader words="Selected Work" />
       <div id="colsContainer" className="cols">
           {portfolio

@@ -7,7 +7,7 @@ html, body {
 
 body {
     max-width:900px;
-    margin:0 auto;
+    margin:0 1rem;
     font-family: 'Overpass', sans-serif;
 
 }
@@ -32,10 +32,36 @@ a:hover, a:active {
     border-bottom:2px dotted #262f0f;
 }
 
+header#nav ul {
+    text-align: right;
+}
+
+header#nav ul li {
+    display:inline;
+    list-style-type: none;
+    margin-left:1rem;
+}
+
+header#nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+}
+
+footer {
+    margin: 2rem auto;
+}
+
 @media screen and (min-width:768px) {
+    body {
+        margin:0 auto;
+    }
+
     img.hero {
         width: 66%;
         float:left;
+        margin-right: 34%;
+        margin-bottom:3rem;
     }
 
     div.herotext {

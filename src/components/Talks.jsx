@@ -4,7 +4,7 @@ import talks from "../../content/talks.json"
 import SectionHeader from "../components/SectionHeader.jsx"
 
 const Talks = () => (
-    <div>
+    <div id="talks">
       <SectionHeader words="Talks and Writing" />
       <ul>
           {talks
