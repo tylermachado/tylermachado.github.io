@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import PortfolioCards from "../components/PortfolioCards.jsx"
 import Talks from "../components/Talks.jsx"
 import Footer from "../components/Footer.jsx"
@@ -7,6 +8,12 @@ import "../styles/global.css"
 
 export default () => (
     <div id="bodyContainer">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Tyler Machado: web developer and data visualization specialist in Boston, MA</title>
+          <link rel="canonical" href="http://mysite.com/example" />
+        </Helmet>
+
         <Navigation />
 
         <section id="hero">
