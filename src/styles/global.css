@@ -14,10 +14,15 @@ body {
 
 h1 {
     font-size:3rem;
+    margin:1rem 0;
 }
 
 p {
     font-size:1.25rem;
+}
+
+div.herotext p {
+    font-size:1.1rem;
 }
 
 a {
@@ -77,10 +82,17 @@ img.hero {
         width: 80%;
         max-width:700px;
         text-align:right;
+
     }
 
     div.herotext > * {
         display:inline-block;
         background-color: #fdfeec;
+        padding:5px 0 5px 5px
+    }
+
+    div.herotext p {
+        font-size:1.1rem;
+        line-height:1.2rem;
     }
 }

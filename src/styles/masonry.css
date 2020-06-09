@@ -40,12 +40,14 @@ div.portfolio-card {
 }
 
 .portfolio-card .subhed {
-    font-size:0.8rem;
+    font-size:0.75rem;
     line-height:1.1rem;
     font-weight:300;
 }
 
 .portfolio-card a {
+    font-size:1rem;
+    line-height:1.2rem;
     text-decoration: none;
     color: #fdfeec;
     cursor: pointer;
@@ -61,7 +63,10 @@ div.portfolio-card {
 }
 
 @media screen and (min-width: 768px) {
-
+    .portfolio-card a {
+        font-size:1.2rem;
+        line-height:1.5rem;
+    }
 
     .cols {
         -moz-column-count:3;
