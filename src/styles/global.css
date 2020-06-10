@@ -12,7 +12,7 @@ body {
 
 }
 
-h1 {
+h2 {
     font-size:3rem;
     margin:1rem 0;
 }
@@ -37,14 +37,29 @@ a:hover, a:active {
     border-bottom:2px dotted #262f0f;
 }
 
+header {
+    display:grid;
+    grid-template-columns: 100%;
+}
+
+header#nav h1 {
+    margin:0 -1rem;
+    padding:0;
+    background-color:black;
+    color: #fdfeec;
+    text-align:center;
+}
+
 header#nav ul {
-    text-align: right;
+    text-align: center;
+    margin:0.75rem auto;
+    padding:0;
 }
 
 header#nav ul li {
     display:inline;
     list-style-type: none;
-    margin-left:1rem;
+    margin:0 1rem;
 }
 
 header#nav ul li a {
@@ -64,6 +79,31 @@ img.hero {
 }
 
 @media screen and (min-width:768px) {
+    header {
+        display:grid;
+        grid-template-columns: 250px auto;
+    }
+
+    header#nav h1 {
+        margin:0;
+        padding:1rem 1rem 1rem 1rem;
+        text-align:left;
+    }
+
+    header#nav ul {
+        text-align: right;
+        margin:1rem 0 1rem 1rem;
+    }
+
+    header#nav ul li {
+        display:inline;
+        list-style-type: none;
+        margin:0 0 0 2rem;
+    }
+}
+
+@media screen and (min-width:925px) {
+
     body {
         margin:0 auto;
     }
@@ -71,14 +111,13 @@ img.hero {
     img.hero {
         width: 66%;
         float:left;
-        margin-right: 34%;
-        margin-bottom:3rem;
+        margin:0 34% 3rem 0;
     }
 
     div.herotext {
         position: absolute;
         top: 100px;
-        right: 5%;
+        right: calc(calc(100vw - 900px) / 2);
         width: 80%;
         max-width:700px;
         text-align:right;

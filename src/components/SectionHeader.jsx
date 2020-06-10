@@ -1,3 +1,3 @@
 import React from "react"
 
-export default (props) => <h1>{props.words}</h1>
+export default (props) => <h2>{props.words}</h2>
