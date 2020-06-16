@@ -14,9 +14,9 @@ const PortfolioCards = () => (
                 return (
 
                     <div key={`content_item_${index}`} className="portfolio-card">
-                        <a href={project.link} alt={project.title}>
+                        <a href={project.link}>
                             <div>
-                                <img alt=" " src={`../../static/screenshots/${project.screenshot}`} />
+                                <img alt={project.title} src={`../../static/screenshots/${project.screenshot}`} />
                                 <div>{project.title}</div>
                                 {
                                     project.publication == 'personal' ?
