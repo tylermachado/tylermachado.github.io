@@ -1,5 +1,14 @@
 [
   {
+    "title": "How many city dwellers across the US have access to parks and green space?",
+    "publication": "Northeastern University",
+    "date": "Jun 2020",
+    "link": "https://news.northeastern.edu/2020/06/15/how-many-city-dwellers-across-the-us-have-access-to-parks-and-green-space/",
+    "category": "dataviz",
+    "show": 1,
+    "screenshot": "parks.png"
+  },
+  {
     "title": "The 2020 census and Title I funding for schools: Interactive maps to localize your state’s stakes",
     "publication": "Journalist's Resource",
     "date": "May 2020",
@@ -108,15 +117,6 @@
     "screenshot": ""
   },
   {
-    "title": "Soccer tournament iCalendar",
-    "publication": "personal",
-    "date": "May 2019",
-    "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
-    "category": "development",
-    "show": 1,
-    "screenshot": "soccer.jpg"
-  },
-  {
     "title": "This is the course 11,000 athletes will row for the Head of the Charles Regatta",
     "publication": "Northeastern University",
     "date": "Oct 2019",
@@ -151,6 +151,15 @@
     "category": "dataviz",
     "show": 0,
     "screenshot": ""
+  },
+  {
+    "title": "Soccer tournament iCalendar",
+    "publication": "personal",
+    "date": "May 2019",
+    "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
+    "category": "development",
+    "show": 1,
+    "screenshot": "soccer.jpg"
   },
   {
     "title": "Fitness trackers need to go beyond counting steps. Here’s why.",
@@ -311,7 +320,7 @@
     "date": "Feb 2013",
     "link": "http://www.vermontrestaurantweek.com/",
     "category": "development",
-    "show": 0,
-    "screenshot": ""
+    "show": 1,
+    "screenshot": "vtrw.jpg"
   }
 ]
