@@ -21,7 +21,7 @@ export default () => (
             <div className="herotext">
                 <h2>Hello, I'm Tyler.</h2>
                 <p>I'm a design-minded, data-literate web developer with a decade of work in digital news media. I like to build creative, illuminating experiences for users, backed by robust processes for producers.</p>
-                <p>Feel free to get in touch! My email address is tyler.machado [at] gmail.com</p>
+                <p>Get in touch: tyler.machado [at] gmail.com</p>
             </div>
         </section>
 

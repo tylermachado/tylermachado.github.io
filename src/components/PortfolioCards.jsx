@@ -23,7 +23,6 @@ const PortfolioCards = () => (
                                     '' :
                                     <div className="subhed">{project.publication}</div>
                                 }
-                                {/* <h4>{project.publication}, {project.date}</h4> */}
                             </div>
                         </a>
                     </div>
