@@ -1,3 +1,9 @@
+---
+slug: "resume"
+date: "2020-06-18"
+title: "Resume"
+---
+
 # Information
 - location
     - Boston, MA

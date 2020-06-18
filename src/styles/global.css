@@ -16,7 +16,7 @@ h2 {
     font-size:3rem;
     margin:1rem 0;
 
-    padding:12px 18px 12px 12px;
+    padding:12px 18px 12px 0;
     box-shadow: 8px -8px 0 black;
     display: inline-block;
     margin: 20px auto;
@@ -91,6 +91,10 @@ img.hero {
     header {
         display:grid;
         grid-template-columns: 250px auto;
+    }
+
+    h2 {
+    padding: 12px 18px 12px 0
     }
 
     header#nav h1 {

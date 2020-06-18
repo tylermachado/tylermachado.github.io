@@ -4,6 +4,7 @@ import PortfolioCards from "../components/PortfolioCards.jsx"
 import Talks from "../components/Talks.jsx"
 import Footer from "../components/Footer.jsx"
 import Navigation from "../components/Navigation.jsx"
+import Resume from "../components/Resume.jsx"
 import "../styles/global.css"
 
 export default () => (
@@ -25,6 +26,7 @@ export default () => (
             </div>
         </section>
 
+        <Resume />
         <PortfolioCards />
         <Talks />
         <Footer />

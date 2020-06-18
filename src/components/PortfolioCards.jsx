@@ -8,7 +8,7 @@ const PortfolioCards = () => (
       <SectionHeader words="Selected Work" />
       <div id="colsContainer" className="cols">
           {portfolio
-              .filter((project) => {return project.show == 1})
+              .filter((project) => {return project.show === 1})
               .map((project, index) =>
               {
                 return (
@@ -19,7 +19,7 @@ const PortfolioCards = () => (
                                 <img alt={project.title} src={`../../static/screenshots/${project.screenshot}`} />
                                 <div>{project.title}</div>
                                 {
-                                    project.publication == 'personal' ?
+                                    project.publication === 'personal' ?
                                     '' :
                                     <div className="subhed">{project.publication}</div>
                                 }
