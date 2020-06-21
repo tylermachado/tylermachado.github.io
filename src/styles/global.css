@@ -82,8 +82,35 @@ header#nav ul li a {
     border: none;
 }
 
+#facts {
+    display:block;
+    width:100%;
+    margin:4rem 0;
+    border-top: 2px dotted #777;
+    border-bottom: 2px dotted #777;
+    padding:3rem 0;
+}
+
+#facts-container {
+    display: grid;
+      grid-template-columns: 50% 50%;
+      grid-gap: 10px;
+}
+
+#facts h3 {
+    text-transform:uppercase;
+    color: #777;
+    font-size:0.8rem;
+}
+
+#facts span {
+    font-size:1rem;
+    font-weight:bold;
+}
+
 footer {
     margin: 2rem auto;
+    font-size:0.75rem;
 }
 
 img.hero {
@@ -117,6 +144,12 @@ img.hero {
         display:inline;
         list-style-type: none;
         margin:0 0 0 2rem;
+    }
+
+    #facts-container {
+        display: grid;
+          grid-template-columns: 25% 25% 25% 25%;
+          grid-gap: 10px;
     }
 }
 
