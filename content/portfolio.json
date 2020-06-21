@@ -135,6 +135,15 @@
     "screenshot": ""
   },
   {
+    "title": "Soccer tournament iCalendar",
+    "publication": "personal",
+    "date": "May 2019",
+    "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
+    "category": "development",
+    "show": 1,
+    "screenshot": "soccer.jpg"
+  },
+  {
     "title": "Facing the Future",
     "publication": "Northeastern University",
     "date": "Jun 2019",
@@ -151,15 +160,6 @@
     "category": "dataviz",
     "show": 0,
     "screenshot": ""
-  },
-  {
-    "title": "Soccer tournament iCalendar",
-    "publication": "personal",
-    "date": "May 2019",
-    "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
-    "category": "development",
-    "show": 1,
-    "screenshot": "soccer.jpg"
   },
   {
     "title": "Fitness trackers need to go beyond counting steps. Here’s why.",
