@@ -46,6 +46,11 @@ a:hover, a:active {
     border-bottom:2px dotted #262f0f;
 }
 
+li {
+    line-height: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
 header {
     display:grid;
     grid-template-columns: 100%;
