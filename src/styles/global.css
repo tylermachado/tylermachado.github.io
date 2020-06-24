@@ -152,12 +152,15 @@ img.hero {
           grid-gap: 10px;
     }
 
+    #hero {
+        display: inline-block;
+    }
 
 
     img.hero {
         width: 66%;
         float:left;
-        margin:0 34% 3rem 0;
+        margin:0 34% 1rem 0;
     }
 
     div.herotext {

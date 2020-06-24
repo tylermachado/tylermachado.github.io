@@ -25,11 +25,6 @@ export default () => (
             </div>
         </section>
 
-
-        <Resume />
-        <PortfolioCards />
-        <Talks />
-
         <section id="facts">
             <div id="facts-container">
                 <div>
@@ -50,6 +45,13 @@ export default () => (
                 </div>
             </div>
         </section>
+
+
+        <Resume />
+        <PortfolioCards />
+        <Talks />
+
+
 
         <Footer />
     </div>
