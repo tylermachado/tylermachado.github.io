@@ -85,16 +85,16 @@ header#nav ul li a {
 #facts {
     display:block;
     width:100%;
-    margin:4rem 0;
+    margin:2rem 0;
     border-top: 2px dotted #777;
     border-bottom: 2px dotted #777;
-    padding:3rem 0;
+    padding:2rem 0;
 }
 
 #facts-container {
     display: grid;
-      grid-template-columns: 50% 50%;
-      grid-gap: 10px;
+      grid-template-columns: 50% calc(50% - 15px);
+      grid-gap: 15px;
 }
 
 #facts h3 {
@@ -104,7 +104,7 @@ header#nav ul li a {
 }
 
 #facts span {
-    font-size:1rem;
+    font-size:1.3rem;
     font-weight:bold;
 }
 
@@ -148,8 +148,8 @@ img.hero {
 
     #facts-container {
         display: grid;
-          grid-template-columns: 25% 25% 25% 25%;
-          grid-gap: 10px;
+          grid-template-columns: 23% 23% 25% 23%;
+          grid-gap: 2%;
     }
 
     #hero {

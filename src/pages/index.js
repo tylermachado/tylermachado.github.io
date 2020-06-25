@@ -13,7 +13,7 @@ export default () => (
           <meta charSet="utf-8" />
          <meta name="description" content="A web developer/designer specializing in data visualization, working from Boston, Massachusetts."/>
           <title>Tyler Machado: web developer and data visualization specialist in Boston, MA</title>
-          <link rel="canonical" href="http://mysite.com/example" />
+          <link rel="canonical" href="//tylermachado.com" />
         </Helmet>
 
         <Navigation />
