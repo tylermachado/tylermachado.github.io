@@ -23,7 +23,7 @@
     "date": "Apr 2020",
     "link": "https://news.northeastern.edu/2020/04/09/to-fight-the-covid-19-outbreak-first-we-have-to-track-it/",
     "category": "dataviz",
-    "show": 1,
+    "show": 0,
     "screenshot": "covidtrack.png"
   },
   {
@@ -140,7 +140,7 @@
     "date": "May 2019",
     "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
     "category": "development",
-    "show": 1,
+    "show": 0,
     "screenshot": "soccer.jpg"
   },
   {
