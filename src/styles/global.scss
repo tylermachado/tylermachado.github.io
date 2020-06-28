@@ -76,9 +76,17 @@ li {
 }
 
 
+.triangle-top {
+    width: 0;
+    overflow: hidden;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100vw 30px 0;
+    border-color: transparent transparent $navy $gray1;
+    margin-top:3rem;
+}
 
-
-.triangle {
+.triangle-bottom {
     width: 0;
     overflow: hidden;
     height: 0;

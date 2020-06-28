@@ -12,7 +12,7 @@ export default (props) => (
                 <p>I'm a design-minded, data-literate front-end web developer living in Boston, Massachusetts. I have a decade of work in digital news media, making tech and design work for readers and producers alike. I like to build creative, illuminating, data-driven experiences and tools.</p>
             </div>
         </div>
-        <div class="triangle">
+        <div class="triangle-bottom">
         </div>
     </section>
 )
