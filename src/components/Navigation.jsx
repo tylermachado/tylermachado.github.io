@@ -3,11 +3,12 @@ import "../styles/nav.scss"
 
 export default (props) => (
     <header id="nav">
-        <ul>
-            <li><a href="/#work">Work</a></li>
-            <li><a href="/#talks">Talks</a></li>
-            <li><a href="../../static/tyler_machado_resume.pdf">Resume [pdf]</a></li>
-        </ul>
-
+        <div class="container">
+            <ul>
+                <li><a href="/#resume">Resume</a></li>
+                <li><a href="/#work">Projects</a></li>
+                <li><a href="/#talks">Talks</a></li>
+            </ul>
+        </div>
     </header>
 )

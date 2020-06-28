@@ -8,6 +8,7 @@ const Resume = () => (
     <div id="resume">
         <div class="container">
           <SectionHeader words="Resume" />
+          <p>This resume is also available <a href="../../static/tyler_machado_resume.pdf" title="Tyler Machado's resume as a PDF">in PDF format</a>.</p>
           <ul>
               {jobs
                   .map((job, index) =>
