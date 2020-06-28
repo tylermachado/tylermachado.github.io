@@ -1,31 +1,44 @@
 import React from "react"
 import { graphql } from "gatsby"
+import jobs from "../../content/resume.json"
+import "../styles/resume.scss"
+import SectionHeader from "../components/SectionHeader.jsx"
 
-
-export default (props) => <span></span>
-
-// export default function Template({
-//   data, // this prop will be injected by the GraphQL query below.
-// }) {
-//   const { markdownRemark } = data // data.markdownRemark holds your post data
-//   const { frontmatter, html } = markdownRemark
-//   return (
-//     <div className="resume-container">
-//       <div className="resume">
-//         <h1>{frontmatter.title}</h1>
-//         <h2>{frontmatter.date}</h2>
-//         <div
-//           className="resume-content"
-//           dangerouslySetInnerHTML={{ __html: html }}
-//         />
-//       </div>
-//     </div>
-//   )
-// }
-// export const pageQuery = graphql`
-//   query($slug: String!) {
-//     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
-//       html
-//     }
-//   }
-// `
+const Resume = () => (
+    <div id="resume">
+        <div class="container">
+          <SectionHeader words="Resume" />
+          <ul>
+              {jobs
+                  .map((job, index) =>
+                  {
+                    return (
+                        <div key={`content_item_${index}`} className="job-listing">
+                            <h3><a href={job.url} alt={job.workplace}>{job.workplace}</a></h3>
+                            <span>({job.location})</span>
+                            <div className="titles">
+                                {job.titles.map((title, index2) =>
+                                    {
+                                        return (
+                                            <h4>{title}</h4>
+                                        )
+                                    }
+                                )}
+                                </div>
+                            <ul>
+                                {job.duties.map((duty, index3) =>
+                                    {
+                                        return (
+                                            <li>{duty}</li>
+                                        )
+                                    }
+                                )}
+                            </ul>
+                        </div>
+                    )
+              })}
+          </ul>
+        </div>
+    </div>
+)
+export default Resume

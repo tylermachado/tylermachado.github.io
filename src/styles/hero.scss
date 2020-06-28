@@ -1,0 +1,24 @@
+@import 'global.scss';
+
+#hero {
+    background-color: $navy;
+    color: $gray1;
+
+    img {
+        width:100%;
+    }
+
+    .container {
+        @media (min-width: 768px) {
+            display: grid;
+            grid-template-columns: 40% 60%;
+        }
+    }
+
+    .herotext {
+        padding:10px;
+    }
+
+    
+
+}

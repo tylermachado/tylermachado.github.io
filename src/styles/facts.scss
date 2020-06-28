@@ -1,0 +1,34 @@
+@import 'global.scss';
+
+#facts {
+    display:block;
+    width:100%;
+    margin:1rem 0 3rem;
+    padding:0;
+}
+
+#facts-container {
+    display: grid;
+      grid-template-columns: 50% calc(50% - 15px);
+      grid-gap: 15px;
+
+      @media (min-width:768px) {
+          grid-template-columns: 23% 23% 25% 23%;
+          grid-gap: 2%;
+      }
+}
+
+#facts h3 {
+    text-transform:uppercase;
+    color: #777;
+    font-size:0.8rem;
+}
+
+#facts span {
+    font-size:1.3rem;
+    font-weight:bold;
+}
+
+#facts-container {
+    display: grid;
+}

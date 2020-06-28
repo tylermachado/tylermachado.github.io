@@ -1,3 +1,5 @@
+@import 'global.scss';
+
 #colsContainer {
     width: 100%;
     margin: 2em auto;
@@ -50,14 +52,14 @@ div.portfolio-card {
     margin-bottom: 3rem;
     display:block;
     padding:8px 8px 16px 8px;
-    background-color:#000;
+    background-color: $navy;
     border: none;
 }
 
 .portfolio-card a:hover {
     color: #fdfeec;
     border: none;
-    box-shadow: 0px 0px 8px black;
+    background-color: $teal;
 }
 
 @media screen and (min-width: 600px) {
