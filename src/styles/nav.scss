@@ -7,6 +7,12 @@
     width:100%;
     z-index:10;
 
+    .job-listing {
+        @media (min-width:768px) {
+            padding: 1rem 0 0 0;
+        }
+    }
+
 
     ul {
         margin:0;

@@ -9,14 +9,13 @@ const Resume = () => (
         <div class="container">
           <SectionHeader words="Resume" />
           <p>This resume is also available <a href="../../static/tyler_machado_resume.pdf" title="Tyler Machado's resume as a PDF">in PDF format</a>.</p>
-          <ul>
               {jobs
                   .map((job, index) =>
                   {
                     return (
                         <div key={`content_item_${index}`} className="job-listing">
                             <h3><a href={job.url} alt={job.workplace}>{job.workplace}</a></h3>
-                            <span>({job.location})</span>
+                            <span className="location">({job.location})</span>
                             <div className="titles">
                                 {job.titles.map((title, index2) =>
                                     {
@@ -38,7 +37,6 @@ const Resume = () => (
                         </div>
                     )
               })}
-          </ul>
         </div>
     </div>
 )
