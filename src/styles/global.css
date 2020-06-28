@@ -2,7 +2,7 @@
 
 
 html, body {
-    background-color: #fdfeec;
+    background-color: #f6f7f5;
     margin-bottom:5rem;
 }
 
@@ -61,7 +61,7 @@ header#nav h1 {
     margin:0 -1rem;
     padding:0;
     background-color:black;
-    color: #fdfeec;
+    color: #f6f7f5;
     text-align:center;
 }
 
@@ -177,7 +177,7 @@ img.hero {
 
     div.herotext > * {
         display:inline-block;
-        background-color: #fdfeec;
+        background-color: #f6f7f5;
         padding:14px 22px 14px 14px;
         box-shadow: 8px -8px 0 black;
         display: inline-block;
