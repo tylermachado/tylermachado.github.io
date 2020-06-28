@@ -3,13 +3,12 @@ import "../styles/nav.scss"
 
 export default (props) => (
     <header id="nav">
-        <div class="container">
+        <div className="container">
             <ul>
                 <li><a href="/#resume">Resume</a></li>
                 <li><a href="/#work">Projects</a></li>
                 <li><a href="/#talks">Talks</a></li>
             </ul>
         </div>
-        <div class="triangle-bottom"></div>
     </header>
 )

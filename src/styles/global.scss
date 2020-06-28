@@ -30,16 +30,18 @@ body {
 }
 
 .section-top-border {
-    width:0.75rem;
-    height:2rem;
-    margin:0 0.5rem 0 0;
-    display:inline-block;
-    background-color: $orange;
-    position:relative;
-    top: -1rem;
+    width: 3rem;
+    height: 0.75rem;
+    margin: 0 0 0 -1rem;
+    display: inline-block;
+    background-color: #d04b10;
+    position: relative;
+    top: -2rem;
+    left:1rem;
+    transform: skewY(-10deg);
 }
 
-h2 {
+h1, h2 {
     font-size:3rem;
     line-height:3.25rem;
     margin:0 0 1rem 0;

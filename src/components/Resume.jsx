@@ -21,7 +21,7 @@ const Resume = () => (
                                 {job.titles.map((title, index2) =>
                                     {
                                         return (
-                                            <h4>{title}</h4>
+                                            <h4  key={`content_item_${index2}`} >{title}</h4>
                                         )
                                     }
                                 )}
@@ -30,7 +30,7 @@ const Resume = () => (
                                 {job.duties.map((duty, index3) =>
                                     {
                                         return (
-                                            <li>{duty}</li>
+                                            <li key={`content_item_${index3}`} >{duty}</li>
                                         )
                                     }
                                 )}
