@@ -81,8 +81,8 @@ li {
     overflow: hidden;
     height: 0;
     border-style: solid;
-    border-width: 0 100vw 30px 0;
-    border-color: transparent transparent $navy $gray1;
+    border-width: 30px 100vw 0 0;
+    border-color: $gray1 $navy transparent transparent;
     margin-top:3rem;
 }
 

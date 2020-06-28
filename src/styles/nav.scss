@@ -3,10 +3,14 @@
 #nav {
     background-color: $navy;
     text-align:right;
+    position:fixed;
+    width:100%;
+    z-index:10;
+
 
     ul {
         margin:0;
-        padding:1rem 0;
+        padding:1rem 0 0.1rem;
 
         li {
             display:inline;
