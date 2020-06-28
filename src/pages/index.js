@@ -21,15 +21,10 @@ export default () => (
         <Navigation />
 
         <Hero />
-
         <Facts />
-
-
-        <Resume />
         <PortfolioCards />
+        <Resume />
         <Talks />
-
-
 
         <Footer />
     </div>
