@@ -5,7 +5,7 @@ export default (props) => (
     <section id="hero">
         <div class="container">
             <div>
-                <img src="../../static/gardenportrait.jpg" alt="" className="hero-img" />
+                <img src="../../static/grad450.jpg" alt="" className="hero-img" />
             </div>
             <div className="herotext">
                 <h1>Hi, I'm Tyler Machado.</h1>
