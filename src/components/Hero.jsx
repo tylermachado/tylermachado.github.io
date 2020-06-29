@@ -5,6 +5,7 @@ export default (props) => (
     <section id="hero">
         <div class="container">
             <div>
+                <div class="section-top-border"></div>
                 <img src="../../static/grad450.jpg" alt="" className="hero-img" />
             </div>
             <div className="herotext">
