@@ -7,13 +7,15 @@
     padding:5rem 0 0 0;
 
     img {
-        width:100%;
+        width:calc(100% - 20px);
+        border:10px solid $gray1;
     }
 
     .container {
         @media (min-width: 768px) {
             display: grid;
-            grid-template-columns: 40% 60%;
+            grid-template-columns: 300px auto;
+            grid-gap: 40px;
         }
     }
 
