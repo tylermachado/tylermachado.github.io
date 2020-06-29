@@ -7,8 +7,15 @@
     padding:1.5rem 0 0 0;
 
     img {
-        width:calc(100% - 20px);
+        width:300px;
+        max-width: calc(100% - 45px);
+        margin:0 auto;
+        display:block;
         border:10px solid $gray1;
+        @media (min-width: 768px) {
+            width:calc(100% - 20px);
+            max-width: calc(100% - 20px);
+        }
     }
 
     .container {
