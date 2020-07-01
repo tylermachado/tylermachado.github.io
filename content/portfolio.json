@@ -36,15 +36,6 @@
     "screenshot": "covidtrack.png"
   },
   {
-    "title": "Here’s how COVID-19 brought the world to a standstill",
-    "publication": "Northeastern University",
-    "date": "Apr 2020",
-    "link": "https://news.northeastern.edu/2020/04/29/apple-maps-data-shows-how-covid-19-brought-the-world-to-a-standstill/",
-    "category": "dataviz, design, development",
-    "show": 1,
-    "screenshot": "covidmobility.png"
-  },
-  {
     "title": "Do women publish less than men in scientific fields? Turns out, scientists have been asking the wrong question.",
     "publication": "Northeastern University",
     "date": "Mar 2020",
@@ -52,6 +43,15 @@
     "category": "dataviz",
     "show": 1,
     "screenshot": "sciwomen.png"
+  },
+  {
+    "title": "Here’s how COVID-19 brought the world to a standstill",
+    "publication": "Northeastern University",
+    "date": "Apr 2020",
+    "link": "https://news.northeastern.edu/2020/04/29/apple-maps-data-shows-how-covid-19-brought-the-world-to-a-standstill/",
+    "category": "dataviz, design, development",
+    "show": 1,
+    "screenshot": "covidmobility.png"
   },
   {
     "title": "NU COVID-19 updates site",
