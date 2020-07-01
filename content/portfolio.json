@@ -1,5 +1,14 @@
 [
   {
+    "title": "There’s been a 23,000 percent jump in fireworks complaints in some parts of the US this summer. You read that right.",
+    "publication": "Northeastern University",
+    "date": "Jul 2020",
+    "link": "https://news.northeastern.edu/2020/07/01/theres-been-a-23000-percent-jump-in-fireworks-complaints-in-some-parts-of-the-us-this-summer-you-read-that-right/",
+    "category": "dataviz, design",
+    "show": 1,
+    "screenshot": "fireworks.png"
+  },
+  {
     "title": "How many city dwellers across the US have access to parks and green space?",
     "publication": "Northeastern University",
     "date": "Jun 2020",
@@ -23,7 +32,7 @@
     "date": "Apr 2020",
     "link": "https://news.northeastern.edu/2020/04/09/to-fight-the-covid-19-outbreak-first-we-have-to-track-it/",
     "category": "dataviz",
-    "show": 0,
+    "show": 1,
     "screenshot": "covidtrack.png"
   },
   {
@@ -51,7 +60,7 @@
     "link": "https://news.northeastern.edu/coronavirus/",
     "category": "development, design",
     "show": 1,
-    "screenshot": "covid.png"
+    "screenshot": "covid.jpg"
   },
   {
     "title": "Around the world, people stopped going to restaurants—before governments told them to stay home",
@@ -135,15 +144,6 @@
     "screenshot": ""
   },
   {
-    "title": "Soccer tournament iCalendar",
-    "publication": "personal",
-    "date": "May 2019",
-    "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
-    "category": "development",
-    "show": 0,
-    "screenshot": "soccer.jpg"
-  },
-  {
     "title": "Facing the Future",
     "publication": "Northeastern University",
     "date": "Jun 2019",
@@ -160,6 +160,15 @@
     "category": "dataviz",
     "show": 0,
     "screenshot": ""
+  },
+  {
+    "title": "Soccer tournament iCalendar",
+    "publication": "personal",
+    "date": "May 2019",
+    "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
+    "category": "development",
+    "show": 1,
+    "screenshot": "soccer.jpg"
   },
   {
     "title": "Fitness trackers need to go beyond counting steps. Here’s why.",
