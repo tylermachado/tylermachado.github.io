@@ -1,11 +1,14 @@
 @import 'global.scss';
 
 #nav {
-    background-color: $navy;
     text-align:right;
-    // position:fixed;
+    position:fixed;
     width:100%;
     z-index:10;
+
+    .container {
+        background-color: $nav-bg;
+    }
 
     .job-listing {
         @media (min-width:768px) {
@@ -16,11 +19,11 @@
 
     ul {
         margin:0;
-        padding:1rem 0 0.1rem;
+        padding:1rem 0;
 
         li {
             display:inline;
-            margin:0 0 0 2rem;
+            padding:1rem;
         }
     }
 

@@ -10,5 +10,6 @@ export default (props) => (
                 <li><a href="/#talks">Talks</a></li>
             </ul>
         </div>
+        <div class="triangle-bottom-nav"></div>
     </header>
 )
