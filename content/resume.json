@@ -17,10 +17,10 @@
         "location": "Cambridge, MA",
         "url": "https://journalistsresource.org/author/tylermachado1/",
         "titles": [
-            "Counting for Dollars developer (project), January 2020-March 2020"
+            "Counting for Dollars Project Developer, January 2020-March 2020"
         ],
         "duties": [
-            "created customizable, sharable graphics and maps on Census and federal funding data, using a React-based rig with D3.js and Mapbox",
+            "created customizable, sharable graphics and maps on Census and federal funding data, using a shared template built on React, Mapbox and D3.js",
             "evaluated options for graphics hosting, data download functions and embedding abilities"
         ]
     },
@@ -32,7 +32,7 @@
             "Front-end Developer/Designer, February 2018-April 2019"
         ],
         "duties": [
-            "built modern WordPress websites for nonprofit news organizations using the Largo publishing framework",
+            "built modern WordPress websites for nonprofit news organizations using our WordPress theme, Largo",
             "created wireframes, prototypes and visual systems to guide project decisions and communicate concepts to collaborators",
             "updated INN branding guidelines and assets for print and digital"
         ]
