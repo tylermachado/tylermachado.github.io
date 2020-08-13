@@ -1,4 +1,12 @@
 [
+    {
+      "title": "Fewer people are using public transportation. Here’s why that’s trouble in the long run.",
+      "date": "Aug 2020",
+      "link": "https://news.northeastern.edu/2020/08/13/fewer-people-are-using-public-transportation-in-the-us-heres-why-thats-trouble-in-the-long-run/",
+      "category": "dataviz, design",
+      "show": 1,
+      "screenshot": "covidsubway.png"
+    },
   {
     "title": "There’s been a 23,000 percent jump in fireworks complaints in some parts of the US this summer. You read that right.",
     "publication": "Northeastern University",
@@ -32,7 +40,7 @@
     "date": "Apr 2020",
     "link": "https://news.northeastern.edu/2020/04/09/to-fight-the-covid-19-outbreak-first-we-have-to-track-it/",
     "category": "dataviz",
-    "show": 1,
+    "show": 0,
     "screenshot": "covidtrack.png"
   },
   {
