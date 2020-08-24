@@ -1,13 +1,22 @@
 [
-    {
-      "title": "Fewer people are using public transportation. Here’s why that’s trouble in the long run.",
-      "publication": "Northeastern University",
-      "date": "Aug 2020",
-      "link": "https://news.northeastern.edu/2020/08/13/fewer-people-are-using-public-transportation-in-the-us-heres-why-thats-trouble-in-the-long-run/",
-      "category": "dataviz, design",
-      "show": 1,
-      "screenshot": "covidsubway.png"
-    },
+  {
+    "title": "COVID-19 testing dashboard",
+    "publication": "Northeastern University",
+    "date": "Aug 2020",
+    "link": "https://news.northeastern.edu/coronavirus/reopening/testing-dashboard/",
+    "category": "dataviz",
+    "show": 1,
+    "screenshot": "testdashboard.png"
+  },
+  {
+    "title": "Fewer people are using public transportation. Here’s why that’s trouble in the long run.",
+    "publication": "Northeastern University",
+    "date": "Aug 2020",
+    "link": "https://news.northeastern.edu/2020/08/13/fewer-people-are-using-public-transportation-in-the-us-heres-why-thats-trouble-in-the-long-run/",
+    "category": "dataviz, design",
+    "show": 1,
+    "screenshot": "covidsubway.png"
+  },
   {
     "title": "There’s been a 23,000 percent jump in fireworks complaints in some parts of the US this summer. You read that right.",
     "publication": "Northeastern University",
@@ -45,15 +54,6 @@
     "screenshot": "covidtrack.png"
   },
   {
-    "title": "Do women publish less than men in scientific fields? Turns out, scientists have been asking the wrong question.",
-    "publication": "Northeastern University",
-    "date": "Mar 2020",
-    "link": "https://news.northeastern.edu/2020/03/05/do-women-publish-less-than-men-in-scientific-fields-turns-out-scientists-have-been-asking-the-wrong-question/",
-    "category": "dataviz",
-    "show": 1,
-    "screenshot": "sciwomen.png"
-  },
-  {
     "title": "Here’s how COVID-19 brought the world to a standstill",
     "publication": "Northeastern University",
     "date": "Apr 2020",
@@ -61,6 +61,15 @@
     "category": "dataviz, design, development",
     "show": 1,
     "screenshot": "covidmobility.png"
+  },
+  {
+    "title": "Do women publish less than men in scientific fields? Turns out, scientists have been asking the wrong question.",
+    "publication": "Northeastern University",
+    "date": "Mar 2020",
+    "link": "https://news.northeastern.edu/2020/03/05/do-women-publish-less-than-men-in-scientific-fields-turns-out-scientists-have-been-asking-the-wrong-question/",
+    "category": "dataviz",
+    "show": 1,
+    "screenshot": "sciwomen.png"
   },
   {
     "title": "NU COVID-19 updates site",
@@ -171,7 +180,7 @@
     "screenshot": ""
   },
   {
-    "title": "2019 soccer tournament iCal files",
+    "title": "2019 soccer tournament iCal",
     "publication": "personal",
     "date": "May 2019",
     "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
