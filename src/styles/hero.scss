@@ -30,11 +30,11 @@
             @media (max-width: 767px) {
                 float: right;
                 margin: 10px 0 1rem 0;
-                width: calc(140px + 1rem);
+                width: calc(28% + 0.25rem);
 
                 img {
-                    width:140px;
-                    border-radius:80px;
+                    width:100%;
+                    border-radius:calc(100%);
                     border:4px solid $gray1;
                     margin:0;
                 }

@@ -7,9 +7,10 @@
             "Front-end and Data Developer, April 2019-present"
         ],
         "duties": [
-            "created custom data visualizations and reusable charts to accompany news stories",
+            "designed, built and maintained the university's public-facing coronavirus testing dashboard",
             "updated digital project templates to use modern JavaScript technologies and simplify deployment",
-            "built mini-sites and performed maintenance on custom WordPress theme, using Timber/Twig"
+            "created custom data visualizations for news stories",
+            "built mini-sites and performed maintenance on custom WordPress (Timber) theme"
         ]
     },
     {
@@ -17,11 +18,11 @@
         "location": "Cambridge, MA",
         "url": "https://journalistsresource.org/author/tylermachado1/",
         "titles": [
-            "Counting for Dollars Project Developer, January 2020-March 2020"
+            "Developer (Counting for Dollars Project), January 2020-March 2020"
         ],
         "duties": [
-            "created customizable, sharable graphics and maps on Census and federal funding data, using a shared template built on React, Mapbox and D3.js",
-            "evaluated options for graphics hosting, data download functions and embedding abilities"
+            "built interactive, sharable graphics and maps on Census and federal funding data, using a template built on React, Mapbox and D3.js",
+            "evaluated options for readers to embed graphics and download data"
         ]
     },
     {
@@ -59,10 +60,10 @@
             "Deputy Web Editor, June 2010-August 2012"
         ],
         "duties": [
-            "created WordPress websites for the Vermont Tech Jam and Vermont Restaurant Week events",
+            "created WordPress websites for sub-brands and special events",
             "designed, curated and managed production of six email newsletters",
             "enhanced news articles for digital presentation with special layouts, embedded media and photography",
-            "developed and implemented new digital strategies in the newsroom"
+            "led new digital content and social media strategies in the newsroom"
         ]
     }
 ]
