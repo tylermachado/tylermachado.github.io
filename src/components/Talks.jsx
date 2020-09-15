@@ -5,7 +5,7 @@ import SectionHeader from "../components/SectionHeader.jsx"
 
 const Talks = () => (
     <div id="talks">
-        <div class="container">
+        <div class="container narrow">
           <SectionHeader words="Talks and Writing" />
           <ul>
               {talks

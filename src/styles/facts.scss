@@ -13,7 +13,7 @@
       grid-gap: 15px;
 
       @media (min-width:768px) {
-          grid-template-columns: 23% 23% 25% 23%;
+          grid-template-columns: 22% 22% 22% 28%;
           grid-gap: 2%;
       }
 }
@@ -25,7 +25,7 @@
 }
 
 #facts span {
-    font-size:1.3rem;
+    font-size:1.2rem;
     font-weight:bold;
 }
 

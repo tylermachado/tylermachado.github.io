@@ -33,6 +33,13 @@ body {
     }
 }
 
+.container.narrow {
+    @media (min-width: 768px) {
+        max-width:900px;
+
+    }
+}
+
 .section-top-border {
     width: 3rem;
     height: 0.75rem;
