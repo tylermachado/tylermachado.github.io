@@ -198,15 +198,6 @@
     "screenshot": ""
   },
   {
-    "title": "2019 soccer tournament iCal",
-    "publication": "personal",
-    "date": "May 2019",
-    "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
-    "category": "development",
-    "show": 1,
-    "screenshot": "soccer.jpg"
-  },
-  {
     "title": "Fitness trackers need to go beyond counting steps. Here’s why.",
     "publication": "Northeastern University",
     "date": "May 2019",
@@ -286,6 +277,15 @@
     "category": "dataviz",
     "show": 1,
     "screenshot": "digitaljobs.png"
+  },
+  {
+    "title": "2019 soccer tournament iCal",
+    "publication": "personal",
+    "date": "May 2019",
+    "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
+    "category": "development",
+    "show": 1,
+    "screenshot": "soccer.jpg"
   },
   {
     "title": "Last.fm Classics",
