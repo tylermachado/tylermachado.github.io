@@ -1,21 +1,12 @@
 [
   {
-    "title": "Here’s a look at all the new construction on Northeastern’s campus this year",
+    "title": "Mapbox interactive exploration template",
     "publication": "Northeastern University",
     "date": "Nov 2020",
     "link": "https://news.northeastern.edu/2020/11/05/heres-a-look-at-all-the-new-construction-on-northeasterns-campus-this-year/",
     "category": "development, design",
     "show": 1,
     "screenshot": "constmap.png"
-  },
-  {
-    "title": "Here’s how the US ranks COVID-19 and other issues ahead of Election Day",
-    "publication": "Northeastern University",
-    "date": "Nov 2020",
-    "link": "https://news.northeastern.edu/2020/11/02/heres-how-voters-rank-covid-19-and-other-issues-facing-the-us-ahead-of-election-day/#interactive",
-    "category": "dataviz",
-    "show": 1,
-    "screenshot": "issues.png"
   },
   {
     "title": "COVID-19 testing dashboard",
@@ -25,6 +16,15 @@
     "category": "dataviz",
     "show": 1,
     "screenshot": "testdashboard.png"
+  },
+  {
+    "title": "Here’s how the US ranks COVID-19 and other issues ahead of Election Day",
+    "publication": "Northeastern University",
+    "date": "Nov 2020",
+    "link": "https://news.northeastern.edu/2020/11/02/heres-how-voters-rank-covid-19-and-other-issues-facing-the-us-ahead-of-election-day/#interactive",
+    "category": "dataviz",
+    "show": 1,
+    "screenshot": "issues.png"
   },
   {
     "title": "Fewer people are using public transportation. Here’s why that’s trouble in the long run.",
