@@ -9,7 +9,7 @@ export default (props) => (
             </div>
             <div className="herotext">
                 <h1>Hi, I'm Tyler Machado.</h1>
-                <p>I'm a front-end web developer, designer and strategist with a decade of experience in digital news. I use technology and design to build creative, illuminating experiences and tools. I'm data-literate, process-oriented, and organized enough to have a spreadsheet for <em>everything</em>.</p>
+                <p>I'm a front-end web developer, designer and editor with a decade of experience in digital news. I use technology and design to build creative, illuminating experiences and tools. I'm data-literate, process-oriented, and highly organized (in that spreadsheet-for-<em>everything</em> type of way).</p>
             </div>
         </div>
         <div class="triangle-bottom">
