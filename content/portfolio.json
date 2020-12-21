@@ -27,7 +27,7 @@
     "screenshot": ""
   },
   {
-    "title": "Here’s a look at all the new construction on Northeastern’s campus this year",
+    "title": "Interactive exploration template with Mapbox",
     "publication": "Northeastern University",
     "date": "Nov 2020",
     "link": "https://news.northeastern.edu/2020/11/05/heres-a-look-at-all-the-new-construction-on-northeasterns-campus-this-year/",
@@ -230,7 +230,7 @@
     "date": "May 2019",
     "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
     "category": "development",
-    "show": 1,
+    "show": 0,
     "screenshot": "soccer.jpg"
   },
   {
