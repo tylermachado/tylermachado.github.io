@@ -1,12 +1,48 @@
 [
   {
-    "title": "Mapbox interactive exploration template",
+    "title": "The recovery of the US economy after COVID-19 hinges on federal support",
+    "publication": "Northeastern University",
+    "date": "Dec 2020",
+    "link": "https://news.northeastern.edu/2020/12/18/the-recovery-of-the-us-economy-after-the-covid-19-pandemic-hinges-on-federal-support/",
+    "category": "dataviz, design",
+    "show": 1,
+    "screenshot": "unemployment.png"
+  },
+  {
+    "title": "Many Republicans don’t believe the election results, a new survey says",
+    "publication": "Northeastern University",
+    "date": "Dec 2020",
+    "link": "https://news.northeastern.edu/2020/12/11/who-won-the-2020-presidential-election-joe-biden-or-donald-trump-depends-whom-you-ask/",
+    "category": "dataviz",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "Wearing masks is on the rise across the US but distancing measures aren’t",
+    "publication": "Northeastern University",
+    "date": "Nov 2020",
+    "link": "https://news.northeastern.edu/2020/12/01/wearing-masks-is-on-the-rise-across-the-us-but-social-distancing-measures-arent/",
+    "category": "dataviz, design",
+    "show": 0,
+    "screenshot": ""
+  },
+  {
+    "title": "Here’s a look at all the new construction on Northeastern’s campus this year",
     "publication": "Northeastern University",
     "date": "Nov 2020",
     "link": "https://news.northeastern.edu/2020/11/05/heres-a-look-at-all-the-new-construction-on-northeasterns-campus-this-year/",
     "category": "development, design",
     "show": 1,
     "screenshot": "constmap.png"
+  },
+  {
+    "title": "Here’s how the US ranks COVID-19 and other issues ahead of Election Day",
+    "publication": "Northeastern University",
+    "date": "Nov 2020",
+    "link": "https://news.northeastern.edu/2020/11/02/heres-how-voters-rank-covid-19-and-other-issues-facing-the-us-ahead-of-election-day/#interactive",
+    "category": "dataviz",
+    "show": 0,
+    "screenshot": "issues.png"
   },
   {
     "title": "COVID-19 testing dashboard",
@@ -16,15 +52,6 @@
     "category": "dataviz",
     "show": 1,
     "screenshot": "testdashboard.png"
-  },
-  {
-    "title": "Here’s how the US ranks COVID-19 and other issues ahead of Election Day",
-    "publication": "Northeastern University",
-    "date": "Nov 2020",
-    "link": "https://news.northeastern.edu/2020/11/02/heres-how-voters-rank-covid-19-and-other-issues-facing-the-us-ahead-of-election-day/#interactive",
-    "category": "dataviz",
-    "show": 1,
-    "screenshot": "issues.png"
   },
   {
     "title": "Fewer people are using public transportation. Here’s why that’s trouble in the long run.",
@@ -198,6 +225,15 @@
     "screenshot": ""
   },
   {
+    "title": "2019 soccer tournament iCal",
+    "publication": "personal",
+    "date": "May 2019",
+    "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
+    "category": "development",
+    "show": 1,
+    "screenshot": "soccer.jpg"
+  },
+  {
     "title": "Fitness trackers need to go beyond counting steps. Here’s why.",
     "publication": "Northeastern University",
     "date": "May 2019",
@@ -277,15 +313,6 @@
     "category": "dataviz",
     "show": 1,
     "screenshot": "digitaljobs.png"
-  },
-  {
-    "title": "2019 soccer tournament iCal",
-    "publication": "personal",
-    "date": "May 2019",
-    "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
-    "category": "development",
-    "show": 1,
-    "screenshot": "soccer.jpg"
   },
   {
     "title": "Last.fm Classics",
