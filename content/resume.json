@@ -9,7 +9,7 @@
         "duties": [
             "produced data visualizations and custom digital experiences for news stories, using university research and public datasets",
             "designed, built and maintained the university’s public-facing coronavirus testing data dashboard",
-            "built project templates using Svelte and D3 to streamline development, simplify deployment, and improve visual style consistency",
+            "built project templates using Svelte and D3.js to streamline development, simplify deployment, and improve visual style consistency",
             "contributed maintenance and features to the site's WordPress (Timber) theme"
         ]
     },
