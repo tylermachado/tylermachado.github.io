@@ -48,8 +48,8 @@
     "title": "COVID-19 testing dashboard",
     "publication": "Northeastern University",
     "date": "Aug 2020",
-    "link": "https://news.northeastern.edu/coronavirus/reopening/testing-dashboard/",
-    "category": "dataviz",
+    "link": "//tylermachado.com/static/dash-brief.pdf",
+    "category": "dataviz, design",
     "show": 1,
     "screenshot": "testdashboard.png"
   },
