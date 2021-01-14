@@ -5,7 +5,7 @@
     "date": "Dec 2020",
     "link": "https://news.northeastern.edu/2020/12/18/the-recovery-of-the-us-economy-after-the-covid-19-pandemic-hinges-on-federal-support/",
     "category": "dataviz, design",
-    "show": 1,
+    "show": 0,
     "screenshot": "unemployment.png"
   },
   {
@@ -113,7 +113,7 @@
     "date": "Mar 2020",
     "link": "https://news.northeastern.edu/2020/03/05/do-women-publish-less-than-men-in-scientific-fields-turns-out-scientists-have-been-asking-the-wrong-question/",
     "category": "dataviz",
-    "show": 1,
+    "show": 0,
     "screenshot": "sciwomen.png"
   },
   {
