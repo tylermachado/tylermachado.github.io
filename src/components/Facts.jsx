@@ -3,7 +3,7 @@ import "../styles/facts.scss"
 
 export default (props) => (
     <section id="facts">
-        <div class="container narrow">
+        <div className="container narrow">
             <div id="facts-container">
                 <div>
                     <h3>Location</h3>
