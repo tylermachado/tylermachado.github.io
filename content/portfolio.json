@@ -353,11 +353,11 @@
     "title": "Montana Free Press website redesign and rebuild",
     "publication": "Institute for Nonprofit News",
     "date": "Aug 2018",
-    "link": "https://montanafreepress.org/",
+    "link": "https://labs.inn.org/2018/08/24/introducing-the-new-montana-free-press-website/",
     "category": "development, design",
-    "show": 0,
-    "screenshot": "",
-    "blurb": ""
+    "show": 1,
+    "screenshot": "mtfp.jpg",
+    "blurb": "I took the lead on front-end/design for this website redesign project for an INN member news organization. Using the organization's provided color palette and logo set, I created style tiles and mockups to determine the visual course of the new website, and then built a new theme for the client based on INN's WordPress framework, Largo."
   },
   {
     "title": "The most and least digital jobs -- and how well they pay",
