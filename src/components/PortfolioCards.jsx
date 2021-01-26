@@ -4,10 +4,13 @@ import "../styles/masonry.scss"
 import portfolio from "../../content/portfolio.json"
 import SectionHeader from "../components/SectionHeader.jsx"
 
+const masonryOptions = {columnWidth: '.masonry-sizer'}
+
 class PortfolioCards extends React.Component {
     constructor(props) {
         super(props);
         this.clickActive = this.clickActive.bind(this);
+        this.clickOut = this.clickOut.bind(this);
     }
 
     state = {
@@ -16,7 +19,12 @@ class PortfolioCards extends React.Component {
 
     clickActive(ind) {
         this.setState({clicked: ind})
-        // this.masonry.layout()
+        console.log("clicked item")
+    }
+
+    clickOut() {
+        this.setState({clicked: null})
+        console.log("clicked OUTSIDE")
     }
 
     render() {
@@ -52,10 +60,12 @@ class PortfolioCards extends React.Component {
                       <Masonry
                             className={'masonry-container'}
                             elementType={'div'}
+                            options={masonryOptions}
                             disableImagesLoaded={false}
                             updateOnEachImageLoad={false}
-                            enableResizableChildren={true}
+                            enableResizableChildren={false}
                         >
+                            <div class="masonry-sizer"></div>
                             {childElements}
                         </Masonry>
                 </div>
