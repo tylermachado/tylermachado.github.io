@@ -7,7 +7,7 @@
             "Front-end and Data Developer, April 2019-present"
         ],
         "duties": [
-            "produced data visualizations and custom digital experiences for news stories, using university research and public datasets",
+            "produced data visualizations and custom digital experiences for news stories, working with university research and public datasets",
             "designed, built and maintained the university’s public-facing coronavirus testing data dashboard",
             "built project templates using Svelte and D3.js to streamline development, simplify deployment, and improve visual style consistency",
             "contributed maintenance and features to the site's WordPress (Timber) theme"
@@ -33,9 +33,9 @@
             "Front-end Developer/Designer, February 2018-April 2019"
         ],
         "duties": [
-            "built modern WordPress websites for nonprofit news organizations using our WordPress theme, Largo",
-            "created wireframes, prototypes and visual systems to guide project decisions and communicate concepts to collaborators",
-            "updated INN branding guidelines and assets for print and digital"
+            "collaborated with nonprofit news organizations on site redesigns through wireframes, prototypes, style guides and front-end code",
+            "provided troubleshooting and configuration support for WordPress sites",
+            "updated organization branding guidelines and assets for print and digital"
         ]
     },
     {
@@ -63,7 +63,7 @@
             "created WordPress websites for sub-brands and special events",
             "designed, curated and managed production of six email newsletters",
             "enhanced news articles for digital presentation with special layouts, embedded media and photography",
-            "led new digital content and social media strategies in the newsroom"
+            "developed and implemented new digital strategies in the newsroom"
         ]
     }
 ]
