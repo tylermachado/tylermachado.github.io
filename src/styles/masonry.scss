@@ -18,7 +18,7 @@ div.portfolio-card  {
     font-size:1rem;
     line-height:1.2rem;
     text-decoration: none;
-    color: #fdfeec;
+    color: $cream;
     cursor: pointer;
     display:block;
     padding:8px 8px 16px 8px;
@@ -33,7 +33,7 @@ div.portfolio-card  {
    }
 
    &:hover {
-       color: #fdfeec;
+       color: $cream;
        border: none;
        background-color: $teal;
    }
@@ -68,14 +68,32 @@ div.portfolio-card.active {
         background-color: $navy;
     }
 
-    a {
-        color: #fdfeec;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: bold;
-    }
+    .blurb {
+        a {
+            color: $cream;
+            text-decoration: none;
+            text-transform: none;
+            border-bottom:2px solid $teal;
 
-    img {
+            &.linkout {
+                display:inline-block;
+                position:relative;
+                text-transform: uppercase;
+                font-weight: bold;
+                border-radius:3px;
+                border:2px solid $teal;
+                background-color:$teal;
+                padding:3px;
+                margin:-3px 3px 0;
+                top:3px;
+
+                &:hover {
+                    border:2px solid $cream;
+                    background-color:$cream;
+                    color: $teal;
+                }
+            }
+        }
     }
 
     .title {

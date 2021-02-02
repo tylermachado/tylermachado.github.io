@@ -47,7 +47,7 @@ class PortfolioCards extends React.Component {
                         <div className="blurb">
                             <span dangerouslySetInnerHTML={{__html:project.blurb}}></span>
                             &nbsp;
-                            <a href={project.link}>check it out</a>
+                            <a className="linkout" href={project.link}>check it out</a>
                         </div>
                     </div>
                 )

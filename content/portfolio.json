@@ -7,7 +7,7 @@
     "category": "dataviz, design",
     "show": 1,
     "screenshot": "unemployment.png",
-    "blurb": "I built this template using Svelte, D3 and Mapbox to streamline production of our regular data graphics, implement a consistent visual style for charts, and allow deployment to happen more quickly and easily. You can see it in action <a href=\"https://news.northeastern.edu/2020/08/13/fewer-people-are-using-public-transportation-in-the-us-heres-why-thats-trouble-in-the-long-run/\">here</a>, <a href=\"https://news.northeastern.edu/2020/12/18/the-recovery-of-the-us-economy-after-the-covid-19-pandemic-hinges-on-federal-support/\">here</a>, and <a href=\"https://news.northeastern.edu/2020/07/01/theres-been-a-23000-percent-jump-in-fireworks-complaints-in-some-parts-of-the-us-this-summer-you-read-that-right/\">here</a>, as a couple of examples."
+    "blurb": "I built this template using Svelte, D3 and Mapbox to streamline production of our regular data graphics, implement a consistent visual style for charts, and allow deployment to happen more quickly and easily. I used this to visualize <a href=\"https://news.northeastern.edu/2020/08/13/fewer-people-are-using-public-transportation-in-the-us-heres-why-thats-trouble-in-the-long-run/\">public transit trends</a>, <a href=\"https://news.northeastern.edu/2020/12/18/the-recovery-of-the-us-economy-after-the-covid-19-pandemic-hinges-on-federal-support/\">unemployment rates</a>, and <a href=\"https://news.northeastern.edu/2020/07/01/theres-been-a-23000-percent-jump-in-fireworks-complaints-in-some-parts-of-the-us-this-summer-you-read-that-right/\">fireworks complaints</a>, as a couple of examples."
   },
   {
     "title": "The recovery of the US economy after COVID-19 hinges on federal support",
