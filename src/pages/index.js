@@ -8,6 +8,7 @@ import Facts from "../components/Facts.jsx"
 import Navigation from "../components/Navigation.jsx"
 import Resume from "../components/Resume.jsx"
 import "../styles/global.scss"
+import "../styles/global-animations.scss"
 
 export default () => (
     <div id="bodyContainer">
@@ -18,13 +19,16 @@ export default () => (
           <link rel="canonical" href="//tylermachado.com" />
         </Helmet>
 
-        <Navigation />
-
-        <Hero />
-        <Facts />
-        <PortfolioCards />
-        <Resume />
-        <Talks />
+        <div className="fadein">
+            <Navigation />
+            <Hero />
+        </div>
+        <div>
+            <Facts />
+            <PortfolioCards />
+            <Resume />
+            <Talks />
+        </div>
 
         <Footer />
     </div>
