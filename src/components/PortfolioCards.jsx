@@ -55,7 +55,7 @@ class PortfolioCards extends React.Component {
 
         return (
             <div class="container">
-                <div id="work">
+                <div id="work" className="fadein">
                   <SectionHeader words="Selected Work" />
                       <Masonry
                             className={'masonry-container'}
