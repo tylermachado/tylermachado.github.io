@@ -19,16 +19,13 @@ export default () => (
           <link rel="canonical" href="//tylermachado.com" />
         </Helmet>
 
-        <div className="fadein">
-            <Navigation />
-            <Hero />
-        </div>
-        <div>
-            <Facts />
-            <PortfolioCards />
-            <Resume />
-            <Talks />
-        </div>
+
+        <Navigation />
+        <Hero />
+        <Facts />
+        <PortfolioCards />
+        <Resume />
+        <Talks />
 
         <Footer />
     </div>

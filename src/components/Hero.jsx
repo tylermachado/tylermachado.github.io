@@ -3,7 +3,7 @@ import "../styles/hero.scss"
 
 export default (props) => (
     <section id="hero">
-        <div className="container">
+        <div className="container fadein">
             <div>
                 <img src="../../static/headshot-gradient-circle.png" alt="Tyler Machado" className="hero-img" />
             </div>
