@@ -251,13 +251,13 @@
   },
   {
     "title": "Facing the Future",
-    "publication": "Northeastern University",
+    "publication": "Northeastern University and Gallup",
     "date": "Jun 2019",
     "link": "https://www.northeastern.edu/gallup/",
-    "category": "dataviz",
-    "show": 0,
-    "screenshot": "",
-    "blurb": ""
+    "category": "dataviz, development",
+    "show": 1,
+    "screenshot": "gallup.png",
+    "blurb": "I worked on the data visualization, front-end and UI pieces of this mini-site, the introduction to a university campaign on artificial intelligence that translated an academic report to a general audience."
   },
   {
     "title": "Here are the 147 flags you’ll see students waving at Commencement this year",
@@ -275,7 +275,7 @@
     "date": "May 2019",
     "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
     "category": "development",
-    "show": 1,
+    "show": 0,
     "screenshot": "soccer.jpg",
     "blurb": "Nothing special; I just needed a simple way to get a busy summer of international soccer in my iCal! I used Python to scrape match listings and Node.js to create calendar files."
   },
