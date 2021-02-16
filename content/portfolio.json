@@ -285,7 +285,7 @@
     "date": "May 2019",
     "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
     "category": "development",
-    "show": 1,
+    "show": 0,
     "screenshot": "soccer.jpg",
     "blurb": "Nothing special; I just needed a simple way to get a busy summer of international soccer in my iCal! I used Python to scrape match listings and Node.js to create calendar files."
   },
