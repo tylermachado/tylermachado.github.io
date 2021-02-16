@@ -1,10 +1,15 @@
 @import 'global.scss';
 
 footer {
+    background-color:$navy;
+
+    padding:0 0 4rem;
+}
+
+.footer-content {
     background-color: $navy;
     color: $gray1;
     margin: 0 auto 0 auto;
-    padding:1rem 0 4rem;
     font-size:0.75rem;
     text-align:center;
 

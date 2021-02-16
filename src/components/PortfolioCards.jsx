@@ -54,22 +54,22 @@ class PortfolioCards extends React.Component {
             });
 
         return (
-            <div class="container">
-                <div id="work" className="fadein">
-                  <SectionHeader words="Selected Work" />
-                      <Masonry
-                            className={'masonry-container'}
-                            elementType={'div'}
-                            options={masonryOptions}
-                            disableImagesLoaded={false}
-                            updateOnEachImageLoad={false}
-                            enableResizableChildren={false}
-                        >
-                            <div class="masonry-sizer"></div>
-                            {childElements}
-                        </Masonry>
+            <section id="work" className="fadein">
+                <div class="container">
+                    <SectionHeader words="Selected Work" />
+                    <Masonry
+                        className={'masonry-container'}
+                        elementType={'div'}
+                        options={masonryOptions}
+                        disableImagesLoaded={false}
+                        updateOnEachImageLoad={false}
+                        enableResizableChildren={false}
+                    >
+                        <div class="masonry-sizer"></div>
+                        {childElements}
+                    </Masonry>
                 </div>
-            </div>
+            </section>
         )
     } //render
 } // class PortfolioCards

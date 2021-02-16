@@ -4,7 +4,7 @@ import talks from "../../content/talks.json"
 import SectionHeader from "../components/SectionHeader.jsx"
 
 const Talks = () => (
-    <div id="talks">
+    <section id="talks">
         <div class="container narrow">
           <SectionHeader words="Talks and Writing" />
           <ul>
@@ -22,6 +22,6 @@ const Talks = () => (
               })}
           </ul>
         </div>
-    </div>
+    </section>
 )
 export default Talks
