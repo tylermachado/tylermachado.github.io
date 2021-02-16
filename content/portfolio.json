@@ -7,7 +7,17 @@
     "category": "dataviz, design",
     "show": 1,
     "screenshot": "unemployment.png",
-    "blurb": "I built this template using Svelte, D3 and Mapbox to streamline production of our regular data graphics, implement a consistent visual style for charts, and allow deployment to happen more quickly and easily. I used this to visualize <a href=\"https://news.northeastern.edu/2020/08/13/fewer-people-are-using-public-transportation-in-the-us-heres-why-thats-trouble-in-the-long-run/\">public transit trends</a>, <a href=\"https://news.northeastern.edu/2020/12/18/the-recovery-of-the-us-economy-after-the-covid-19-pandemic-hinges-on-federal-support/\">unemployment rates</a>, and <a href=\"https://news.northeastern.edu/2020/07/01/theres-been-a-23000-percent-jump-in-fireworks-complaints-in-some-parts-of-the-us-this-summer-you-read-that-right/\">fireworks complaints</a>, as a couple of examples."
+    "blurb": "I built this chart library using Svelte, D3 and Mapbox for the data graphics that my team regularly produces. This template helps streamline production, simplifies deployment, and implements a consistent visual style for our dataviz content. I used this to visualize <a href=\\\"https://news.northeastern.edu/2020/08/13/fewer-people-are-using-public-transportation-in-the-us-heres-why-thats-trouble-in-the-long-run/\\\">public transit trends</a>, <a href=\\\"https://news.northeastern.edu/2020/12/18/the-recovery-of-the-us-economy-after-the-covid-19-pandemic-hinges-on-federal-support/\\\">unemployment rates</a>, and <a href=\\\"https://news.northeastern.edu/2020/07/01/theres-been-a-23000-percent-jump-in-fireworks-complaints-in-some-parts-of-the-us-this-summer-you-read-that-right/\\\">fireworks complaints</a>, among many others."
+  },
+  {
+    "title": "The hottest places to chill on Northeastern’s Boston campus",
+    "publication": "Northeastern University",
+    "date": "Feb 2021",
+    "link": "https://news.northeastern.edu/2021/02/03/your-guide-to-all-of-the-heated-outdoor-spaces-on-northeasterns-boston-campus/",
+    "category": "",
+    "show": 0,
+    "screenshot": "",
+    "blurb": ""
   },
   {
     "title": "The recovery of the US economy after COVID-19 hinges on federal support",
@@ -100,14 +110,14 @@
     "blurb": ""
   },
   {
-    "title": "Counting for Dollars",
+    "title": "The 2020 census and Title I funding for schools: Interactive maps to localize your state’s stakes",
     "publication": "Journalist's Resource",
     "date": "May 2020",
     "link": "https://journalistsresource.org/studies/society/education/2020-census-title-i-maps/",
     "category": "dataviz, development",
     "show": 1,
     "screenshot": "jr2.png",
-    "blurb": "I worked with university researchers on this series of posts on the U.S. Census and federal funding. I created a series of D3 graphics and Mapbox explorables living inside of a shared React app."
+    "blurb": "I worked with university researchers on this series of posts on the U.S. Census and federal funding, specifically to create a series of graphics that local reporters can embed on their own websites. The graphics use D3 and Mapbox, all living inside of a shared React app."
   },
   {
     "title": "The 2020 census and Title I funding for schools: Interactive maps to localize your state’s stakes",
@@ -251,10 +261,10 @@
   },
   {
     "title": "Facing the Future",
-    "publication": "Northeastern University and Gallup",
+    "publication": "Northeastern University",
     "date": "Jun 2019",
     "link": "https://www.northeastern.edu/gallup/",
-    "category": "dataviz, development",
+    "category": "dataviz",
     "show": 1,
     "screenshot": "gallup.png",
     "blurb": "I worked on the data visualization, front-end and UI pieces of this mini-site, the introduction to a university campaign on artificial intelligence that translated an academic report to a general audience."
@@ -275,7 +285,7 @@
     "date": "May 2019",
     "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
     "category": "development",
-    "show": 0,
+    "show": 1,
     "screenshot": "soccer.jpg",
     "blurb": "Nothing special; I just needed a simple way to get a busy summer of international soccer in my iCal! I used Python to scrape match listings and Node.js to create calendar files."
   },
@@ -317,7 +327,7 @@
     "category": "design",
     "show": 1,
     "screenshot": "innstyle.png",
-    "blurb": "Inheriting the style guide from my predecessor at INN, I updated it to use a new, refined color palette, and created and demonstrated standards on what the identity should look like in digital content."
+    "blurb": "Inheriting style guide duties at INN, I updated the brand standards to use a new, refined color palette, and created and demonstrated expectations on what the identity should look like when used in digital content."
   },
   {
     "title": "City Limits CommunityWire",
@@ -353,7 +363,7 @@
     "title": "Montana Free Press website redesign and rebuild",
     "publication": "Institute for Nonprofit News",
     "date": "Aug 2018",
-    "link": "https://labs.inn.org/2018/08/24/introducing-the-new-montana-free-press-website/",
+    "link": "https://montanafreepress.org/",
     "category": "development, design",
     "show": 1,
     "screenshot": "mtfp.jpg",
@@ -445,6 +455,16 @@
     "date": "Nov 2015",
     "link": "https://hbr.org/2015/11/the-best-performing-ceos-in-the-world",
     "category": "development, design, dataviz",
+    "show": 0,
+    "screenshot": "",
+    "blurb": ""
+  },
+  {
+    "title": "A Tool to Help You Reach Your Goals in 4 Steps",
+    "publication": "Harvard Business Review",
+    "date": "Oct 2015",
+    "link": "https://hbr.org/2015/10/a-tool-to-help-you-reach-your-goals-in-4-steps",
+    "category": "development, design",
     "show": 0,
     "screenshot": "",
     "blurb": ""
