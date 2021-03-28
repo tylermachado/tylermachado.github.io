@@ -11,6 +11,31 @@
             "engineering and maintaining interactive front-end elements using modern JavaScript frameworks, including React and Next.js",
             "working in a Scrum team environment, using Git and Jira workflows"
         ]
+    },{
+        "workplace": "Northeastern University",
+        "location": "Boston, MA",
+        "url": "https://news.northeastern.edu/author/tmachado/",
+        "titles": [
+            "Front-end and Data Developer, April 2019-March 2021"
+        ],
+        "duties": [
+            "built Svelte-based project library to make development and deployment simpler and improve look-and-feel consistency",
+            "produced data visualizations and custom digital experiences for news stories, working with both university research and public datasets",
+            "designed, built and maintained the university’s public-facing coronavirus testing data dashboard",
+            "contributed maintenance and features to the site's WordPress theme, using Timber"
+        ]
+    },
+    {
+        "workplace": "Journalist's Resource",
+        "location": "Cambridge, MA",
+        "url": "https://journalistsresource.org/author/tylermachado1/",
+        "titles": [
+            "Developer (Counting for Dollars Project), January 2020-March 2020"
+        ],
+        "duties": [
+            "built interactive, sharable graphics and maps on Census and federal funding data, using a template built on React, Mapbox and D3.js",
+            "evaluated options for readers to embed graphics and download data"
+        ]
     },
     {
         "workplace": "Institute for Nonprofit News",
