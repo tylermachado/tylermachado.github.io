@@ -1,28 +1,15 @@
 [
     {
-        "workplace": "Northeastern University",
-        "location": "Boston, MA",
-        "url": "https://news.northeastern.edu/author/tmachado/",
+        "workplace": "Alley",
+        "location": "remote",
+        "url": "https://alley.co/",
         "titles": [
-            "Front-end and Data Developer, April 2019-present"
+            "User Experience Developer, March 2021-present"
         ],
         "duties": [
-            "produced data visualizations and custom digital experiences for news stories, working with university research and public datasets",
-            "designed, built and maintained the university’s public-facing coronavirus testing data dashboard",
-            "built project templates using Svelte and D3.js to streamline development, simplify deployment, and improve visual style consistency",
-            "contributed maintenance and features to the site's WordPress (Timber) theme"
-        ]
-    },
-    {
-        "workplace": "Journalist's Resource",
-        "location": "Cambridge, MA",
-        "url": "https://journalistsresource.org/author/tylermachado1/",
-        "titles": [
-            "Developer (Counting for Dollars Project), January 2020-March 2020"
-        ],
-        "duties": [
-            "built interactive, sharable graphics and maps on Census and federal funding data, using a template built on React, Mapbox and D3.js",
-            "evaluated options for readers to embed graphics and download data"
+            "building out designs using modern CSS concepts and preprocessors",
+            "engineering and maintaining interactive front-end elements using modern JavaScript frameworks, including React and Next.js",
+            "working in a Scrum team environment, using Git and Jira workflows"
         ]
     },
     {

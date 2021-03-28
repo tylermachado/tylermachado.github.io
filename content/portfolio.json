@@ -1,5 +1,14 @@
 [
   {
+    "title": "Bill Coen’s long journey to the top of Northeastern basketball",
+    "publication": "Northeastern University",
+    "date": "Mar 2021",
+    "link": "https://news.northeastern.edu/2021/03/17/bill-coens-long-journey-to-the-top-of-northeastern-basketball/",
+    "category": "dataviz, developer",
+    "show": 1,
+    "screenshot": "basketball.png",
+    "blurb": "I wrote a scraper in Python to gather the scores from every game of NU men's basketball coach Bill Coen's career, and then visualized that history by building a symbol chart in Svelte."
+  },{
     "title": "Svelte dataviz template",
     "publication": "Northeastern University",
     "date": "Dec 2020",
