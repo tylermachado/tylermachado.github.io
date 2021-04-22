@@ -1,22 +1,33 @@
 [
   {
+    "title": "Standard model of particle physics",
+    "publication": "Science News",
+    "date": "Apr 2021",
+    "link": "https://www.sciencenews.org/century/atom-matter-neutron-nuclear-power-fusion#sn-responsive-iframe-18",
+    "category": "development",
+    "show": 1,
+    "screenshot": "scinews.png",
+    "blurb": "Working with designers and editors at Science News, I built a small interactive graphic to help readers explore the standard model of particle physics."
+  },
+  {
     "title": "Bill Coen’s long journey to the top of Northeastern basketball",
     "publication": "Northeastern University",
     "date": "Mar 2021",
     "link": "https://news.northeastern.edu/2021/03/17/bill-coens-long-journey-to-the-top-of-northeastern-basketball/",
-    "category": "dataviz, developer",
+    "category": "dataviz",
     "show": 1,
     "screenshot": "basketball.png",
     "blurb": "I wrote a scraper in Python to gather the scores from every game of NU men's basketball coach Bill Coen's career, and then visualized that history by building a symbol chart in Svelte."
-  },{
-    "title": "Svelte dataviz template",
+  },
+  {
+    "title": "Even among healthcare workers, inequities exist in COVID-19 vaccine rollout, new study finds",
     "publication": "Northeastern University",
-    "date": "Dec 2020",
-    "link": "https://github.com/News-at-Northeastern/svelte-dataviz-template",
-    "category": "dataviz, design",
-    "show": 1,
-    "screenshot": "unemployment.png",
-    "blurb": "I built this chart library using Svelte, D3 and Mapbox for the data graphics that my team regularly produces. This template helps streamline production, simplifies deployment, and implements a consistent visual style for our dataviz content. I used this to visualize <a href=\\\"https://news.northeastern.edu/2020/08/13/fewer-people-are-using-public-transportation-in-the-us-heres-why-thats-trouble-in-the-long-run/\\\">public transit trends</a>, <a href=\\\"https://news.northeastern.edu/2020/12/18/the-recovery-of-the-us-economy-after-the-covid-19-pandemic-hinges-on-federal-support/\\\">unemployment rates</a>, and <a href=\\\"https://news.northeastern.edu/2020/07/01/theres-been-a-23000-percent-jump-in-fireworks-complaints-in-some-parts-of-the-us-this-summer-you-read-that-right/\\\">fireworks complaints</a>, among many others."
+    "date": "Feb 2021",
+    "link": "https://news.northeastern.edu/2021/02/23/even-among-healthcare-workers-inequities-exist-in-covid-19-vaccine-rollout-new-study-finds/",
+    "category": "dataviz, development",
+    "show": 0,
+    "screenshot": "",
+    "blurb": ""
   },
   {
     "title": "The hottest places to chill on Northeastern’s Boston campus",
@@ -27,6 +38,26 @@
     "show": 0,
     "screenshot": "",
     "blurb": ""
+  },
+  {
+    "title": "Trump rallies and social justice protests may have driven a big year for gun sales, study says",
+    "publication": "Northeastern University",
+    "date": "Jan 2021",
+    "link": "https://news.northeastern.edu/2021/01/28/trump-rallies-and-social-justice-protests-may-have-driven-a-big-year-for-gun-sales-study-says/",
+    "category": "dataviz",
+    "show": 0,
+    "screenshot": "",
+    "blurb": ""
+  },
+  {
+    "title": "Svelte dataviz template",
+    "publication": "Northeastern University",
+    "date": "Dec 2020",
+    "link": "https://github.com/News-at-Northeastern/svelte-dataviz-template",
+    "category": "dataviz, design",
+    "show": 1,
+    "screenshot": "unemployment.png",
+    "blurb": "I built this chart library using Svelte, D3 and Mapbox for the data graphics that my team regularly produces. This template helps streamline production, simplifies deployment, and implements a consistent visual style for our dataviz content. I used this to visualize <a href=\\\"https://news.northeastern.edu/2020/08/13/fewer-people-are-using-public-transportation-in-the-us-heres-why-thats-trouble-in-the-long-run/\\\">public transit trends</a>, <a href=\\\"https://news.northeastern.edu/2020/12/18/the-recovery-of-the-us-economy-after-the-covid-19-pandemic-hinges-on-federal-support/\\\">unemployment rates</a>, and <a href=\\\"https://news.northeastern.edu/2020/07/01/theres-been-a-23000-percent-jump-in-fireworks-complaints-in-some-parts-of-the-us-this-summer-you-read-that-right/\\\">fireworks complaints</a>, among many others."
   },
   {
     "title": "The recovery of the US economy after COVID-19 hinges on federal support",
@@ -270,7 +301,7 @@
   },
   {
     "title": "Facing the Future",
-    "publication": "Northeastern University",
+    "publication": "Northeastern University and Gallup",
     "date": "Jun 2019",
     "link": "https://www.northeastern.edu/gallup/",
     "category": "dataviz",
@@ -372,7 +403,7 @@
     "title": "Montana Free Press website redesign and rebuild",
     "publication": "Institute for Nonprofit News",
     "date": "Aug 2018",
-    "link": "https://montanafreepress.org/",
+    "link": "https://labs.inn.org/2018/08/24/introducing-the-new-montana-free-press-website/",
     "category": "development, design",
     "show": 1,
     "screenshot": "mtfp.jpg",
