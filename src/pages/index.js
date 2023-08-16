@@ -1,12 +1,13 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import PortfolioCards from "../components/PortfolioCards.jsx"
-import Talks from "../components/Talks.jsx"
+
+import About from "../components/About.jsx"
+// import Contact from "../components/Contact.jsx"
 import Footer from "../components/Footer.jsx"
-import Hero from "../components/Hero.jsx"
-import Facts from "../components/Facts.jsx"
 import Navigation from "../components/Navigation.jsx"
+import Portfolio from "../components/Portfolio.jsx"
 import Resume from "../components/Resume.jsx"
+
 import "../styles/global.scss"
 import "../styles/global-animations.scss"
 
@@ -20,11 +21,10 @@ export default () => (
         </Helmet>
 
         <Navigation />
-        <Hero />
-        <Facts />
-        <PortfolioCards />
+        <About />
+        <Portfolio />
         <Resume />
-        <Talks />
+        {/* <Contact /> */}
 
         <Footer />
     </div>
