@@ -12,6 +12,5 @@ export default (props) => (
                 </ul>
             </div>
         </div>
-        <div className="triangle-bottom-nav"></div>
     </header>
 )

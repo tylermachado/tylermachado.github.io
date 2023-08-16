@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;700&display=swap');
 
+$black: #000;
 $navy: #142c42;
 $teal: #289183;
 $orange: #d04b10;
 $cream: #fdfeec;
+$white: #fff;
 
 $gray1: #fffff5;
 $gray2: #d7d7d4;
@@ -11,7 +13,7 @@ $gray2: #A5ABB1;
 $gray3: #767D83;
 $gray4: #55595C;
 
-$nav-bg: $navy;
+$nav-bg: $black;
 
 
 html, body {
@@ -94,33 +96,4 @@ a:hover, a:active {
 li {
     line-height: 1.6rem;
     margin-bottom: 0.5rem;
-}
-
-
-.triangle-top {
-    width: 0;
-    overflow: hidden;
-    height: 0;
-    border-style: solid;
-    border-width: 30px 100vw 0 0;
-    border-color: $gray1 $navy transparent transparent;
-    margin-top:3rem;
-}
-
-.triangle-bottom {
-    width: 0;
-    overflow: hidden;
-    height: 0;
-    border-style: solid;
-    border-width: 30px 100vw 0 0;
-    border-color: $navy $gray1 transparent transparent;
-}
-
-.triangle-bottom-nav {
-    width: 0;
-    overflow: hidden;
-    height: 0;
-    border-style: solid;
-    border-width: 30px 100vw 0 0;
-    border-color: $nav-bg transparent transparent transparent;
 }
