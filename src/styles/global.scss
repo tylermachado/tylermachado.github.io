@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bricolage+Grotesque:wght@300;600&display=swap');
 
 $black: #000;
 $navy: #142c42;
@@ -23,7 +23,7 @@ html, body {
 }
 
 body {
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
     letter-spacing:-0.02rem;
     margin:0;
     padding:0;
@@ -32,6 +32,7 @@ body {
 .container {
     margin:0 auto;
     padding:0 15px;
+    position: relative;
     @media (min-width: 768px) {
         max-width:1200px;
 
@@ -45,23 +46,8 @@ body {
     }
 }
 
-.section-top-border {
-    width: 3rem;
-    height: 0.75rem;
-    margin: 3rem 0 0 -1rem;
-    display: inline-block;
-    background-color: #d04b10;
-    position: relative;
-    top: -2rem;
-    left:1rem;
-    transform: skewY(-4.5deg);
-
-    @media (min-width: 768px) {
-        margin: 0 0 0 -1rem;
-    }
-}
-
 h1, h2 {
+    font-family: 'Archivo Black', sans-serif;
     font-size:3rem;
     line-height:3.25rem;
     margin:0 0 1rem 0;
@@ -69,8 +55,21 @@ h1, h2 {
     display:inline;
 }
 
+h2 {
+    font-size: 4.5rem;
+    left: -25px;
+    position: absolute;
+    text-transform: uppercase;
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+    top: 400px;
+}
+
 p {
-    font-size:1.25rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: -0.015rem;
+    line-height: 1.75rem;
 }
 
 span.hide {
