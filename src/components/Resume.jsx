@@ -6,8 +6,8 @@ import SectionHeader from "../components/SectionHeader.jsx"
 
 const Resume = () => (
     <section id="resume">
+        <SectionHeader words="Resume" />
         <div class="container narrow">
-          <SectionHeader words="Resume" />
           <p>This resume is also available <a href="../../static/tyler_machado_resume.pdf" title="Tyler Machado's resume as a PDF">in PDF format</a>.</p>
               {jobs
                   .map((job, index) =>

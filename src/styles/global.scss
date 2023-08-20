@@ -57,12 +57,22 @@ h1, h2 {
 
 h2 {
     font-size: 4.5rem;
-    left: -25px;
-    position: absolute;
     text-transform: uppercase;
-    transform-origin: bottom left;
+}
+
+section {
+    position: relative;
+}
+
+.section-header {
+    display: block;
+    left: -48vw;
+    position: relative;
+    text-transform: uppercase;
+    transform-origin: 50% 50%;
     transform: rotate(-90deg);
-    top: 400px;
+    top: 0;
+    width: 100%;
 }
 
 p {

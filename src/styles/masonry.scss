@@ -14,6 +14,10 @@ div.portfolio-section {
 }
 
 div.portfolio__card-container {
+    display: grid; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 25px 25px; 
     height: 0px;
     max-height: 0px;
     overflow: hidden;
@@ -31,8 +35,6 @@ div.portfolio-card  {
     cursor: pointer;
     font-size:1.2rem;
     line-height:1.5rem;
-    width: calc(50% - 1rem - 16px);
-    margin:0 1rem 1rem 0;
     font-size:1rem;
     line-height:1.25rem;
     text-decoration: none;
@@ -70,7 +72,6 @@ div.portfolio-card  {
 }
 
 div.portfolio-card.active {
-    width: calc(100% - 1rem - 16px);
     cursor: default;
     display:grid;
     grid-template-columns: 1fr;
@@ -130,24 +131,7 @@ div.portfolio-card.active {
     }
 }
 
-@media screen and (min-width: 600px) {
-    .masonry-sizer {
-        width:33.3%;
-    }
-
-    div.portfolio-card {
-        width:calc(33.3% - 1rem - 16px);
-    }
-}
-
 @media screen and (min-width: 825px) {
-    .masonry-sizer {
-        width:25%;
-    }
-
-    div.portfolio-card {
-        width:calc(25% - 1rem - 16px);
-    }
 
     div.portfolio-card.active {
         width:calc(100% - 4.5rem - 16px);
