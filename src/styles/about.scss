@@ -3,7 +3,6 @@
 #about {
     background-color: $navy;
     color: $gray1;
-
     padding:5rem 0 0 0;
 
     img {
@@ -12,10 +11,6 @@
         display:block;
         border:7px solid $gray1;
         border-radius:110px;
-
-        @media (min-width: 768px) {
-
-        }
     }
 
     .container {

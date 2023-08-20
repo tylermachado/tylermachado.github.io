@@ -4,8 +4,18 @@
     width: 50%;
 }
 
-div.masonry-container {
-    margin:2rem 0;
+div.portfolio-section {
+    border-bottom: 1px solid black;
+    padding: 0;
+
+    h3 {
+        margin: 0.75rem 0;
+    }
+}
+
+div.portfolio__card-container {
+    height: 0px;
+    overflow:hidden;
 }
 
 div.portfolio-card  {
