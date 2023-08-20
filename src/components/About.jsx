@@ -3,6 +3,7 @@ import "../styles/about.scss"
 
 export default (props) => (
     <section id="about">
+        <img src="../../static/gardenportrait.jpg" alt="" className="hero" />
         <div className="about__text-container container fadein">
             <div className="about__text">
                 <h1>Hi, I'm Tyler Machado.</h1>
