@@ -30,11 +30,23 @@ div.portfolio__card-container {
     }
 }
 
+a.portfolio-card__link {
+    border: none;
+    height: fit-content;
+
+    &:hover, &:active {
+        border: none;
+
+        div.portfolio-card {
+            color: $cream;
+            height: fit-content;
+            background-color: $teal;
+        }
+    }
+}
+
 div.portfolio-card  {
-    font-weight: 700;
-    cursor: pointer;
-    font-size:1.2rem;
-    line-height:1.5rem;
+    height: fit-content;
     font-size:1rem;
     line-height:1.25rem;
     text-decoration: none;
@@ -51,12 +63,7 @@ div.portfolio-card  {
    img {
        width:calc(100%);
    }
-
-   &:hover {
-       color: $cream;
-       border: none;
-       background-color: $teal;
-   }
+   
 
    .subhed {
        font-size:0.75rem;
