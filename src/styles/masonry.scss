@@ -15,7 +15,15 @@ div.portfolio-section {
 
 div.portfolio__card-container {
     height: 0px;
-    overflow:hidden;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+
+    &.open {
+        max-height: 800px;
+        height: inherit;
+        transition: max-height 0.4s ease-in-out;
+    }
 }
 
 div.portfolio-card  {

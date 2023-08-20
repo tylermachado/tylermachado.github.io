@@ -8,10 +8,12 @@ const disciplines = ["Data visualizations and interactive graphics", "Interactiv
 class Portfolio extends React.Component {
     constructor(props) {
         super(props);
+        this.toggleOpen = this.toggleOpen.bind(this);
     }
 
-    toggleOpen() {
-        console.log(document.querySelectorAll('.portfolio__card-container'));
+    toggleOpen = (event) => {
+        const cardContainer = event.target.nextSibling;
+        cardContainer.classList.toggle('open');
     }
 
     render() {
@@ -21,7 +23,7 @@ class Portfolio extends React.Component {
                     key={`portfolio-section__${index}`}
                     className={`portfolio-section container narrow`}
                 >
-                    <h3 onClick={toggleOpen}>{discipline}</h3>
+                    <h3 onClick={this.toggleOpen}>{discipline}</h3>
                     <div className='portfolio__card-container'>
                     {
                         portfolio.filter((project) => {
@@ -52,7 +54,7 @@ class Portfolio extends React.Component {
 
         return (
             <section id="portfolio" className="fadein">
-                <div class="portfolio__container">
+                <div className="portfolio__container">
                     <SectionHeader words="Portfolio" />
                     {workCategories}
                 </div>
