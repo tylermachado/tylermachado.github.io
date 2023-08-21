@@ -32,6 +32,13 @@ body {
     padding:0;
 }
 
+pre {
+    background-color: lighten($black, 20%);
+    display: inline;
+    margin: 0 0.25rem;
+    padding: 0 0.25rem;
+}
+
 .container {
     margin:0 auto;
     padding:0 15px;
