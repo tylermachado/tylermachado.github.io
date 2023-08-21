@@ -12,8 +12,8 @@ class Portfolio extends React.Component {
     }
 
     toggleOpen = (event) => {
-        const cardContainer = event.target.nextSibling;
-        cardContainer.classList.toggle('open');
+        event.target.parentElement.classList.toggle('open');
+        event.target.nextSibling.classList.toggle('open');
     }
 
     render() {

@@ -61,18 +61,21 @@ h2 {
 }
 
 section {
+    min-height: 500px;
     position: relative;
 }
 
 .section-header {
-    display: block;
-    left: -41vw;
+    display: flex;
+    height: 0;
+    left: -100.5vw;
+    justify-content: end;
     position: relative;
     text-transform: uppercase;
-    transform-origin: 50% 50%;
+    transform-origin: top right;
     transform: rotate(-90deg);
-    top: 0;
-    width: 900px;
+    top: 20px;
+    width: 100%;
 }
 
 p {

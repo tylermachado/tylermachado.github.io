@@ -335,7 +335,7 @@
     "date": "Jun 2019",
     "link": "https://www.northeastern.edu/gallup/",
     "category": "Data visualizations and interactive graphics",
-    "show": 1,
+    "show": 0,
     "screenshot": "gallup.png",
     "blurb": "I worked on the data visualization, front-end and UI pieces of this mini-site, the introduction to a university campaign on artificial intelligence that translated an academic report to a general audience."
   },

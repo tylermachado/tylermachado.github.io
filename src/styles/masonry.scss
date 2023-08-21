@@ -1,15 +1,25 @@
 @import 'global.scss';
 
-.masonry-sizer {
-    width: 50%;
-}
-
 div.portfolio-section {
     border-bottom: 1px solid black;
     padding: 0;
 
     h3 {
         margin: 0.75rem 0;
+
+        &:before {
+            content: '+';
+            display: inline-block;
+            margin-right: 0.5rem;
+            text-align: center;
+            width: 0.75rem;
+        }
+    }
+
+    &.open {
+        h3:before {
+            content: '-';
+        }
     }
 }
 
@@ -18,15 +28,16 @@ div.portfolio__card-container {
     grid-auto-rows: 1fr; 
     grid-template-columns: repeat(3, 1fr); 
     gap: 25px 25px; 
-    height: 0px;
-    max-height: 0px;
+    height: 0;
+    max-height: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 
     &.open {
-        max-height: 800px;
+        max-height: 900px;
         height: inherit;
-        transition: max-height 0.4s ease-in-out;
+        padding-bottom: 25px;
+        transition: all 0.4s ease-in-out;
     }
 }
 
