@@ -88,6 +88,8 @@ div.portfolio-card  {
    img {
        width:calc(100%);
        grid-area: 1 / 1 / 3 / 2;
+        max-height: 350px;
+        object-fit: cover;
    }
    
    &__title {
