@@ -6,6 +6,9 @@ $teal: #289183;
 $orange: #d04b10;
 $cream: #fdfeec;
 $white: #fff;
+$blue: #99c7da;
+$green: #5FE7B5;
+$pink: #F7B3C8;
 
 $gray1: #fffff5;
 $gray2: #d7d7d4;
@@ -62,7 +65,20 @@ h2 {
 
 section {
     min-height: 500px;
+    padding-bottom: 50px;
     position: relative;
+
+    &:nth-child(2) {
+        background-color: $black;
+    }
+
+    &:nth-child(3) {
+        background-color: $blue;
+    }
+
+    &:nth-child(4) {
+        background-color: $green;
+    }
 }
 
 .section-header {
@@ -94,15 +110,15 @@ span.hide {
 a {
     font-weight:800;
     text-decoration:none;
-    border-bottom:4px solid $teal;
+    border-bottom:4px solid $black;
     color:black;
     transition: 0.1s;
 }
 
 a:hover, a:active {
     color: $gray1;
-    background-color: $teal;
-    border-top:4px solid $teal;
+    background-color: $black;
+    border-top:4px solid $black;
 }
 
 li {
