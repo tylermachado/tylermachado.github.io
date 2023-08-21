@@ -11,15 +11,22 @@
     }
 
     > .container {
-        display: grid;
-        gap: 10px 10px;
-        grid-template-columns: 1fr 200px;
+        @media (min-width:768px) {
+            display: grid;
+            gap: 10px 10px;
+            grid-template-columns: 1fr 200px;
+        }
     }
 
     h1 {
         display: flex;
         text-transform: uppercase;
+        margin-bottom: 3rem;
         width: 300px;
+
+        @media (min-width: 768px) {
+            font-size: 4rem;
+        }
     }
 
     img {

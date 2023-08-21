@@ -2,14 +2,14 @@
     {
         "workplace": "Alley",
         "location": "remote",
-        "url": "https://alley.co/",
+        "url": "https://alley.com/",
         "titles": [
             "User Experience Developer, March 2021-present"
         ],
         "duties": [
             "engineering interactive front-end elements using modern JavaScript frameworks, including React and Next.js, and modern CSS concepts and preprocessors",
             "building new, custom blocks for use in WordPress's Block Editor (Gutenberg) interface",
-            "working in a Scrum team environment, using Git and Jira workflows"
+            "working in a fully remote, Scrum team environment, using Git and Jira workflows to collaborate with agency teammates and client partners"
         ]
     },{
         "workplace": "Northeastern University",
@@ -19,10 +19,10 @@
             "Front-end and Data Developer, April 2019-March 2021"
         ],
         "duties": [
-            "built Svelte-based project library to make development and deployment simpler and improve look-and-feel consistency",
+            "built Svelte-based project library to simplify development, speed up deployment, and establish a consistent look-and-feel for Northeastern dataviz projects",
             "produced data visualizations and custom digital experiences for news stories, working with both university research and public datasets",
-            "designed, built and maintained the university’s public-facing coronavirus testing data dashboard",
-            "contributed maintenance and features to the site's WordPress theme, using Timber"
+            "designed, built and maintained the university’s public-facing COVID-19 testing data dashboard",
+            "contributed maintenance and features to the site's WordPress theme, using the Timber framework"
         ]
     },
     {
@@ -34,7 +34,7 @@
         ],
         "duties": [
             "built interactive, sharable graphics and maps on Census and federal funding data, using a template built on React, Mapbox and D3.js",
-            "evaluated options for readers to embed graphics and download data"
+            "evaluated and implemented options for readers to embed graphics and download data"
         ]
     },
     {
@@ -45,7 +45,7 @@
             "Front-end Developer/Designer, February 2018-April 2019"
         ],
         "duties": [
-            "collaborated with nonprofit news organizations on site redesigns through wireframes, prototypes, style guides and front-end code",
+            "collaborated with nonprofit news organizations on site redesigns by creating wireframes, prototypes, style guides and front-end code",
             "provided troubleshooting and configuration support for WordPress sites",
             "updated organization branding guidelines and assets for print and digital"
         ]
@@ -60,7 +60,7 @@
         "duties": [
             "created interactive tools, data visualizations, and new digital storytelling experiences on HBR.org",
             "collaborated with colleagues across design, tech and editorial departments while self-directing projects",
-            "built and maintained messaging bots, both user-facing and internal, on Slack and Facebook"
+            "built and maintained messaging chatbots, both user-facing and internal, on Slack and Facebook"
         ]
     },
     {
@@ -72,10 +72,10 @@
             "Deputy Web Editor, June 2010-August 2012"
         ],
         "duties": [
-            "created WordPress websites for sub-brands and special events",
+            "created WordPress mini-sites for company events and publications",
             "designed, curated and managed production of six email newsletters",
             "enhanced news articles for digital presentation with special layouts, embedded media and photography",
-            "developed and implemented new digital strategies in the newsroom"
+            "developed and implemented new digital strategies in the newsroom around social media, content strategy, and audience analytics"
         ]
     }
 ]

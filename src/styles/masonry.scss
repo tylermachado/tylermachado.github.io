@@ -24,17 +24,21 @@ div.portfolio-section {
 }
 
 div.portfolio__card-container {
-    display: grid; 
-    grid-auto-rows: 1fr; 
-    grid-template-columns: repeat(3, 1fr); 
+    display: grid;
+    grid-template-columns: 1fr; 
     gap: 25px 25px; 
     height: 0;
     max-height: 0;
     overflow: hidden;
     transition: all 0.4s ease-in-out;
 
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px 25px;
+    }
+
     &.open {
-        max-height: 900px;
+        max-height: 1500px;
         height: inherit;
         padding-bottom: 25px;
         transition: all 0.4s ease-in-out;
@@ -62,21 +66,37 @@ div.portfolio-card  {
     text-decoration: none;
     color: $black;
     cursor: pointer;
-    display:block;
     padding:8px 8px 16px 8px;
     background-color: darken($blue, 8%);
     border: none;
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 0px 10px;
     -webkit-column-break-inside: avoid;
           page-break-inside: avoid;
                break-inside: avoid;
 
+    @media (min-width: 500px) {
+        grid-template-columns: 50% 1fr;
+    }
+
+    @media (min-width: 768px) {
+        display: block;
+    }
+
    img {
        width:calc(100%);
+       grid-area: 1 / 1 / 3 / 2;
    }
    
+   &__title {
+    grid-area: 1 / 2 / 2 / 3;
+   }
 
-   .subhed {
+   &__subhed {
        font-size:0.75rem;
+        grid-area: 2 / 2 / 3 / 3;
        line-height:1.1rem;
        font-weight:300;
    }
@@ -86,90 +106,4 @@ div.portfolio-card  {
        font-weight: normal;
        font-size:1rem;
    }
-}
-
-div.portfolio-card.active {
-    cursor: default;
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto 1fr;
-    gap: 10px 20px;
-    grid-template-areas:
-    "."
-    "."
-    "."
-    ".";
-
-    &:hover {
-        background-color: $navy;
-    }
-
-    .blurb {
-        a {
-            color: $black;
-            text-decoration: none;
-            text-transform: none;
-            border-bottom:2px solid $teal;
-
-            &.linkout {
-                display:block;
-                width: fit-content;
-                position:relative;
-                text-transform: uppercase;
-                font-weight: bold;
-                border-radius:3px;
-                border:2px solid $teal;
-                background-color:$teal;
-                padding:5px 15px;
-                margin:3px 0;
-                top:3px;
-
-                &:hover {
-                    border:2px solid $black;
-                    background-color:$cream;
-                    color: $teal;
-                }
-            }
-        }
-    }
-
-    .title {
-        font-size:2.5rem;
-        line-height:2.5rem;
-    }
-
-    .subhed {
-        font-size:1.25rem;
-        line-height:1.5rem;
-    }
-
-    .blurb {
-        display: block;
-    }
-}
-
-@media screen and (min-width: 825px) {
-
-    div.portfolio-card.active {
-        width:calc(100% - 4.5rem - 16px);
-        padding-right:4rem;
-        grid-template-columns: 250px 1fr;
-        grid-template-rows: auto auto 1fr;
-    }
-
-    img {
-        grid-area: 1 / 1 / 4 / 2;
-    }
-
-    .title {
-        grid-area: 1 / 2 / 2 / 3;
-    }
-
-    .subhed {
-        grid-area: 2 / 2 / 3 / 3;
-    }
-
-    .blurb {
-        grid-area: 3 / 2 / 4 / 3;
-    }
 }

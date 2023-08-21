@@ -7,7 +7,7 @@ $orange: #d04b10;
 $cream: #fdfeec;
 $white: #fff;
 $blue: #99c7da;
-$green: #5FE7B5;
+$green: #7ef3c8;
 $pink: #F7B3C8;
 
 $gray1: #fffff5;
@@ -82,23 +82,35 @@ section {
 }
 
 .section-header {
-    display: flex;
-    height: 0;
-    left: -100.5vw;
-    justify-content: end;
-    position: relative;
-    text-transform: uppercase;
-    transform-origin: top right;
-    transform: rotate(-90deg);
-    top: 20px;
-    width: 100%;
+
+    h2 {
+        font-size: 2.75rem;
+    }
+
+    @media (min-width:768px) {
+        display: flex;
+        height: 0;
+        left: -101.5vw;
+        justify-content: end;
+        position: relative;
+        text-transform: uppercase;
+        transform-origin: top right;
+        transform: rotate(-90deg);
+        top: 20px;
+        width: 100%;
+
+        h2 {
+            font-size: 5rem;
+        }
+    }
+    
 }
 
 p {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: 400;
     letter-spacing: -0.015rem;
-    line-height: 1.75rem;
+    line-height: 1.5rem;
 }
 
 span.hide {
