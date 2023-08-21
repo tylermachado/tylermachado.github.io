@@ -4,6 +4,7 @@
     background-color: $black;
     color: $gray1;
     padding:5rem 0 0 0;
+    min-height: unset;
 
     .about__image-container {
         order: 1;
@@ -13,6 +14,12 @@
         display: grid;
         gap: 10px 10px;
         grid-template-columns: 1fr 200px;
+    }
+
+    h1 {
+        display: flex;
+        text-transform: uppercase;
+        width: 300px;
     }
 
     img {
