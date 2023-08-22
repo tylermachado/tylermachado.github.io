@@ -19,7 +19,7 @@ export default () => (
          <meta name="description" content="A web developer/designer specializing in data visualization, working from Boston, Massachusetts."/>  
         <meta property="og:title" content="Tyler Machado: portfolio website" />
         <meta property="og:description" content="I'm a web developer/designer specializing in data visualization, working from Boston, Massachusetts." />
-        <meta property="og:image" content="../../static/pic-23.jpeg" />
+        <meta property="og:image" content="../../static/tyler-machado.jpeg" />
           <title>Tyler Machado: web developer, designer and data visualization specialist in Boston, MA</title>
           <link rel="canonical" href="//tylermachado.com" />
 
