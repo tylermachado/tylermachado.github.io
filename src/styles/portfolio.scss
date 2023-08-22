@@ -5,11 +5,14 @@ div.portfolio-section {
     padding: 0;
 
     &:nth-child(2) {
-        margin-top: 3rem;
+        @media (min-width: 768px) {
+            margin-top: 3rem;
+        }
     }
 
     h3 {
         margin: 0.75rem 0;
+        padding: 0 0.25rem;
 
         &:before {
             content: '+';

@@ -6,6 +6,7 @@ export default (props) => (
         <div className="backdrop">
             <div className="container">
                 <ul>
+                    <li><a href="/#about">About</a></li>
                     <li><a href="/#portfolio">Portfolio</a></li>
                     <li><a href="/#resume">Resume</a></li>
                 </ul>
