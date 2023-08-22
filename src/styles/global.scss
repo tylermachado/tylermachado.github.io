@@ -70,7 +70,6 @@ h2 {
 }
 
 section {
-    min-height: 500px;
     padding-bottom: 50px;
     position: relative;
 
@@ -92,6 +91,10 @@ section {
 
     &:nth-child(6) {
         background-color: $pink;
+    }
+
+    @media (min-width: 768px) {
+        min-height: 500px;
     }
 }
 
