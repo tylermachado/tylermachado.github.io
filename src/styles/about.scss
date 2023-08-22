@@ -8,13 +8,16 @@
 
     .about__image-container {
         order: 1;
+        background: url('../../static/pic-23.jpeg');
+        width: 400px;
+
     }
 
     > .container {
         @media (min-width:768px) {
             display: grid;
             gap: 10px 10px;
-            grid-template-columns: 1fr 200px;
+            grid-template-columns: 1fr 400px;
         }
     }
 
@@ -30,11 +33,9 @@
     }
 
     img {
-        width:200px;
+        width:500px;
         margin:0 auto;
         display:block;
-        border:7px solid $gray1;
-        border-radius:110px;
     }
 
     .container {
