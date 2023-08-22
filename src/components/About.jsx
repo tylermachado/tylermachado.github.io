@@ -5,7 +5,7 @@ import "../styles/about.scss"
 export default (props) => (
     <section id="about">
         <SectionHeader words="About" />
-        <div class="container narrow">
+        <div class="container">
             <div className="about__text-container container fadein">
                 <div className="about__text">
                     <p>Things to know about me:</p>

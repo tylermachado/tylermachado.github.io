@@ -33,7 +33,7 @@ body {
 }
 
 pre {
-    background-color: lighten($black, 20%);
+    background-color: lighten($cream, 10%);
     display: inline;
     margin: 0 0.25rem;
     padding: 0 0.25rem;
@@ -44,7 +44,7 @@ pre {
     padding:0 15px;
     position: relative;
     @media (min-width: 768px) {
-        max-width:1200px;
+        max-width: 800px;
 
     }
 }
@@ -52,7 +52,6 @@ pre {
 .container.narrow {
     @media (min-width: 768px) {
         max-width:900px;
-
     }
 }
 
@@ -80,11 +79,19 @@ section {
     }
 
     &:nth-child(3) {
-        background-color: $blue;
+        background-color: $cream;
     }
 
     &:nth-child(4) {
+        background-color: $blue;
+    }
+
+    &:nth-child(5) {
         background-color: $green;
+    }
+
+    &:nth-child(6) {
+        background-color: $pink;
     }
 }
 

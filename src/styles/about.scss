@@ -1,51 +1,5 @@
 @import 'global.scss';
 
 #about {
-    background-color: $black;
-    color: $gray1;
-    padding:5rem 0 0 0;
     min-height: unset;
-
-    .about__image-container {
-        order: 1;
-        background: url('../../static/pic-23.jpeg');
-        width: 400px;
-
-    }
-
-    > .container {
-        @media (min-width:768px) {
-            display: grid;
-            gap: 10px 10px;
-            grid-template-columns: 1fr 400px;
-        }
-    }
-
-    h1 {
-        display: flex;
-        text-transform: uppercase;
-        margin-bottom: 3rem;
-        width: 300px;
-
-        @media (min-width: 768px) {
-            font-size: 4rem;
-        }
-    }
-
-    img {
-        width:500px;
-        margin:0 auto;
-        display:block;
-    }
-
-    .container {
-        max-width:900px;
-    }
-
-    .about__text {
-        padding:10px;
-    }
-
-
-
 }
