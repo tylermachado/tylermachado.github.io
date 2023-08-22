@@ -1,5 +1,5 @@
 import React from "react"
-import "../styles/masonry.scss"
+import "../styles/portfolio.scss"
 import portfolio from "../../content/portfolio.json"
 import SectionHeader from "./SectionHeader.jsx"
 
@@ -21,7 +21,7 @@ class Portfolio extends React.Component {
             return (
                 <div
                     key={`portfolio-section__${index}`}
-                    className={`portfolio-section container narrow`}
+                    className={`portfolio-section container`}
                 >
                     <h3 onClick={this.toggleOpen}>{discipline}</h3>
                     <div className='portfolio__card-container'>

@@ -4,6 +4,10 @@ div.portfolio-section {
     border-bottom: 1px solid black;
     padding: 0;
 
+    &:nth-child(2) {
+        margin-top: 3rem;
+    }
+
     h3 {
         margin: 0.75rem 0;
 
