@@ -15,9 +15,9 @@ export default (props) => (
                         <li>As a freelancer, I built web graphics for Science News, Journalist’s Resource, and the New England Revolution soccer team.</li>
                         <li>I spent the beginning of my career as a web producer for media outlets and this continues to inform my work. Those roles taught me to be interdisciplinary by default, instead of constrained by the usual defined roles, and required me to be deeply disciplined and self-organized.</li>
                         <li>I have a professional certificate in Data Science from Harvard Extension School, and a B.A. in Journalism and Mass Communication from Saint Michael's College in Vermont.</li>
-                        <li>Apart from my data science graduate classwork, I've also taken a course on DJing with turntables. I don't consider a week complete until I've watched at least three soccer matches. New England road trips are my specialty.</li>
+                        <li>I'm also an avid watcher of world soccer, a lapsed college radio DJ, and a bar trivia champion.</li>
                     </ul>
-                    <p>Want to chat more? I'm at <pre>tyler [dot] machado [at] gmail</pre>. (Air fryer recipes are especially welcome.)</p>
+                    <p>Want to talk? I'm at <pre>tyler [dot] machado [at] gmail</pre>.</p>
                 </div>
             </div>
         </div>
