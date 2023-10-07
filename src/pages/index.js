@@ -15,12 +15,13 @@ import "../styles/global-animations.scss"
 export default () => (
     <div id="bodyContainer">
         <Helmet>
-          <meta charSet="utf-8" />
-         <meta name="description" content="A web developer/designer specializing in data visualization, working from Boston, Massachusetts."/>  
-        <meta property="og:title" content="Tyler Machado: portfolio website" />
-        <meta property="og:description" content="I'm a web developer/designer specializing in data visualization, working from Boston, Massachusetts." />
-        <meta property="og:image" content="../../static/tyler-machado.jpeg" />
+          <meta charSet="utf-8" /> 
           <title>Tyler Machado: web developer, designer and data visualization specialist in Boston, MA</title>
+          <description>Boston-based web developer/designer, specializing in data visualization, interactive graphics, and WordPress developement.</description>
+          <meta name="description" content="Boston-based web developer/designer, specializing in data visualization, interactive graphics, and WordPress developement."/>  
+          <meta property="og:title" content="Tyler Machado: portfolio website" />
+          <meta property="og:description" content="Boston-based web developer/designer, specializing in data visualization, interactive graphics, and WordPress developement." />
+          <meta property="og:image" content="../../static/tyler-machado.jpeg" />
           <link rel="canonical" href="//tylermachado.com" />
 
         </Helmet>
