@@ -22,6 +22,11 @@ div.portfolio-section {
             text-align: center;
             width: 0.75rem;
         }
+
+        &:hover {
+            color: $gray1;
+            background-color: $black;
+        }
     }
 
     &.open {
