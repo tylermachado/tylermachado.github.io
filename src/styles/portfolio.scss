@@ -24,8 +24,7 @@ div.portfolio-section {
         }
 
         &:hover {
-            color: $gray1;
-            background-color: $black;
+            background-color: darken($blue, 16%);
         }
     }
 
