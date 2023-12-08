@@ -7,9 +7,13 @@
             "User Experience Developer II, March 2021-present"
         ],
         "duties": [
-            "engineering interactive front-end elements using modern JavaScript frameworks, including React and Next.js, and modern CSS concepts and preprocessors",
-            "building new, custom blocks for use in WordPress's Block Editor (Gutenberg) interface",
-            "working in a fully remote, Scrum team environment, using Git and Jira workflows to collaborate with agency teammates and client partners"
+            "Building bespoke blocks, templates, and patterns for modern enterprise WordPress sites",
+            "Leveraging WordPress’s REST and Block APIs using HTML/CSS, JavaScript/React, and PHP",
+            "Designing and implementing in-editor interfaces to improve the user experience for content creators and producers",
+            "Prototyping and building static and interactive chart designs for dataviz projects",
+            "Contributing to company-wide shared component libraries",
+            "Working in a remote Agile environment with teammates and stakeholders, using Git and Jira"
+
         ]
     },{
         "workplace": "Northeastern University",
@@ -19,22 +23,10 @@
             "Front-end and Data Developer, April 2019-March 2021"
         ],
         "duties": [
-            "built Svelte-based project library to simplify development, speed up deployment, and establish a consistent look-and-feel for Northeastern dataviz projects",
-            "produced data visualizations and custom digital experiences for news stories, working with both university research and public datasets",
-            "designed, built and maintained the university’s public-facing COVID-19 testing data dashboard",
-            "contributed maintenance and features to the site's WordPress theme, using the Timber framework"
-        ]
-    },
-    {
-        "workplace": "Journalist's Resource",
-        "location": "Cambridge, MA",
-        "url": "https://journalistsresource.org/author/tylermachado1/",
-        "titles": [
-            "Developer (Counting for Dollars Project), January 2020-March 2020"
-        ],
-        "duties": [
-            "built interactive, sharable graphics and maps on Census and federal funding data, using a template built on React, Mapbox and D3.js",
-            "evaluated and implemented options for readers to embed graphics and download data"
+            "Produced data visualizations, interactive maps, and custom digital presentations for university news stories, working with academic research, public datasets, and journalistic explainers",
+            "Designed and built the university’s public-facing COVID-19 testing dashboard",
+            "Built project library using Svelte and D3 to streamline development, deployment, and branding"
+
         ]
     },
     {
@@ -45,9 +37,10 @@
             "Front-end Developer/Designer, February 2018-April 2019"
         ],
         "duties": [
-            "collaborated with nonprofit news organizations on site redesigns by creating wireframes, prototypes, style guides and front-end code",
-            "provided troubleshooting and configuration support for WordPress sites",
-            "updated organization branding guidelines and assets for print and digital"
+            "Designed, maintained, and built WordPress websites for nonprofit news organizations, using the in-house framework Largo",
+            "Created wireframes, prototypes and design systems to guide UI/UX decisions, in collaboration with partner organizations and clients",
+            "Updated internal branding guidelines and assets, for both print and digital uses"
+
         ]
     },
     {
@@ -58,9 +51,9 @@
             "Editorial Developer, March 2014-January 2018"
         ],
         "duties": [
-            "created interactive tools, data visualizations, and new digital storytelling experiences on HBR.org",
-            "collaborated with colleagues across design, tech and editorial departments while self-directing projects",
-            "built and maintained messaging chatbots, both user-facing and internal, on Slack and Facebook"
+            "Designed and built web-native tools and data visualizations based on new and archive content",
+            "Managed new processes to bridge design, tech, and editorial desks",
+            "Built and maintained Node-based chatbots on Slack and Facebook"
         ]
     },
     {
@@ -72,10 +65,10 @@
             "Deputy Web Editor, June 2010-August 2012"
         ],
         "duties": [
-            "created WordPress mini-sites for company events and publications",
-            "designed, curated and managed production of six email newsletters",
-            "enhanced news articles for digital presentation with special layouts, embedded media and photography",
-            "developed and implemented new digital strategies in the newsroom around social media, content strategy, and audience analytics"
+            "Created WordPress websites for media brands and special events",
+            "Revamped layout designs and managed daily production for six email newsletters",
+            "Directed newsroom initiatives on analytics, content strategy and social media"
+
         ]
     }
 ]
