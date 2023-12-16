@@ -18,7 +18,7 @@ export default () => (
           <meta charSet="utf-8" /> 
           <title>Tyler Machado: web developer, designer and data visualization specialist in Boston, MA</title>
           <description>Boston-based web developer/designer, specializing in data visualization, interactive graphics, and WordPress development.</description>
-          <meta name="description" content="Boston-based web developer/designer, specializing in data visualization, interactive graphics, and WordPress developement."/>  
+          <meta name="description" content="Boston-based web developer/designer, specializing in data visualization, interactive graphics, and WordPress development."/>  
           <meta property="og:title" content="Tyler Machado: portfolio website" />
           <meta property="og:description" content="Boston-based web developer/designer, specializing in data visualization, interactive graphics, and WordPress developement." />
           <meta property="og:image" content="../../static/tyler-machado.jpeg" />
