@@ -5,7 +5,7 @@ import "../styles/about.scss"
 export default (props) => (
     <section id="about">
         <SectionHeader words="About" />
-        <div class="container">
+        <div className="container">
             <div className="about__text-container container fadein">
                 <div className="about__text">
                     <p>Hello! I'm Tyler Machado, a designer/developer from Boston. Here are some things to know about me:</p>

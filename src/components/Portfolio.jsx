@@ -31,12 +31,15 @@ class Portfolio extends React.Component {
                                 && project.show === 1;
                         }).map((project, index) => {
                             return (
-                                <a href={project.link} className="portfolio-card__link">
+                                <a
+                                    href={project.link}
+                                    key={`portfolio-card__id-${index}`}
+                                    className="portfolio-card__link"
+                                >
                                     <div
-                                        key={`portfolio-card__id-${index}`}
                                         className="portfolio-card"
                                     >
-                                        <img alt={project.title} src={`../../static/screenshots/${project.screenshot}`} />
+                                        <img alt={project.title} src={`../../screenshots/${project.screenshot}`} />
                                         <div className="portfolio-card__title">{project.title}</div>
                                         <div className="portfolio-card__subhed">{project.publication}</div>
                                     </div>
