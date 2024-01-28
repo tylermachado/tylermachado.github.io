@@ -27,7 +27,7 @@
     "react-masonry-component": "^6.2.1"
   },
   "devDependencies": {
-    "gh-pages": "^3.0.0",
+    "gh-pages": "^3.2.3",
     "prettier": "2.0.4"
   },
   "repository": {
