@@ -1,5 +1,15 @@
 [
   {
+    "title": "MLS Downloadable Calendars",
+    "publication": "personal",
+    "date": "Jan 2024",
+    "link": "https://mls-ical.glitch.me/",
+    "category": "Interactive web tools",
+    "show": 1,
+    "screenshot": "mlsical.jpg",
+    "blurb": "Using data from Major League Soccer, I built subscribable, downloadable digital calendars for each team that includes matches from all competitions."
+  },
+  {
     "title": "Bassmaster",
     "publication": "Alley",
     "date": "Mar 2023",
@@ -455,7 +465,7 @@
     "date": "Nov 2017",
     "link": "https://github.com/tylermachado/lastfm-classics",
     "category": "Interactive web tools",
-    "show": 1,
+    "show": 0,
     "screenshot": "slackbot.png",
     "blurb": "A simple chatbot, connected to my personal Slack workspace, that reminds me of what music I was rocking 10 years ago."
   },
