@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MdMenu } from "react-icons/md";
-import Navbar from '../components/navbar/index'
+import Navbar from '../../components/navbar'
 import './index.scss';
 
 const About = () => (

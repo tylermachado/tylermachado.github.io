@@ -10,6 +10,7 @@ import './scss/index.css';
 
 // Content imports
 import About from './pages/about';
+import Resume from './pages/resume';
 
 // Begin code
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,10 +21,8 @@ const router = createHashRouter([
     element: <About />,
   },
   {
-    path: "/test",
-    element: (
-      <h1>Test</h1>
-    ),
+    path: "/resume",
+    element: <Resume />,
   },
 ]);
 

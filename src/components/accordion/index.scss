@@ -1,56 +1,31 @@
-.Navbar {
-  background-color: #333;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
+.accordion-item {
+  border-bottom: 1px solid #333;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.3s ease;
 
-  .container {
-    padding: 10px;
-
-    button {
-      background-color: transparent;
+  &__heading {
+    .item-toggle {
       border: none;
-      
-      svg {
-        fill: wheat;
-        scale: 3;
+      background-color: transparent;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      width: 100%;
+
+      &__text {
+        text-align: left;
+
+        h3 {
+          margin: 0;
+        }
       }
-    }
-  }
-}
 
-.menu {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: contents;
-  flex-direction: column;
-  height: 0;
-  width: 100%;
-  pointer-events: none;
-  transition: opacity 0.7s ease;
-  opacity: 0;
-  visibility: hidden;
-
-  &.open {
-    height: 50px;
-    pointer-events: auto;
-    opacity: 1;
-    visibility: visible;
-  }
-
-  li {
-    background-color: #333;
-    margin-right: 20px;
-    width: 100%;
-
-    &:last-child {
-      margin-right: 0;
-    }
-
-    a {
-      color: wheat;
-      text-decoration: none;
+      svg {
+        fill: #333;
+        scale: 2;
+      }
     }
   }
 }
