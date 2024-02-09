@@ -4,15 +4,20 @@ import {
   createHashRouter,
   RouterProvider,
 } from "react-router-dom";
-import './scss/index.css';
-import App from './components/App';
 
+// Global styles
+import './scss/index.css';
+
+// Content imports
+import About from './pages/about';
+
+// Begin code
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const router = createHashRouter([
   {
     path: "/",
-    element: <App />,
+    element: <About />,
   },
   {
     path: "/test",

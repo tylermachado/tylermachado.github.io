@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { MdMenu } from "react-icons/md";
+import { FiMenu as MenuButton } from "react-icons/fi";
 import './index.scss';
 
-const Nav = () => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -11,7 +11,7 @@ const Nav = () => {
 
   return (
     <>
-      <div className="Nav">
+      <div className="Navbar">
         <header>
           <h1>Tyler Machado</h1>
         </header>
@@ -24,7 +24,7 @@ const Nav = () => {
               aria-label="Toggle navigation"
               onClick={toggleMenu}
             >
-              <MdMenu />
+              <MenuButton />
             </button>
           </div>
         </nav>
@@ -38,4 +38,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default Navbar;
