@@ -1,10 +1,8 @@
-
-import './App.css';
-import Nav from './Nav';
+// import './App.css';
+import Nav from './navbar/Nav';
 
 function App() {
   return (
-    
     <Nav />
   );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { MdMenu } from "react-icons/md";
 import './index.scss';
 
 const Nav = () => {
@@ -9,25 +10,31 @@ const Nav = () => {
   };
 
   return (
-    <nav className="navbar">
-      <div className="container">
-        <button
-          className="menu-toggle"
-          aria-expanded={isOpen}
-          aria-controls="menu"
-          aria-label="Toggle navigation"
-          onClick={toggleMenu}
-        >
-          <span className="hamburger"></span>
-        </button>
-        <ul className={`menu ${isOpen ? 'open' : ''}`} id="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+    <>
+      <div className="Nav">
+        <header>
+          <h1>Tyler Machado</h1>
+        </header>
+        <nav className="navbar">
+          <div className="container">
+            <button
+              className="menu-toggle"
+              aria-expanded={isOpen}
+              aria-controls="menu"
+              aria-label="Toggle navigation"
+              onClick={toggleMenu}
+            >
+              <MdMenu />
+            </button>
+          </div>
+        </nav>
       </div>
-    </nav>
+      <ul className={`menu ${isOpen ? 'open' : ''}`} id="menu">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </>
   );
 };
 
