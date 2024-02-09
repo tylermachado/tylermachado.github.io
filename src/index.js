@@ -1,13 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {
+  createHashRouter,
+  RouterProvider,
+} from "react-router-dom";
 import './index.css';
 import App from './App';
+import Nav from './Nav';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const router = createHashRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/test",
+    element: (
+      <h1>Test</h1>
+    ),
+  },
+]);
+
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
