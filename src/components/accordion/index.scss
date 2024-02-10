@@ -18,16 +18,25 @@
 
         h3 {
           margin: 0;
+          font-size: 1.25rem;
         }
 
         span {
           display: block;
+          font-size: 1rem;
         }
       }
 
       svg {
         fill: #333;
         scale: 2;
+        position: relative;
+        right: 0.33rem;
+        transition: transform 0.3s ease-in-out;
+
+        .accordion-item.open & {
+          transform: rotate(45deg);
+        }
       }
     }
   }
@@ -41,6 +50,16 @@
     &.open {
       max-height: 400px;
       transition: max-height 0.3s ease-in;
+    }
+
+    ul {
+      font-size: 0.9rem;
+      padding: 0 0 0 0.9rem;
+      margin: 0;
+
+      li {
+        margin: 0 0 0.5rem;
+      }
     }
   }
 }

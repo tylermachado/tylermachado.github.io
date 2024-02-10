@@ -11,7 +11,7 @@ const Accordion = ({ title, subtitles, content }) => {
 
   return (
     <>
-      <div className="accordion-item">
+      <div className={`accordion-item ${isOpen ? 'open' : ''}`}>
         <div className="accordion-item__heading">
           <button
             className="item-toggle"
