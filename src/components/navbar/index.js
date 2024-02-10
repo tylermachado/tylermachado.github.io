@@ -13,7 +13,7 @@ const Navbar = () => {
   useEffect(() => {
    WebFont.load({
      google: {
-       families: ['Rubik']
+       families: ['Rubik:400,500,600,700']
      }
    });
   }, []);

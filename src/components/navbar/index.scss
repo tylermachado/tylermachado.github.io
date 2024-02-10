@@ -4,7 +4,17 @@
   background-color: #333;
   color: #fff;
   display: flex;
+  font-family: $body-font;
   justify-content: space-between;
+  padding: 16px 16px;
+
+  header {
+    h1 {
+      color: $wheat;
+      font-weight: $font-bold;
+      margin: 0;
+    }
+  }
 
   .container {
     padding: 10px;
@@ -25,20 +35,17 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: contents;
+  display: block;
   flex-direction: column;
+  overflow: hidden;
   height: 0;
   width: 100%;
   pointer-events: none;
-  transition: opacity 0.7s ease;
-  opacity: 0;
-  visibility: hidden;
+  transition: height 0.3s ease;
 
   &.open {
-    height: 50px;
+    height: 75px;
     pointer-events: auto;
-    opacity: 1;
-    visibility: visible;
   }
 
   li {

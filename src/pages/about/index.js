@@ -6,11 +6,13 @@ import './index.scss';
 const About = () => (
   <>
     <Navbar />
-    <div className="About">
-      <p>
-        This is the about page.
-      </p>
-    </div>
+    <main>
+      <div className="About">
+        <p>
+          This is the about page.
+        </p>
+      </div>
+    </main>
   </>
 );
 
