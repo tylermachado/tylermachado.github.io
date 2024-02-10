@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { MdMenu } from "react-icons/md";
+import React from 'react';
 import Navbar from '../../components/navbar'
 import './index.scss';
 

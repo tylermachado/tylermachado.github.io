@@ -30,7 +30,15 @@ const Accordion = ({ title, subtitles, content, cardMode }) => {
           </button>
         </div>
         {cardMode ? (
-          <div></div>
+          <div className={`accordion-item__content ${isOpen ? 'open' : ''}`}>
+            {content.map((item, index) => 
+              <a key={index} className="accordion-card" href="item.url">
+                <img src={`/screenshots/${item.screenshot}`} alt={item.title} />
+                <h4>{item.title}</h4>
+                <span>{`${item.publication}, ${item.date}`}</span>
+              </a>
+            )}
+          </div>
         ) : (
           <div className={`accordion-item__content ${isOpen ? 'open' : ''}`}>
             {
