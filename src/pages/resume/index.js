@@ -6,11 +6,13 @@ import './index.scss';
 const Resume = () => (
   <>
     <Navbar />
-    <Accordion
-      title="Alley"
-      subtitle="UX Developer II, March 2021-present"
-      content="llorem ipsum"
-    />
+    <main>
+      <Accordion
+        title="Alley"
+        subtitle="UX Developer II, March 2021-present"
+        content="llorem ipsum"
+      />
+    </main>
   </>
 );
 

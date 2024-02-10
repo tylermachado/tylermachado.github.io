@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import WebFont from 'webfontloader';
+
 import {
   createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 
 // Global styles
-import './scss/index.css';
+import './scss/index.scss';
 
 // Content imports
 import About from './pages/about';

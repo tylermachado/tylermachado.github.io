@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FiMenu as MenuButton } from "react-icons/fi";
+import WebFont from 'webfontloader';
 import './index.scss';
 
 const Navbar = () => {
@@ -8,6 +9,14 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+   WebFont.load({
+     google: {
+       families: ['Rubik']
+     }
+   });
+  }, []);
 
   return (
     <>
@@ -31,7 +40,7 @@ const Navbar = () => {
       </div>
       <ul className={`menu ${isOpen ? 'open' : ''}`} id="menu">
         <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
+        <li><a href="#/resume">Resume</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </>

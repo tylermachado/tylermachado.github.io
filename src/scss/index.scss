@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+main {
+  font-family: Rubik, sans-serif;
+  max-width: 1200px;
+  padding: 0 10px;
+  width: calc(100% - 20px);
+}
+
+button {
+  font-family: Rubik, sans-serif;
+}
