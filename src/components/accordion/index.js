@@ -29,7 +29,7 @@ const Accordion = ({ title, subtitle, content }) => {
             <ToggleButton />
           </button>
         </div>
-        <div className="accordion-item__content">
+        <div className={`accordion-item__content ${isOpen ? 'open' : ''}`}>
           {
             typeof content === 'string'
             ? <p>{content}</p>

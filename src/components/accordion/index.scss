@@ -28,4 +28,16 @@
       }
     }
   }
+
+  &__content {
+    display: block;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+    overflow: hidden;
+
+    &.open {
+      max-height: 200px;
+      transition: max-height 0.3s ease-in;
+    }
+  }
 }
