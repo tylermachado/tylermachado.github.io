@@ -41,7 +41,7 @@
   max-height: 0;
   width: 100%;
   pointer-events: none;
-  transition: max-height 0.3s ease;
+  transition: max-height $transform-speed ease;
 
   &.open {
     background-color: #333;

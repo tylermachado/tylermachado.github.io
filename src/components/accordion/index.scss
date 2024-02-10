@@ -1,8 +1,10 @@
+@import '../../scss/variables.scss';
+
 .accordion-item {
   border-bottom: 1px solid #333;
   margin-bottom: 10px;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: all $transform-speed ease;
 
   &__heading {
     .item-toggle {
@@ -22,8 +24,11 @@
         }
 
         span {
+          color: #595959;
           display: block;
-          font-size: 1rem;
+          font-size: 0.95rem;
+          font-weight: 400;
+          line-height: 1.25;
         }
       }
 
@@ -32,7 +37,8 @@
         scale: 2;
         position: relative;
         right: 0.33rem;
-        transition: transform 0.3s ease-in-out;
+        top: 0.33rem;
+        transition: transform $transform-speed ease-in-out;
 
         .accordion-item.open & {
           transform: rotate(45deg);
@@ -44,12 +50,12 @@
   &__content {
     display: block;
     max-height: 0;
-    transition: max-height 0.3s ease-out;
+    transition: max-height $transform-speed ease-out;
     overflow: hidden;
 
     &.open {
       max-height: 400px;
-      transition: max-height 0.3s ease-in;
+      transition: max-height $transform-speed ease-in;
     }
 
     ul {

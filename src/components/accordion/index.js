@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FiPlus as ToggleButton } from "react-icons/fi";
 import './index.scss';
 
-const Accordion = ({ title, subtitles, content }) => {
+const Accordion = ({ title, subtitles, content, cardMode }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAcc = () => {
@@ -29,17 +29,21 @@ const Accordion = ({ title, subtitles, content }) => {
             <ToggleButton />
           </button>
         </div>
-        <div className={`accordion-item__content ${isOpen ? 'open' : ''}`}>
-          {
-            typeof content === 'string'
-            ? <p>{content}</p>
-            : <ul>
-              {
-                content.map((item, index) => <li key={index}>{item}</li>)
-              }
-            </ul>
-          }
-        </div>
+        {cardMode ? (
+          <div></div>
+        ) : (
+          <div className={`accordion-item__content ${isOpen ? 'open' : ''}`}>
+            {
+              typeof content === 'string'
+              ? <p>{content}</p>
+              : <ul>
+                {
+                  content.map((item, index) => <li key={index}>{item}</li>)
+                }
+              </ul>
+            }
+          </div>
+        )}
       </div>
     </>
   );

@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import WebFont from 'webfontloader';
 
 import {
   createHashRouter,
@@ -13,6 +12,7 @@ import './scss/index.scss';
 // Content imports
 import About from './pages/about';
 import Resume from './pages/resume';
+import Portfolio from './pages/portfolio';
 
 // Begin code
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,6 +25,10 @@ const router = createHashRouter([
   {
     path: "/resume",
     element: <Resume />,
+  },
+  {
+    path: "/portfolio",
+    element: <Portfolio />,
   },
 ]);
 
