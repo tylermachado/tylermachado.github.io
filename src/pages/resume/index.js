@@ -17,6 +17,7 @@ const Resume = () => {
     <>
       <Navbar />
       <main>
+        <h2>Resume</h2>
         {content.map((item, index) => (
           <Accordion
             key={index}
