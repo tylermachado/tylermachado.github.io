@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FiPlus as ToggleButton } from "react-icons/fi";
 import './index.scss';
 
-const Accordion = ({ title, subtitle, content }) => {
+const Accordion = ({ title, subtitles, content }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAcc = () => {
@@ -24,7 +24,7 @@ const Accordion = ({ title, subtitle, content }) => {
               <h3>
                 {title}
               </h3>
-              {subtitle ? <span>{subtitle}</span> : null}
+              {subtitles ? subtitles.map((item, index) => <span key={index}>{item}</span>) : null}
             </div>
             <ToggleButton />
           </button>

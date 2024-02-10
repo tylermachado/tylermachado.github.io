@@ -21,7 +21,7 @@ const Resume = () => {
           <Accordion
             key={index}
             title={item.workplace}
-            subtitle={item.titles[0]}
+            subtitles={item.titles}
             content={item.duties}
           />
         ))}

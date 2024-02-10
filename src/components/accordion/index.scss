@@ -1,5 +1,4 @@
 .accordion-item {
-  border: 1px solid red;
   border-bottom: 1px solid #333;
   margin-bottom: 10px;
   overflow: hidden;
@@ -19,6 +18,10 @@
 
         h3 {
           margin: 0;
+        }
+
+        span {
+          display: block;
         }
       }
 
