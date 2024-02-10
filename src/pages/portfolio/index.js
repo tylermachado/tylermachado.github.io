@@ -16,12 +16,8 @@ const Portfolio = () => {
   useEffect(() => {
     let url = "/content/portfolio.json";
     fetch(url)
-        .then(res => res.json().then(content => setContent(content)));
+        .then(res => res.json().then(content => setContent(content.filter((project) => project.show === 1))));
   }, []);
-
-  useEffect(() => {
-    console.log(content.filter((project) => project.category === "Interactive web tools"))
-  }, [content])
 
   return (
     <>

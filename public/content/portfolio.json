@@ -1,5 +1,25 @@
 [
   {
+    "title": "MLS Downloadable Calendars",
+    "publication": "personal",
+    "date": "Jan 2024",
+    "link": "https://mls-ical.glitch.me/",
+    "category": "Interactive web tools",
+    "show": 1,
+    "screenshot": "mlsical.jpg",
+    "blurb": "Using data from Major League Soccer, I built subscribable, downloadable digital calendars for each team that includes matches from all competitions."
+  },
+  {
+    "title": "State Profiles for Women's Health",
+    "publication": "Alley",
+    "date": "Jan 2024",
+    "link": "https://www.kff.org/interactive/womens-health-profiles/united-states/healthcare-coverage/",
+    "category": "WordPress blocks and themes",
+    "show": 1,
+    "screenshot": "spfwh.png",
+    "blurb": ""
+  },
+  {
     "title": "Bassmaster",
     "publication": "Alley",
     "date": "Mar 2023",
@@ -15,8 +35,8 @@
     "date": "Oct 2022",
     "link": "https://alley.com/work/kff/",
     "category": "WordPress blocks and themes",
-    "show": 1,
-    "screenshot": "kff.png",
+    "show": 0,
+    "screenshot": "",
     "blurb": ""
   },
   {
@@ -25,7 +45,7 @@
     "date": "Jul 2021",
     "link": "https://alley.com/work/national-science-foundation/",
     "category": "Data visualizations and interactive graphics",
-    "show": 1,
+    "show": 0,
     "screenshot": "nsf.png",
     "blurb": ""
   },
@@ -33,7 +53,7 @@
     "title": "Standard model of particle physics",
     "publication": "Science News",
     "date": "Apr 2021",
-    "link": "https://www.sciencenews.org/century/atom-matter-neutron-nuclear-power-fusion#sn-responsive-iframe-18",
+    "link": "https://www.sciencenews.org/century/atom-matter-neutron-nuclear-power-fusion#sn-responsive-iframe-19",
     "category": "Interactive web tools",
     "show": 1,
     "screenshot": "scinews.png",
@@ -45,7 +65,7 @@
     "date": "Mar 2021",
     "link": "http://web.archive.org/web/20210317140000/https://news.northeastern.edu/2021/03/17/bill-coens-long-journey-to-the-top-of-northeastern-basketball/",
     "category": "Data visualizations and interactive graphics",
-    "show": 0,
+    "show": 1,
     "screenshot": "basketball.png",
     "blurb": "I wrote a scraper in Python to gather the scores from every game of NU men's basketball coach Bill Coen's career, and then visualized that history by building a symbol chart in Svelte."
   },
@@ -54,7 +74,7 @@
     "publication": "Northeastern University",
     "date": "Feb 2021",
     "link": "https://news.northeastern.edu/2021/02/23/even-among-healthcare-workers-inequities-exist-in-covid-19-vaccine-rollout-new-study-finds/",
-    "category": "Data visualizations and interactive graphics, development",
+    "category": "Interactive web tools",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -64,7 +84,7 @@
     "publication": "Northeastern University",
     "date": "Feb 2021",
     "link": "https://news.northeastern.edu/2021/02/03/your-guide-to-all-of-the-heated-outdoor-spaces-on-northeasterns-boston-campus/",
-    "category": "Web maps",
+    "category": "Data visualizations and interactive graphics",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -83,7 +103,7 @@
     "title": "Svelte dataviz template",
     "publication": "Northeastern University",
     "date": "Dec 2020",
-    "link": "https://web.archive.org/web/20210420110720/https://news.northeastern.edu/2020/12/18/the-recovery-of-the-us-economy-after-the-covid-19-pandemic-hinges-on-federal-support/",
+    "link": "https://github.com/News-at-Northeastern/svelte-dataviz-template",
     "category": "Data visualizations and interactive graphics, Visual design and branding",
     "show": 1,
     "screenshot": "unemployment.png",
@@ -94,7 +114,7 @@
     "publication": "Northeastern University",
     "date": "Dec 2020",
     "link": "https://news.northeastern.edu/2020/12/18/the-recovery-of-the-us-economy-after-the-covid-19-pandemic-hinges-on-federal-support/",
-    "category": "Data visualizations and interactive graphics, Visual design and branding",
+    "category": "Data visualizations and interactive graphics",
     "show": 0,
     "screenshot": "unemployment.png",
     "blurb": ""
@@ -104,7 +124,7 @@
     "publication": "Northeastern University",
     "date": "Dec 2020",
     "link": "https://news.northeastern.edu/2020/12/11/who-won-the-2020-presidential-election-joe-biden-or-donald-trump-depends-whom-you-ask/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and interactive graphics, Visual design and branding",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -123,9 +143,9 @@
     "title": "Here’s a look at all the new construction on Northeastern’s campus this year",
     "publication": "Northeastern University",
     "date": "Nov 2020",
-    "link": "https://web.archive.org/web/20201130213643/https://news.northeastern.edu/2020/11/05/heres-a-look-at-all-the-new-construction-on-northeasterns-campus-this-year/",
-    "category": "Web maps",
-    "show": 1,
+    "link": "https://news.northeastern.edu/2020/11/05/heres-a-look-at-all-the-new-construction-on-northeasterns-campus-this-year/",
+    "category": "Data visualizations and interactive graphics",
+    "show": 0,
     "screenshot": "constmap.png",
     "blurb": "Using Svelte and Mapbox, I created a visual tour of campus construction that can also be reused for future map-based stories just by switching out a JSON file."
   },
@@ -134,7 +154,7 @@
     "publication": "Northeastern University",
     "date": "Nov 2020",
     "link": "https://news.northeastern.edu/2020/11/02/heres-how-voters-rank-covid-19-and-other-issues-facing-the-us-ahead-of-election-day/#interactive",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Web maps",
     "show": 0,
     "screenshot": "issues.png",
     "blurb": ""
@@ -143,7 +163,7 @@
     "title": "COVID-19 testing dashboard",
     "publication": "Northeastern University",
     "date": "Aug 2020",
-    "link": "/static/dash-brief.pdf",
+    "link": "https://news.northeastern.edu/coronavirus/reopening/testing-dashboard/",
     "category": "Data visualizations and interactive graphics",
     "show": 1,
     "screenshot": "testdashboard.png",
@@ -154,7 +174,7 @@
     "publication": "Northeastern University",
     "date": "Aug 2020",
     "link": "https://news.northeastern.edu/2020/08/13/fewer-people-are-using-public-transportation-in-the-us-heres-why-thats-trouble-in-the-long-run/",
-    "category": "Data visualizations and interactive graphics, Visual design and branding",
+    "category": "Data visualizations and interactive graphics",
     "show": 0,
     "screenshot": "covidsubway.png",
     "blurb": ""
@@ -164,7 +184,7 @@
     "publication": "Northeastern University",
     "date": "Jul 2020",
     "link": "https://news.northeastern.edu/2020/07/01/theres-been-a-23000-percent-jump-in-fireworks-complaints-in-some-parts-of-the-us-this-summer-you-read-that-right/",
-    "category": "Data visualizations and interactive graphics, Visual design and branding",
+    "category": "Data visualizations and interactive graphics",
     "show": 0,
     "screenshot": "fireworks.png",
     "blurb": ""
@@ -174,7 +194,7 @@
     "publication": "Northeastern University",
     "date": "Jun 2020",
     "link": "https://news.northeastern.edu/2020/06/15/how-many-city-dwellers-across-the-us-have-access-to-parks-and-green-space/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and interactive graphics, Visual design and branding",
     "show": 0,
     "screenshot": "parks.png",
     "blurb": ""
@@ -184,7 +204,7 @@
     "publication": "Journalist's Resource",
     "date": "May 2020",
     "link": "https://journalistsresource.org/studies/society/education/2020-census-title-i-maps/",
-    "category": "Web maps",
+    "category": "Data visualizations and interactive graphics, Visual design and branding",
     "show": 1,
     "screenshot": "jr2.png",
     "blurb": "I worked with university researchers on this series of posts on the U.S. Census and federal funding, specifically to create a series of graphics that local reporters can embed on their own websites. The graphics use D3 and Mapbox, all living inside of a shared React app."
@@ -194,7 +214,7 @@
     "publication": "Journalist's Resource",
     "date": "May 2020",
     "link": "https://journalistsresource.org/studies/society/education/2020-census-title-i-maps/",
-    "category": "Data visualizations and interactive graphics, development",
+    "category": "Data visualizations and interactive graphics",
     "show": 0,
     "screenshot": "jr2.png",
     "blurb": ""
@@ -204,7 +224,7 @@
     "publication": "Northeastern University",
     "date": "Apr 2020",
     "link": "https://news.northeastern.edu/2020/04/09/to-fight-the-covid-19-outbreak-first-we-have-to-track-it/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Web maps",
     "show": 0,
     "screenshot": "covidtrack.png",
     "blurb": ""
@@ -214,7 +234,7 @@
     "publication": "Northeastern University",
     "date": "Apr 2020",
     "link": "https://news.northeastern.edu/2020/04/29/apple-maps-data-shows-how-covid-19-brought-the-world-to-a-standstill/",
-    "category": "Data visualizations and interactive graphics, Visual design and branding, development",
+    "category": "Data visualizations and interactive graphics, development",
     "show": 0,
     "screenshot": "covidmobility.png",
     "blurb": ""
@@ -234,7 +254,7 @@
     "publication": "Northeastern University",
     "date": "Mar 2020",
     "link": "https://news.northeastern.edu/coronavirus/",
-    "category": "development, Visual design and branding",
+    "category": "Data visualizations and interactive graphics, Visual design and branding, development",
     "show": 0,
     "screenshot": "covid.jpg",
     "blurb": ""
@@ -254,7 +274,7 @@
     "publication": "Northeastern University",
     "date": "Mar 2020",
     "link": "https://news.northeastern.edu/2020/03/26/us-unemployment-has-soared-is-a-recession-necessary-to-fight-covid-19/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "development, Visual design and branding",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -274,7 +294,7 @@
     "publication": "Northeastern University",
     "date": "Jan 2020",
     "link": "https://news.northeastern.edu/2020/01/06/can-gun-violence-be-traced-back-to-socioeconomic-root-causes/",
-    "category": "Data visualizations and interactive graphics, development",
+    "category": "Data visualizations and interactive graphics",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -284,7 +304,7 @@
     "publication": "Northeastern University",
     "date": "Jan 2020",
     "link": "https://news.northeastern.edu/2020/01/22/president-trumps-impeachment-trial-is-underway-heres-how-we-got-here/",
-    "category": "development",
+    "category": "Data visualizations and interactive graphics",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -294,7 +314,7 @@
     "publication": "Northeastern University",
     "date": "Jan 2020",
     "link": "https://news.northeastern.edu/2020/01/31/heres-every-result-ever-from-bostons-beanpot-hockey-tournament/",
-    "category": "development",
+    "category": "Data visualizations and interactive graphics, development",
     "show": 0,
     "screenshot": "beanpot.png",
     "blurb": ""
@@ -304,7 +324,7 @@
     "publication": "Northeastern University",
     "date": "Dec 2019",
     "link": "https://news.northeastern.edu/2019/12/16/has-cyberbullying-changed-how-high-school-students-think-about-the-first-amendment/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "development",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -313,8 +333,8 @@
     "title": "This is the course 11,000 athletes will row for the Head of the Charles Regatta",
     "publication": "Northeastern University",
     "date": "Oct 2019",
-    "link": "https://web.archive.org/web/20200808121922/https://news.northeastern.edu/2019/10/16/this-is-the-course-11000-athletes-will-row-for-bostons-head-of-the-charles-regatta/",
-    "category": "Web maps",
+    "link": "https://news.northeastern.edu/2019/10/16/this-is-the-course-11000-athletes-will-row-for-bostons-head-of-the-charles-regatta/",
+    "category": "development",
     "show": 1,
     "screenshot": "hocr.jpg",
     "blurb": "This editorial piece uses Mapbox and its aerial imagery to give users a tour of the prestigious annual rowing event in Boston."
@@ -324,7 +344,7 @@
     "publication": "Northeastern University",
     "date": "Jun 2019",
     "link": "https://news.northeastern.edu/2019/06/03/the-boston-globe-photo-archive-helps-show-journey-of-womens-suffrage-and-100-years-of-the-19th-amendment/",
-    "category": "development",
+    "category": "Data visualizations and interactive graphics",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -334,8 +354,8 @@
     "publication": "Northeastern University and Gallup",
     "date": "Jun 2019",
     "link": "https://www.northeastern.edu/gallup/",
-    "category": "Data visualizations and interactive graphics",
-    "show": 0,
+    "category": "Web maps",
+    "show": 1,
     "screenshot": "gallup.png",
     "blurb": "I worked on the data visualization, front-end and UI pieces of this mini-site, the introduction to a university campaign on artificial intelligence that translated an academic report to a general audience."
   },
@@ -344,7 +364,7 @@
     "publication": "Northeastern University",
     "date": "May 2019",
     "link": "https://news.northeastern.edu/2019/05/01/here-are-the-147-flags-youll-see-waving-at-northeastern-commencement-2019/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "development",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -354,7 +374,7 @@
     "publication": "personal",
     "date": "May 2019",
     "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
-    "category": "development",
+    "category": "Data visualizations and interactive graphics",
     "show": 0,
     "screenshot": "soccer.jpg",
     "blurb": "Nothing special; I just needed a simple way to get a busy summer of international soccer in my iCal! I used Python to scrape match listings and Node.js to create calendar files."
@@ -374,7 +394,7 @@
     "publication": "Northeastern University",
     "date": "Apr 2019",
     "link": "https://news.northeastern.edu/2019/04/23/northeastern-journalism-student-earns-national-attention-for-revealing-media-bias-against-female-presidential-candidates/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "development",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -384,7 +404,7 @@
     "publication": "Institute for Nonprofit News",
     "date": "Mar 2019",
     "link": "https://projects.rmpbs.org/beyond-columbine/interactive.html",
-    "category": "Data visualizations and interactive graphics, Visual design and branding",
+    "category": "Data visualizations and interactive graphics",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -404,7 +424,7 @@
     "publication": "Institute for Nonprofit News",
     "date": "Dec 2018",
     "link": "https://citylimits.org/communitywire-home/",
-    "category": "development",
+    "category": "Data visualizations and interactive graphics, Visual design and branding",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -414,7 +434,7 @@
     "publication": "Institute for Nonprofit News",
     "date": "Nov 2018",
     "link": "http://tikkun.org",
-    "category": "development",
+    "category": "Visual design and branding",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -434,8 +454,8 @@
     "publication": "Institute for Nonprofit News",
     "date": "Aug 2018",
     "link": "https://labs.inn.org/2018/08/24/introducing-the-new-montana-free-press-website/",
-    "category": "development, Visual design and branding",
-    "show": 0,
+    "category": "development",
+    "show": 1,
     "screenshot": "mtfp.jpg",
     "blurb": "I took the lead on front-end/design for this website redesign project for an INN member news organization. Using the organization's provided color palette and logo set, I created style tiles and mockups to determine the visual course of the new website, and then built a new theme for the client based on INN's WordPress framework, Largo."
   },
@@ -455,7 +475,7 @@
     "date": "Nov 2017",
     "link": "https://github.com/tylermachado/lastfm-classics",
     "category": "Interactive web tools",
-    "show": 1,
+    "show": 0,
     "screenshot": "slackbot.png",
     "blurb": "A simple chatbot, connected to my personal Slack workspace, that reminds me of what music I was rocking 10 years ago."
   },
@@ -474,7 +494,7 @@
     "publication": "Harvard Business Review",
     "date": "Sep 2016",
     "link": "http://digiday.com/publishers/harvard-business-review-launched-slackbot-delivers-workplace-advice/",
-    "category": "development",
+    "category": "Interactive web tools",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -494,8 +514,8 @@
     "publication": "Harvard Business Review",
     "date": "Jun 2016",
     "link": "https://hbr.org/2016/06/the-decline-of-yahoo-in-its-own-words",
-    "category": "Data visualizations and interactive graphics",
-    "show": 0,
+    "category": "development",
+    "show": 1,
     "screenshot": "yahoo.png",
     "blurb": "I designed and developed this annotated visualization — actually two, as the data is presented in radically different ways on large screens vs. small ones."
   },
@@ -524,9 +544,9 @@
     "publication": "Harvard Business Review",
     "date": "Nov 2015",
     "link": "https://hbr.org/2015/11/the-best-performing-ceos-in-the-world",
-    "category": "Visual design and branding",
-    "show": 1,
-    "screenshot": "100ceos.png",
+    "category": "Data visualizations and interactive graphics, Visual design and branding",
+    "show": 0,
+    "screenshot": "",
     "blurb": ""
   },
   {
@@ -534,7 +554,7 @@
     "publication": "Harvard Business Review",
     "date": "Oct 2015",
     "link": "https://hbr.org/2015/10/a-tool-to-help-you-reach-your-goals-in-4-steps",
-    "category": "development, Visual design and branding",
+    "category": "Interactive web tools",
     "show": 0,
     "screenshot": "",
     "blurb": ""
