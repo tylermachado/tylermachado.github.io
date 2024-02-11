@@ -20,6 +20,11 @@ main {
   max-width: 1200px;
   padding: 0 10px;
   width: calc(100% - 20px);
+
+  @media screen and (min-width: 768px){
+    padding: 6rem 2rem;
+    width: calc(100% - 4rem);
+  }
 }
 
 button {
@@ -51,4 +56,13 @@ pre {
   display: inline;
   font-size: 1rem;
   margin-left: 6px;
+}
+
+#root {
+  @media screen and (min-width: 768px) {
+    
+    display: grid;
+    grid-template-columns: minmax(30%, 150px) auto;
+    min-height: 100vh;
+  }
 }
