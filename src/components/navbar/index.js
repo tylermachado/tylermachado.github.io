@@ -20,28 +20,28 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="Navbar">
-        <header>
-          <h1>Tyler Machado</h1>
-        </header>
-        <nav className="navbar">
-          <div className="container">
-            <button
-              className="menu-toggle"
-              aria-expanded={isOpen}
-              aria-controls="menu"
-              aria-label="Toggle navigation"
-              onClick={toggleMenu}
-            >
-              <MenuButton />
-            </button>
-          </div>
+      <div className="navbar">
+        <div className="navbar__title-container">
+          <header>
+            <h1>Tyler Machado</h1>
+          </header>
+          <button
+            className="menu-toggle"
+            aria-expanded={isOpen}
+            aria-controls="menu"
+            aria-label="Toggle navigation"
+            onClick={toggleMenu}
+          >
+            <MenuButton />
+          </button>
+        </div>
+        <nav className="navbar__menu-container">
+          <ul className={`menu ${isOpen ? 'open' : ''}`} id="menu">
+            <li><a href="/#/">About</a></li>
+            <li><a href="/#/portfolio">Portfolio</a></li>
+            <li><a href="/#/resume">Resume</a></li>
+          </ul>
         </nav>
-        <ul className={`menu ${isOpen ? 'open' : ''}`} id="menu">
-          <li><a href="/#/">About</a></li>
-          <li><a href="/#/portfolio">Portfolio</a></li>
-          <li><a href="/#/resume">Resume</a></li>
-        </ul>
       </div>
     </>
   );
