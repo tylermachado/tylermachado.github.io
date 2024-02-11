@@ -75,12 +75,12 @@
       background-color: $black;
       color: $wheat;
       display: grid;
-      grid-gap: 5px 5px;
+      grid-gap: 8px 8px;
       grid-template-columns: 75px 1fr;
       grid-template-rows: max-content 1fr; 
-
-      padding: 5px;
+      padding: 8px;
       margin: 0 0 16px;
+      min-height: 75px;
       text-decoration: none;
  
       &__image {
