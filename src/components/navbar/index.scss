@@ -4,11 +4,11 @@
   background-color: #333;
   color: #fff;
   font-family: $body-font;
-  padding: 24px 16px 16px;
+  padding: 1.5rem 1rem 1rem;
 
   @media screen and (min-width: 768px) {
     display: block;
-    padding: 2rem 3rem;
+    padding: 2.5rem 3rem;
     width: calc(100% - 6rem);
   }
 
@@ -44,7 +44,11 @@
   }
 
   &__menu-container {
-    margin-top: 8px;
+    margin-top: 0.5rem;
+
+    @media screen and (min-width: 768px) {
+      margin-top: 1.5rem;
+    }
 
     .menu {
       list-style-type: none;
@@ -92,6 +96,22 @@
           color: $wheat;
           text-decoration: none;
           text-transform: uppercase;
+        }
+
+        &.socials {
+          display: flex;
+          justify-content: flex-end;
+
+          a {
+            margin-left: 1.5rem;
+          }
+
+          svg {
+            position: relative;
+            right: 3px;
+            top: 3px;
+            scale: 1.33;
+          }
         }
       }
     }
