@@ -62,6 +62,18 @@ h3 {
   font-weight: $font-semibold;
 }
 
+a {
+  border-bottom: 1px solid $link-color;
+  color: $black;
+  text-decoration: none;
+  transition: all $transform-speed ease;
+
+  &:hover {
+    border-bottom: 3px solid $link-color;
+    color: $link-color;
+  }
+}
+
 p {
   font-size: 1.1rem;
   font-weight: $font-normal;

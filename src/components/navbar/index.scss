@@ -110,9 +110,14 @@
         }
 
         a {
+          border: 0;
           color: $wheat;
           text-decoration: none;
           text-transform: uppercase;
+
+          &:hover {
+            color: lighten($wheat, 100%);
+          }
         }
 
         &.socials {
@@ -122,12 +127,19 @@
 
           a {
             margin-left: 1em;
+
+            &:hover {
+              svg {
+                fill: lighten($wheat, 100%);
+              }
+            }
           }
 
           svg {
             position: relative;
             right: 3px;
             top: 3px;
+            transition: fill $transform-speed ease;
             scale: 1.33;
           }
         }

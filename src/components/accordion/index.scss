@@ -2,7 +2,7 @@
 
 .accordion-item {
   border-bottom: 1px solid #333;
-  margin-bottom: 10px;
+  margin-bottom: 0;
   overflow: hidden;
   transition: all $transform-speed ease;
 
@@ -13,7 +13,7 @@
       cursor: pointer;
       display: flex;
       justify-content: space-between;
-      padding: 10px 0;
+      padding: 1rem 0;
       position: relative;
       width: 100%;
 
@@ -40,7 +40,7 @@
         scale: 2;
         position: absolute;
         right: 0.33rem;
-        top: 0.75rem;
+        top: 1.5rem;
         transition: transform $transform-speed ease-in-out;
 
         .accordion-item.open & {
@@ -61,10 +61,12 @@
       transition: max-height $transform-speed ease-in;
     }
 
-    @media screen and (min-width: 900px) {
-      gap: 1rem;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
+    &.cardmode {
+      @media screen and (min-width: 900px) {
+        gap: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
     }
 
     ul {
@@ -79,6 +81,7 @@
 
     .accordion-card {
       background-color: $black;
+      border: 0;
       color: $wheat;
       display: grid;
       grid-gap: 8px 8px;
