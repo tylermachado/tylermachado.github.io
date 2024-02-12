@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/navbar'
+import Footer from '../../components/footer'
 import './index.scss';
 
 const About = () => (
@@ -19,6 +20,7 @@ const About = () => (
         <p>You can reach me at tyler.machado@gmail.com.</p>
       </div>
     </main>
+    <Footer />
   </>
 );
 

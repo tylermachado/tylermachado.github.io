@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Accordion from '../../components/accordion'
 import Navbar from '../../components/navbar'
+import Footer from '../../components/footer'
 import './index.scss';
 
 const Resume = () => {
@@ -27,6 +28,7 @@ const Resume = () => {
           />
         ))}
       </main>
+      <Footer />
     </>
   );
 };
