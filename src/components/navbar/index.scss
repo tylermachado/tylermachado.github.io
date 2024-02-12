@@ -1,8 +1,8 @@
 @import '../../scss/variables.scss';
 
 .navbar {
-  background-color: #333;
-  color: #fff;
+  background-color: $black;
+  color: $color-light;
   font-family: $body-font;
   padding: 1.5rem 1rem 1rem;
 
@@ -30,7 +30,7 @@
       h1 {
         display: flex;
         justify-content: flex-start;
-        color: $wheat;
+        color: $color-light;
         font-size: 1.5rem;
         margin: 0;
 
@@ -64,7 +64,7 @@
       }
       
       svg {
-        stroke: $wheat;
+        stroke: $color-light;
         scale: 3;
       }
     }
@@ -97,13 +97,13 @@
       }
 
       &.open {
-        background-color: #333;
+        background-color: $black;
         max-height: 75px;
         pointer-events: auto;
       }
 
       li {
-        background-color: #333;
+        background-color: $black;
         margin: 0;
         padding: 0 0 8px;
         width: 100%;
@@ -121,12 +121,12 @@
 
         a {
           border: 0;
-          color: $wheat;
+          color: $color-light;
           text-decoration: none;
           text-transform: uppercase;
 
           &:hover {
-            color: lighten($wheat, 100%);
+            color: lighten($color-light, 100%);
           }
         }
 
@@ -140,7 +140,7 @@
 
             &:hover {
               svg {
-                fill: lighten($wheat, 100%);
+                fill: lighten($color-light, 100%);
               }
             }
           }

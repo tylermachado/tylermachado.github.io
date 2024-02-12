@@ -1,7 +1,7 @@
 @import 'variables';
 
 body {
-  background-color: $wheat;
+  background-color: $pearl;
   margin: 0;
   overflow-y: scroll;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -71,7 +71,7 @@ p {
   font-weight: $font-normal;
   letter-spacing: -.015rem;
   line-height: 1.5;
-  
+
   a {
     border-bottom: 4px solid $black;
     color: $black;

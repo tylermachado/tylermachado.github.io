@@ -1,7 +1,7 @@
 @import '../../scss/variables.scss';
 
 .accordion-item {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid $black;
   margin-bottom: 0;
   overflow: hidden;
   transition: all $transform-speed ease;
@@ -27,7 +27,7 @@
         }
 
         span {
-          color: #595959;
+          color: $black;
           display: block;
           font-size: 0.95rem;
           font-weight: 400;
@@ -36,7 +36,7 @@
       }
 
       svg {
-        fill: #333;
+        stroke: $black;
         scale: 2;
         position: absolute;
         right: 0.33rem;
@@ -86,7 +86,7 @@
     .accordion-card {
       background-color: $black;
       border: 0;
-      color: $wheat;
+      color: $pearl;
       display: grid;
       grid-gap: 8px 8px;
       grid-template-columns: 75px 1fr;
