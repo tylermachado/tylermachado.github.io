@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FiMenu as MenuButton } from "react-icons/fi";
+import { FiMenu as MenuButton, FiX as CloseButton } from "react-icons/fi";
 import { FaLinkedin, FaSquareGithub } from "react-icons/fa6";
 import WebFont from 'webfontloader';
 import './index.scss';
@@ -33,7 +33,9 @@ const Navbar = () => {
             aria-label="Toggle navigation"
             onClick={toggleMenu}
           >
-            <MenuButton />
+            {isOpen
+            ? <CloseButton />
+            : <MenuButton />}
           </button>
         </div>
         <nav className="navbar__menu-container">
