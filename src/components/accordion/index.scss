@@ -40,11 +40,15 @@
         scale: 2;
         position: absolute;
         right: 0.33rem;
-        top: 1.5rem;
+        top: 1rem;
         transition: transform $transform-speed ease-in-out;
 
         .accordion-item.open & {
           transform: rotate(45deg);
+        }
+
+        @media  screen and (min-width: 900px) {
+          top: 1.5rem;
         }
       }
     }
