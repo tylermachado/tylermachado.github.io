@@ -32,7 +32,7 @@ const Accordion = ({ title, subtitles, content, cardMode }) => {
         {cardMode ? (
           <div className={`accordion-item__content cardmode ${isOpen ? 'open' : ''}`}>
             {content.map((item, index) => 
-              <a key={index} className="accordion-card" href="item.url">
+              <a key={index} className="accordion-card" href={`${item.link}`}>
                 <img className="accordion-card__image" src={`/screenshots/${item.screenshot}`} alt={item.title} />
                 <h4 className="accordion-card__title" >{item.title}</h4>
                 <span className="accordion-card__meta" >{`${item.publication}, ${item.date}`}</span>

@@ -44,7 +44,7 @@
     "publication": "Alley",
     "date": "Jul 2021",
     "link": "https://alley.com/work/national-science-foundation/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "nsf.png",
     "blurb": ""
@@ -64,8 +64,8 @@
     "publication": "Northeastern University",
     "date": "Mar 2021",
     "link": "http://web.archive.org/web/20210317140000/https://news.northeastern.edu/2021/03/17/bill-coens-long-journey-to-the-top-of-northeastern-basketball/",
-    "category": "Data visualizations and interactive graphics",
-    "show": 1,
+    "category": "Data visualizations and graphics",
+    "show": 0,
     "screenshot": "basketball.png",
     "blurb": "I wrote a scraper in Python to gather the scores from every game of NU men's basketball coach Bill Coen's career, and then visualized that history by building a symbol chart in Svelte."
   },
@@ -84,7 +84,7 @@
     "publication": "Northeastern University",
     "date": "Feb 2021",
     "link": "https://news.northeastern.edu/2021/02/03/your-guide-to-all-of-the-heated-outdoor-spaces-on-northeasterns-boston-campus/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Web maps",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -94,7 +94,7 @@
     "publication": "Northeastern University",
     "date": "Jan 2021",
     "link": "https://news.northeastern.edu/2021/01/28/trump-rallies-and-social-justice-protests-may-have-driven-a-big-year-for-gun-sales-study-says/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -104,7 +104,17 @@
     "publication": "Northeastern University",
     "date": "Dec 2020",
     "link": "https://github.com/News-at-Northeastern/svelte-dataviz-template",
-    "category": "Data visualizations and interactive graphics, Visual design and branding",
+    "category": "Visual design and branding",
+    "show": 1,
+    "screenshot": "unemployment.png",
+    "blurb": "I built this chart library using Svelte, D3 and Mapbox for the data graphics that my team regularly produces. This template helps streamline production, simplifies deployment, and implements a consistent visual style for our dataviz content. I used this to visualize <a href=\\\"https://news.northeastern.edu/2020/08/13/fewer-people-are-using-public-transportation-in-the-us-heres-why-thats-trouble-in-the-long-run/\\\">public transit trends</a>, <a href=\\\"https://news.northeastern.edu/2020/12/18/the-recovery-of-the-us-economy-after-the-covid-19-pandemic-hinges-on-federal-support/\\\">unemployment rates</a>, and <a href=\\\"https://news.northeastern.edu/2020/07/01/theres-been-a-23000-percent-jump-in-fireworks-complaints-in-some-parts-of-the-us-this-summer-you-read-that-right/\\\">fireworks complaints</a>, among many others."
+  },
+  {
+    "title": "Svelte dataviz template",
+    "publication": "Northeastern University",
+    "date": "Dec 2020",
+    "link": "https://github.com/News-at-Northeastern/svelte-dataviz-template",
+    "category": "Data visualizations and graphics",
     "show": 1,
     "screenshot": "unemployment.png",
     "blurb": "I built this chart library using Svelte, D3 and Mapbox for the data graphics that my team regularly produces. This template helps streamline production, simplifies deployment, and implements a consistent visual style for our dataviz content. I used this to visualize <a href=\\\"https://news.northeastern.edu/2020/08/13/fewer-people-are-using-public-transportation-in-the-us-heres-why-thats-trouble-in-the-long-run/\\\">public transit trends</a>, <a href=\\\"https://news.northeastern.edu/2020/12/18/the-recovery-of-the-us-economy-after-the-covid-19-pandemic-hinges-on-federal-support/\\\">unemployment rates</a>, and <a href=\\\"https://news.northeastern.edu/2020/07/01/theres-been-a-23000-percent-jump-in-fireworks-complaints-in-some-parts-of-the-us-this-summer-you-read-that-right/\\\">fireworks complaints</a>, among many others."
@@ -114,7 +124,7 @@
     "publication": "Northeastern University",
     "date": "Dec 2020",
     "link": "https://news.northeastern.edu/2020/12/18/the-recovery-of-the-us-economy-after-the-covid-19-pandemic-hinges-on-federal-support/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "unemployment.png",
     "blurb": ""
@@ -124,7 +134,7 @@
     "publication": "Northeastern University",
     "date": "Dec 2020",
     "link": "https://news.northeastern.edu/2020/12/11/who-won-the-2020-presidential-election-joe-biden-or-donald-trump-depends-whom-you-ask/",
-    "category": "Data visualizations and interactive graphics, Visual design and branding",
+    "category": "Data visualizations and graphics, Visual design and branding",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -134,7 +144,7 @@
     "publication": "Northeastern University",
     "date": "Nov 2020",
     "link": "https://news.northeastern.edu/2020/12/01/wearing-masks-is-on-the-rise-across-the-us-but-social-distancing-measures-arent/",
-    "category": "Data visualizations and interactive graphics, Visual design and branding",
+    "category": "Data visualizations and graphics, Visual design and branding",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -144,7 +154,7 @@
     "publication": "Northeastern University",
     "date": "Nov 2020",
     "link": "https://news.northeastern.edu/2020/11/05/heres-a-look-at-all-the-new-construction-on-northeasterns-campus-this-year/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "constmap.png",
     "blurb": "Using Svelte and Mapbox, I created a visual tour of campus construction that can also be reused for future map-based stories just by switching out a JSON file."
@@ -164,7 +174,7 @@
     "publication": "Northeastern University",
     "date": "Aug 2020",
     "link": "https://news.northeastern.edu/coronavirus/reopening/testing-dashboard/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 1,
     "screenshot": "testdashboard.png",
     "blurb": "I designed and built Northeastern's public COVID-19 testing dashboard, using Svelte, D3 and a spreadsheet-based backend."
@@ -174,7 +184,7 @@
     "publication": "Northeastern University",
     "date": "Aug 2020",
     "link": "https://news.northeastern.edu/2020/08/13/fewer-people-are-using-public-transportation-in-the-us-heres-why-thats-trouble-in-the-long-run/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "covidsubway.png",
     "blurb": ""
@@ -184,7 +194,7 @@
     "publication": "Northeastern University",
     "date": "Jul 2020",
     "link": "https://news.northeastern.edu/2020/07/01/theres-been-a-23000-percent-jump-in-fireworks-complaints-in-some-parts-of-the-us-this-summer-you-read-that-right/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "fireworks.png",
     "blurb": ""
@@ -194,7 +204,7 @@
     "publication": "Northeastern University",
     "date": "Jun 2020",
     "link": "https://news.northeastern.edu/2020/06/15/how-many-city-dwellers-across-the-us-have-access-to-parks-and-green-space/",
-    "category": "Data visualizations and interactive graphics, Visual design and branding",
+    "category": "Data visualizations and graphics, Visual design and branding",
     "show": 0,
     "screenshot": "parks.png",
     "blurb": ""
@@ -204,7 +214,7 @@
     "publication": "Journalist's Resource",
     "date": "May 2020",
     "link": "https://journalistsresource.org/studies/society/education/2020-census-title-i-maps/",
-    "category": "Data visualizations and interactive graphics, Visual design and branding",
+    "category": "Data visualizations and graphics",
     "show": 1,
     "screenshot": "jr2.png",
     "blurb": "I worked with university researchers on this series of posts on the U.S. Census and federal funding, specifically to create a series of graphics that local reporters can embed on their own websites. The graphics use D3 and Mapbox, all living inside of a shared React app."
@@ -214,7 +224,7 @@
     "publication": "Journalist's Resource",
     "date": "May 2020",
     "link": "https://journalistsresource.org/studies/society/education/2020-census-title-i-maps/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "jr2.png",
     "blurb": ""
@@ -234,7 +244,7 @@
     "publication": "Northeastern University",
     "date": "Apr 2020",
     "link": "https://news.northeastern.edu/2020/04/29/apple-maps-data-shows-how-covid-19-brought-the-world-to-a-standstill/",
-    "category": "Data visualizations and interactive graphics, development",
+    "category": "Data visualizations and graphics, development",
     "show": 0,
     "screenshot": "covidmobility.png",
     "blurb": ""
@@ -244,7 +254,7 @@
     "publication": "Northeastern University",
     "date": "Mar 2020",
     "link": "https://news.northeastern.edu/2020/03/05/do-women-publish-less-than-men-in-scientific-fields-turns-out-scientists-have-been-asking-the-wrong-question/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "sciwomen.png",
     "blurb": ""
@@ -254,7 +264,7 @@
     "publication": "Northeastern University",
     "date": "Mar 2020",
     "link": "https://news.northeastern.edu/coronavirus/",
-    "category": "Data visualizations and interactive graphics, Visual design and branding, development",
+    "category": "Data visualizations and graphics, Visual design and branding, development",
     "show": 0,
     "screenshot": "covid.jpg",
     "blurb": ""
@@ -264,7 +274,7 @@
     "publication": "Northeastern University",
     "date": "Mar 2020",
     "link": "https://news.northeastern.edu/2020/03/18/around-the-world-people-stopped-going-to-restaurants-before-governments-told-them-to-stay-home/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "opentable.png",
     "blurb": ""
@@ -280,11 +290,11 @@
     "blurb": ""
   },
   {
-    "title": "Interactive graphics show how the 2020 census guides federal program funding in each state",
+    "title": "graphics show how the 2020 census guides federal program funding in each state",
     "publication": "Journalist's Resource",
     "date": "Mar 2020",
     "link": "https://journalistsresource.org/studies/government/2020-census-federal-state-funding-medicare/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "jr1.png",
     "blurb": ""
@@ -294,7 +304,7 @@
     "publication": "Northeastern University",
     "date": "Jan 2020",
     "link": "https://news.northeastern.edu/2020/01/06/can-gun-violence-be-traced-back-to-socioeconomic-root-causes/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -304,7 +314,7 @@
     "publication": "Northeastern University",
     "date": "Jan 2020",
     "link": "https://news.northeastern.edu/2020/01/22/president-trumps-impeachment-trial-is-underway-heres-how-we-got-here/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -314,7 +324,7 @@
     "publication": "Northeastern University",
     "date": "Jan 2020",
     "link": "https://news.northeastern.edu/2020/01/31/heres-every-result-ever-from-bostons-beanpot-hockey-tournament/",
-    "category": "Data visualizations and interactive graphics, development",
+    "category": "Data visualizations and graphics, development",
     "show": 0,
     "screenshot": "beanpot.png",
     "blurb": ""
@@ -344,7 +354,7 @@
     "publication": "Northeastern University",
     "date": "Jun 2019",
     "link": "https://news.northeastern.edu/2019/06/03/the-boston-globe-photo-archive-helps-show-journey-of-womens-suffrage-and-100-years-of-the-19th-amendment/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -374,7 +384,7 @@
     "publication": "personal",
     "date": "May 2019",
     "link": "https://github.com/tylermachado/soccer-tournament-icalendar",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "soccer.jpg",
     "blurb": "Nothing special; I just needed a simple way to get a busy summer of international soccer in my iCal! I used Python to scrape match listings and Node.js to create calendar files."
@@ -384,7 +394,7 @@
     "publication": "Northeastern University",
     "date": "May 2019",
     "link": "https://news.northeastern.edu/2019/05/22/fitness-trackers-need-to-offer-more-support-to-help-low-income-families-to-improve-their-health-says-northeastern-university-professor/",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -404,7 +414,7 @@
     "publication": "Institute for Nonprofit News",
     "date": "Mar 2019",
     "link": "https://projects.rmpbs.org/beyond-columbine/interactive.html",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -424,7 +434,7 @@
     "publication": "Institute for Nonprofit News",
     "date": "Dec 2018",
     "link": "https://citylimits.org/communitywire-home/",
-    "category": "Data visualizations and interactive graphics, Visual design and branding",
+    "category": "Data visualizations and graphics, Visual design and branding",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -464,7 +474,7 @@
     "publication": "Harvard Business Review",
     "date": "Dec 2017",
     "link": "https://hbr.org/2017/12/the-most-and-least-digital-jobs-and-how-well-they-pay",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 1,
     "screenshot": "digitaljobs.png",
     "blurb": "This interactive was based on public data and new research; the twin goals were to allow users to find their own industries of interest while also clearly packing a lot of variables into a small space."
@@ -484,7 +494,7 @@
     "publication": "Harvard Business Review",
     "date": "Oct 2016",
     "link": "https://hbr.org/2016/10/the-one-type-of-leader-who-can-turn-around-a-failing-school",
-    "category": "Data visualizations and interactive graphics",
+    "category": "Data visualizations and graphics",
     "show": 0,
     "screenshot": "",
     "blurb": ""
@@ -504,7 +514,7 @@
     "publication": "New England Revolution",
     "date": "Jul 2016",
     "link": "https://twitter.com/tylermachado/status/751944653616939008",
-    "category": "Data visualizations and interactive graphics, Visual design and branding",
+    "category": "Data visualizations and graphics",
     "show": 1,
     "screenshot": "revs.jpg",
     "blurb": "I designed the poster for a 2016 Major League Soccer match, handed out to nearly 20,000 fans at the stadium. The design is based on the history of New England vs. Columbus matches dating back 20 years."
@@ -524,7 +534,7 @@
     "publication": "Harvard Business Review",
     "date": "Apr 2016",
     "link": "https://hbr.org/2016/04/how-corporate-boards-connect-in-charts",
-    "category": "Data visualizations and interactive graphics, Visual design and branding",
+    "category": "Data visualizations and graphics",
     "show": 1,
     "screenshot": "interlocks.png",
     "blurb": "For this piece for Harvard Business Review’s website, accompanying new research on how large companies’ boards have historically shared members, I was specifically tasked with working up a data visualization that skewed closer to an art piece than a standard chart type available in spreadsheet software."
@@ -544,9 +554,9 @@
     "publication": "Harvard Business Review",
     "date": "Nov 2015",
     "link": "https://hbr.org/2015/11/the-best-performing-ceos-in-the-world",
-    "category": "Data visualizations and interactive graphics, Visual design and branding",
-    "show": 0,
-    "screenshot": "",
+    "category": "Visual design and branding",
+    "show": 1,
+    "screenshot": "100ceos.png",
     "blurb": ""
   },
   {

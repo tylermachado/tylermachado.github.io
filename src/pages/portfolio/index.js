@@ -8,9 +8,9 @@ const Portfolio = () => {
 
   const [content, setContent] = useState([]);
   const disciplines = [
-    "Data visualizations and interactive graphics",
-    "Interactive web tools",
     "WordPress blocks and themes",
+    "Data visualizations and graphics",
+    "Interactive web tools",
     "Visual design and branding",
   ]
 
