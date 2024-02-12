@@ -14,7 +14,7 @@ const Navbar = () => {
   useEffect(() => {
    WebFont.load({
      google: {
-       families: ['Rubik:400,500,600,700', 'Rubik Mono One', 'DM Serif Text']
+       families: ['Rubik:400,500,600,700', 'Rubik Mono One', 'DM Serif Text', 'Righteous', 'Concert One']
      }
    });
   }, []);
