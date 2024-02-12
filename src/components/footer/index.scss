@@ -5,6 +5,10 @@ footer {
   justify-content: center;
   margin: 3rem 0 1rem;
 
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+
   a {
     border: 0;
     margin-right: 0.5rem;
