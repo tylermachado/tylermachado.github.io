@@ -42,8 +42,8 @@ const Navbar = () => {
             <li><a href="/#/portfolio">Portfolio</a></li>
             <li><a href="/#/resume">Resume</a></li>
             <li className="socials">
-              <a href="/#/resume"><FaSquareGithub /></a>
-              <a href="/#/resume"><FaLinkedin /></a>
+              <a href="//github.com/tylermachado"><FaSquareGithub /></a>
+              <a href="//linkedin.com/in/tylermachado"><FaLinkedin /></a>
             </li>
           </ul>
         </nav>
