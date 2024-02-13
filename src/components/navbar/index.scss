@@ -58,6 +58,7 @@
     button {
       background-color: transparent;
       border: none;
+      cursor: pointer;
 
       @media screen and (min-width: 768px) {
         display: none;
@@ -66,6 +67,10 @@
       svg {
         stroke: $color-light;
         scale: 3;
+
+        &:hover {
+          stroke: lighten($teal, 20%);
+        }
       }
     }
   }
@@ -126,7 +131,7 @@
           text-transform: uppercase;
 
           &:hover {
-            color: lighten($color-light, 100%);
+            color: lighten($teal, 20%);
           }
         }
 
@@ -140,7 +145,7 @@
 
             &:hover {
               svg {
-                fill: lighten($color-light, 100%);
+                fill: lighten($teal, 20%);
               }
             }
           }

@@ -17,6 +17,10 @@
       position: relative;
       width: 100%;
 
+      &:hover {
+        color: $teal;
+      }
+
       &__text {
         text-align: left;
         width: calc(100% - 2rem);
@@ -61,8 +65,12 @@
     overflow: hidden;
 
     &.open {
-      max-height: 900px;
+      max-height: 400px;
       transition: max-height $transform-speed ease-in;
+
+      &.cardmode {
+        max-height: 800px;
+      }
     }
 
     &.cardmode {
@@ -80,6 +88,10 @@
 
       li {
         margin: 0 0 0.5rem;
+
+        &:last-child {
+          margin: 0 0 1.5rem;
+        }
       }
     }
 
@@ -95,6 +107,10 @@
       margin: 0 0 16px;
       min-height: 75px;
       text-decoration: none;
+
+      &:hover {
+        background-color: $teal;
+      }
 
       @media screen and (min-width: 900px) {
         grid-template-columns: 1fr;
