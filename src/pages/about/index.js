@@ -12,12 +12,14 @@ const About = () => (
           Hello, I'm Tyler. I design and build things on the web.
         </p>
         <p>
-          I like working where data, design and engineering come together, building intuitive, accessible, and engaging experiences. I’ve worked in various roles in digital media for more than a decade, and I collaborate best with small, interdisciplinary teams that punch above their weight. 
+          I like working where data, design and engineering come together, building experiences that are intuitive, accessible, and creatively engaging. I’ve worked in various roles in digital media for more than a decade, and I collaborate best with nimble, interdisciplinary teams that punch above their weight. 
         </p>
         <p>
-          I live in Boston, with my partner and my cat.
+          I've co-led sessions at SRCCON events and Boston University's Storytelling With Data workshops, and I've contributed freelance graphics work to <a href="https://www.sciencenews.org/century/atom-matter-neutron-nuclear-power-fusion#sn-responsive-iframe-19">Science News</a>, <a href="https://journalistsresource.org/author/tylermachado1/">Journalist's Resource</a>, and the <a href="https://www.facebook.com/nerevolution/photos/thanks-to-nerevs-fan-tyler-machado-for-designing-tomorrows-matchday-postertylerm/10153827387493230/">New England Revolution</a> soccer team.
         </p>
-        <p>You can reach me at tyler.machado@gmail.com.</p>
+        <p>
+          You can reach me at tyler.machado@gmail.com.
+        </p>
       </div>
     </main>
     <Footer />
