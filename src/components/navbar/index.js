@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="navbar">
         <div className="navbar__title-container">
           <header>
-            <h1>Tyler Machado</h1>
+            <a href="/#/"><h1>Tyler Machado</h1></a>
           </header>
           <button
             className="menu-toggle"

@@ -87,6 +87,14 @@ p {
   }
 }
 
+a {
+  text-decoration: none;
+
+  &:hover {
+    color: lighten($teal, 20%);
+  }
+}
+
 pre {
   display: inline;
   font-size: 1rem;
