@@ -22,13 +22,13 @@ main {
   width: calc(100% - 20px);
 
   @media screen and (min-width: 768px){
-    padding: 3rem 2rem;
+    padding: 2.5rem 2rem;
     max-width: 800px;
     width: calc(100% - 4rem);
   }
 
   @media screen and (min-width: 900px){
-    padding: 4.5rem 2rem;
+    padding: 3.5rem 2rem;
     max-width: 800px;
     width: calc(100% - 4rem);
   }
@@ -75,6 +75,7 @@ p {
   a {
     border-bottom: 4px solid $teal;
     color: $black;
+    font-weight: bold;
     text-decoration: none;
     transition: all $transform-speed ease;
 

@@ -1,0 +1,10 @@
+@import '../../scss/variables.scss';
+
+.About {
+    p:first-child {
+        font-size: 1.5rem;
+        font-weight: $font-bold;
+        letter-spacing: -.015rem;
+        line-height: 1.5;
+    }
+}
