@@ -1,3 +1,4 @@
+@use 'sass:color';
 @import '../../scss/variables.scss';
 
 .accordion-item {
@@ -97,7 +98,7 @@
     }
 
     .accordion-card {
-      background-color: darken($color-light, 7.5%);
+      background-color: color.adjust($color-light, $lightness: -7.5%, $saturation: -15%);
       border: 0;
       color: $black;
       display: grid;
@@ -108,6 +109,7 @@
       margin: 0 0 16px;
       min-height: 75px;
       text-decoration: none;
+      transition: all $transform-speed/2 ease;
 
       &:hover {
         background-color: $color-dark;
