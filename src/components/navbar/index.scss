@@ -35,7 +35,7 @@
         margin: 0;
 
         &:hover {
-          filter: drop-shadow(4px 4px 0px lighten($teal, 20%));
+          filter: drop-shadow(4px 4px 0px $teal);
         }
 
         @media screen and (min-width: 425px) {
@@ -102,7 +102,7 @@
         display: block;
         max-height: unset;
         text-align: right;
-        pointer-events: unset;
+        pointer-events: auto;
       }
 
       &.open {

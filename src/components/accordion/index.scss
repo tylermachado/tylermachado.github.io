@@ -97,9 +97,9 @@
     }
 
     .accordion-card {
-      background-color: $black;
+      background-color: darken($color-light, 7.5%);
       border: 0;
-      color: $pearl;
+      color: $black;
       display: grid;
       grid-gap: 8px 8px;
       grid-template-columns: 75px 1fr;
@@ -110,7 +110,8 @@
       text-decoration: none;
 
       &:hover {
-        background-color: $teal;
+        background-color: $color-dark;
+        color: $color-light;
       }
 
       @media screen and (min-width: 900px) {
@@ -131,7 +132,7 @@
 
       &__title {
         font-size: 1rem;
-        line-height: 1;
+        line-height: 1.15;
         grid-area: 1 / 2 / 2 / 3;
         margin: 0;
 
