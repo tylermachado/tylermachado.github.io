@@ -34,16 +34,11 @@
         filter: drop-shadow(4px 4px 0px $teal);
         justify-content: flex-start;
         color: $color-light;
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin: 0;
-
-        @media screen and (min-width: 425px) {
-          font-size: 2rem;
-        }
 
         @media screen and (min-width: 768px) {
           filter: unset;
-          font-size: 2rem;
           justify-content: flex-end;
           line-height: 0.9;
           text-align: right;
