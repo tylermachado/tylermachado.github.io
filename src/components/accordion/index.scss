@@ -125,6 +125,7 @@
  
       &__image {
         grid-area: 1 / 1 / 3 / 2;
+        margin-bottom: 0.25rem;
         max-width: 100%;
 
         @media screen and (min-width: 900px) {

@@ -1,10 +1,44 @@
+@use 'sass:color';
 @import '../../scss/variables.scss';
 
 .About {
-    p:first-child {
+    p.intro {
         font-size: 1.5rem;
         font-weight: $font-bold;
         letter-spacing: -.015rem;
         line-height: 1.5;
+    }
+
+    .headshot-container {
+        background-color: $color-light;
+        border: 1px solid $black;
+        border-radius: 40px;
+        float: left;
+        filter: drop-shadow(3px 3px 0px $teal);
+        line-height: 0;
+        margin: 0 1rem 0.2rem 0;
+        width: 80px;
+
+        @media screen and (min-width: 768px) {
+            border-radius: 75px;
+            float: right;
+            margin: 0 1rem 1rem 0;
+            width: 150px;
+        }
+    }
+
+    img.headshot {
+        filter: sepia(1) saturate(38%);
+        border-radius: 40px;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        transform: scale(1.01);
+        object-fit: contain;
+
+        @media screen and (min-width: 768px) {
+            border-radius: 75px;
+        }
     }
 }

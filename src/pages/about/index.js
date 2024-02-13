@@ -8,7 +8,10 @@ const About = () => (
     <Navbar />
     <main>
       <div className="About">
-        <p>
+        <div className="headshot-container">
+          <img src="/tyler-machado.png" alt="Tyler Machado" className="headshot" />
+        </div>
+        <p className="intro">
           Hello, I'm Tyler. I design and build things on the web.
         </p>
         <p>
