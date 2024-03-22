@@ -41,7 +41,7 @@ const Navbar = () => {
         <nav className="navbar__menu-container">
           <ul className={`menu ${isOpen ? 'open' : ''}`} id="menu">
             <li><a href="/#/">About</a></li>
-            <li><a href="/#/portfolio">Portfolio</a></li>
+            <li><a href="#sds">Portfolio</a></li>
             <li><a href="/#/resume">Resume</a></li>
             <li className="socials">
               <a href="//github.com/tylermachado" aria-label="Tyler Machado on GitHub"><FaSquareGithub /></a>
