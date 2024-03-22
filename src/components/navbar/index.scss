@@ -5,13 +5,17 @@
   color: $color-light;
   font-family: $body-font;
   padding: 1rem 1rem 0.5rem;
+  position: fixed;
+  width: 100%;
+  margin-top: 0;
+  top: 0;
+  z-index: 10;
 
   @media screen and (min-width: 768px) {
     display: block;
     padding: 4rem $navbar-padding-horizontal;
     width: calc($navbar-width - $navbar-padding-horizontal);
     height: 100%;
-    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
