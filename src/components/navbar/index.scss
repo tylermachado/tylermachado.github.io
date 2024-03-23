@@ -6,7 +6,7 @@
   font-family: $body-font;
   padding: 1rem 1rem 0.5rem;
   position: fixed;
-  width: 100%;
+  width: calc(100% - 2rem);
   margin-top: 0;
   top: 0;
   z-index: 10;
@@ -35,11 +35,10 @@
     }
 
     header {
-      width: 50%;
+      width: 85%;
 
       h1 {
         display: flex;
-        filter: drop-shadow(4px 4px 0px $teal);
         justify-content: flex-start;
         color: $color-light;
         font-size: 2rem;
@@ -74,7 +73,7 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
-      width: 50%;
+      width: 15%;
 
       @media screen and (min-width: 768px) {
         display: none;

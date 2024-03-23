@@ -12,4 +12,8 @@
         main { grid-area: 1 / 2 / 2 / 3; }
         footer { grid-area: 2 / 2 / 3 / 3; }
     }
+
+    main {
+        padding-top: 4rem;
+    }
 }
