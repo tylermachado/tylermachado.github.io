@@ -1,5 +1,7 @@
 import React from 'react';
+
 import Navbar from '../../sections/navbar'
+import Title from '../../sections/title'
 import About from '../../sections/about'
 import Portfolio from '../../sections/portfolio'
 import Resume from '../../sections/resume'
@@ -10,6 +12,7 @@ const Home = () => (
   <>
     <Navbar />
     <main>
+      <Title />
       <About />
       <Portfolio />
       <Resume />
