@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from '../../components/navbar'
-import About from '../../components/about'
-import Portfolio from '../../components/portfolio'
-import Resume from '../../components/resume'
-import Footer from '../../components/footer'
+import Navbar from '../../sections/navbar'
+import About from '../../sections/about'
+import Portfolio from '../../sections/portfolio'
+import Resume from '../../sections/resume'
+import Footer from '../../sections/footer'
 import './index.scss';
 
 const Home = () => (
