@@ -13,7 +13,7 @@ const Resume = () => {
     }, []);
 
   return (
-    <>
+    <section id="Resume">
       <h2>Resume</h2>
       {content.map((item, index) => (
         <Accordion
@@ -23,7 +23,7 @@ const Resume = () => {
           content={item.duties}
         />
       ))}
-    </>
+    </section>
   );
 };
 

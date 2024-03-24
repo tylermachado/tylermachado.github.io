@@ -3,7 +3,7 @@ import './index.scss';
 
 const About = () => (
   <>
-    <div className="About">
+    <section id="About">
       <div className="headshot-container">
         <img src="/tyler-machado.png" alt="Tyler Machado" className="headshot" />
       </div>
@@ -22,7 +22,7 @@ const About = () => (
       <p>
         You can reach me at tyler.machado@gmail.com.
       </p>
-    </div>
+    </section>
   </>
 );
 

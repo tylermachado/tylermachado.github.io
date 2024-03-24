@@ -23,9 +23,6 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <div className="navbar__title-container">
-          <header>
-            <a href="/#/"><h1>Tyler Machado</h1></a>
-          </header>
           <button
             className="menu-toggle"
             aria-expanded={isOpen}
@@ -43,11 +40,6 @@ const Navbar = () => {
             <li><a href="/#/">About</a></li>
             <li><a href="#sds">Portfolio</a></li>
             <li><a href="/#/resume">Resume</a></li>
-            <li className="socials">
-              <a href="//github.com/tylermachado" aria-label="Tyler Machado on GitHub"><FaSquareGithub /></a>
-              <a href="//linkedin.com/in/tylermachado" aria-label="Tyler Machado on LinkedIn"><FaLinkedin /></a>
-              <a href="//behance.net/tymastudio" aria-label="TYMA Studio, my graphic design projects"><FaSquareBehance /></a>
-            </li>
           </ul>
         </nav>
       </div>
