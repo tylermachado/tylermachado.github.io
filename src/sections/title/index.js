@@ -4,12 +4,14 @@ import './index.scss';
 const Title = () => (
   <>
     <section id="Title">
-      <h1>Tyler Machado</h1>
-      <ul>
-        <li>Data Visualization</li>
-        <li>UI/UX Design</li>
-        <li>Frontend Development</li>
-      </ul>
+      <div className="content-container">
+        <h1>Tyler Machado</h1>
+        <ul>
+          <li>Data Visualization</li>
+          <li>UI/UX Design</li>
+          <li>Frontend Development</li>
+        </ul>
+      </div>
     </section>
   </>
 );
