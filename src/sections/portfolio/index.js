@@ -21,15 +21,17 @@ const Portfolio = () => {
   return (
     <>
       <section id="sds">
-        <h2>Portfolio</h2>
-        {disciplines.map((item, index) => (
-          <Accordion
-            key={index}
-            title={item}
-            content={content ? content.filter((project) => project.category === item) : null}
-            cardMode={true}
-          />
-        ))}
+        <div className="content-container">
+          <h2>Portfolio</h2>
+          {disciplines.map((item, index) => (
+            <Accordion
+              key={index}
+              title={item}
+              content={content ? content.filter((project) => project.category === item) : null}
+              cardMode={true}
+            />
+          ))}
+        </div>
       </section>
     </>
   );

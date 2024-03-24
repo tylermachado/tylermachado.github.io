@@ -14,15 +14,17 @@ const Resume = () => {
 
   return (
     <section id="Resume">
-      <h2>Resume</h2>
-      {content.map((item, index) => (
-        <Accordion
-          key={index}
-          title={item.workplace}
-          subtitles={item.titles}
-          content={item.duties}
-        />
-      ))}
+      <div className="content-container">
+        <h2>Resume</h2>
+        {content.map((item, index) => (
+          <Accordion
+            key={index}
+            title={item.workplace}
+            subtitles={item.titles}
+            content={item.duties}
+          />
+        ))}
+      </div>
     </section>
   );
 };
