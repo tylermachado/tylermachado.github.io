@@ -11,7 +11,9 @@
   z-index: 10;
 
   @media screen and (min-width: 768px) {
-    display: block;
+    align-items: center;
+    display: flex;
+    justify-content: end;
     width: $navbar-width;
     height: 100%;
     z-index: 1;
@@ -85,11 +87,9 @@
   }
 
   &__menu-container {
-    margin-top: 0.5rem;
-
-    @media screen and (min-width: 768px) {
-      margin-top: 1.5rem;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     .menu {
       list-style-type: none;
