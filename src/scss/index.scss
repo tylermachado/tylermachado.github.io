@@ -29,17 +29,24 @@ main {
 
   > section {
     max-width: 1000px;
+    min-height: 75vh;
     margin: 0 auto;
-    min-height: 100vh;
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @media (min-width: 768px) {
+      min-height: 100vh;
+      scroll-snap-align: center;
+      scroll-snap-stop: always;
+    }
   }
 
   .content-container {
-    padding: 2rem;
+    padding: 1rem;
+    @media (min-width: 768px) {
+      padding: 2rem;
+    }
   }
 }
 

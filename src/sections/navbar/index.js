@@ -37,9 +37,9 @@ const Navbar = () => {
         </div>
         <nav className="navbar__menu-container">
           <ul className={`menu ${isOpen ? 'open' : ''}`} id="menu">
-            <li><a href="/#/">About</a></li>
-            <li><a href="#sds">Portfolio</a></li>
-            <li><a href="/#/resume">Resume</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Resume">Resume</a></li>
             <li><Socials /></li>
           </ul>
         </nav>

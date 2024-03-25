@@ -20,7 +20,7 @@ const Portfolio = () => {
 
   return (
     <>
-      <section id="sds">
+      <section id="Portfolio">
         <div className="content-container">
           <h2>Portfolio</h2>
           {disciplines.map((item, index) => (
