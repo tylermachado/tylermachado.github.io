@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FiMenu as MenuButton, FiX as CloseButton } from "react-icons/fi";
-import { FaLinkedin, FaSquareGithub, FaSquareBehance } from "react-icons/fa6";
+import Socials from '../../components/socials';
 import WebFont from 'webfontloader';
 import './index.scss';
 
@@ -40,6 +40,7 @@ const Navbar = () => {
             <li><a href="/#/">About</a></li>
             <li><a href="#sds">Portfolio</a></li>
             <li><a href="/#/resume">Resume</a></li>
+            <li><Socials /></li>
           </ul>
         </nav>
       </div>

@@ -1,13 +1,16 @@
 import React from 'react';
 import { FaLinkedin, FaSquareGithub, FaSquareBehance } from "react-icons/fa6";
 import './index.scss';
+import Socials from '../../components/socials';
 
 const Footer = () => {
   return (
   <footer>
-    <a href="//github.com/tylermachado" aria-label="Tyler Machado on GitHub"><FaSquareGithub /></a>
-    <a href="//linkedin.com/in/tylermachado" aria-label="Tyler Machado on LinkedIn"><FaLinkedin /></a>
-    <a href="//behance.net/tymastudio" aria-label="TYMA Studio, my graphic design projects"><FaSquareBehance /></a>
+    <div className="content-container">
+      <p>Designed and developed by Tyler Machado in 2024.</p>
+      <p>tyler.machado@gmail.com</p>
+      <Socials />
+    </div>
   </footer>
 )};
 
