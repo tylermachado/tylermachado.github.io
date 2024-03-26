@@ -123,7 +123,7 @@
     .backdrop::after {
         background: #c49fe7;
         right: -65%;
-        top: 25%;
-        transform: translateY(-50%);
+        bottom: 25%;
+        transform: translateY(25%);
     }
 }
