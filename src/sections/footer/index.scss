@@ -5,7 +5,7 @@ footer {
   align-items: left;
   flex-direction: column;
   justify-content: center;
-  margin: 3rem 0 1rem;
+  margin: 3rem 0 0;
   padding: 0 2rem;
   position: relative;
   overflow: hidden;
@@ -51,8 +51,6 @@ footer {
   }
 
   @media screen and (min-width: 768px) {
-    width: 40vh;
-    height: 40vh;
     padding-top: 15vh;
     padding-bottom: 15vh;
   }
