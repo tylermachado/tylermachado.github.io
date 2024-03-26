@@ -5,16 +5,17 @@
     &::after {
         position: absolute;
         content: "";
-        width: 100%;
+        width: -webkit-fill-available;
         bottom: 0;
         height: 10vh;
         background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
         display: block;
+        overflow-x: hidden;
     }
     .content-container {
         position: absolute;
         top: 0;
-        height: 100svh;
+        height: 100vh;
         z-index: 9;
         display: flex;
         flex-direction: column;
@@ -62,7 +63,7 @@
 
     .backdrop {
         position: relative;
-        height: 100svh;
+        height: 100vh;
         width: 100%;
         margin: auto;
         overflow: hidden;
@@ -92,7 +93,7 @@
         position: absolute;
         content: "";
         width: 100%;
-        height: 100svh;
+        height: 100vh;
         border-radius: 100%;
     }
 
@@ -108,38 +109,4 @@
         top: 25%;
         transform: translateY(-50%);
     }
-
-    // .backdrop > .backdrop-blobs,
-    // .backdrop > .backdrop-blobs::before,
-    // .backdrop > .backdrop-blobs::after {
-    //     border-radius: 100%;
-    //     position: absolute;
-    // }
-
-    // .backdrop > .backdrop-blobs::before,
-    // .backdrop > .backdrop-blobs::after {
-    //     content: "";
-    //     width: 35%;
-    //     height: 100vh;
-    //     top: 50%;
-    //     transform: translateY(-50%);
-    // }
-
-    // .backdrop > .backdrop-blobs {
-    //     width: 230px;
-    //     height: 230px;
-    //     background: #ffc285;
-    //     bottom: -60px;
-    //     left: 75px;
-    // }
-
-    // .backdrop > .backdrop-blobs::before {
-    //     background: #8600ff;
-    //     left: -40%;
-    // }
-
-    // .backdrop > .backdrop-blobs::after {
-    //     background: #ff0000;
-    //     right: -20%;
-    // }
 }

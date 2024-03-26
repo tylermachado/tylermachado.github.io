@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { FaLinkedin, FaSquareGithub, FaSquareBehance } from "react-icons/fa6";
-import WebFont from 'webfontloader';
 import './index.scss';
 
 const Socials = () => {
