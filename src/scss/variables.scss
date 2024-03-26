@@ -1,8 +1,10 @@
+@use 'sass:color';
+
 $black: #2B251E;
 $white: #fff;
 
-$pearl: #F2ECE0;
 $teal: #0F5358;
+$pearl: lighten($teal, 95%);
 $orange: #F56720;
 
 $color-light: $pearl;

@@ -2,40 +2,135 @@
 @import '../../scss/variables.scss';
 
 #Title {
-    h1 {
-        font-size: 3rem;
-        line-height: 0.8;
-        font-weight: $font-extrabold;
-        text-transform: uppercase;
-        margin: 0;
-        padding: 0;
+    .content-container {
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        z-index: 9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 0;
 
-        @media screen and (min-width: 425px) {
-            font-size: 4.5rem;
-        }
-    }
-
-    ul {
-        list-style-type: none;
-        padding: 0;
-
-        li {
-            display: block;
-            text-transform: uppercase;
+        h1 {
+            font-size: 3rem;
+            line-height: 0.8;
             font-weight: $font-extrabold;
-            margin-right: 1rem;
-            padding-right: 1rem;
+            text-transform: uppercase;
+            margin: 0;
+            padding: 0;
 
-            @media screen and (min-width: 768px) {
-                border-right: 1.5px solid black;
-                display: inline-block;
+            @media screen and (min-width: 425px) {
+                font-size: 4.5rem;
+            }
+        }
 
-                &:last-child {
-                    margin-right: 0;
-                    padding-right: 0;
-                    border-right: 0;
+        ul {
+            list-style-type: none;
+            padding: 0;
+
+            li {
+                display: block;
+                text-transform: uppercase;
+                font-weight: $font-extrabold;
+                margin-right: 1rem;
+                padding-right: 1rem;
+
+                @media screen and (min-width: 768px) {
+                    border-right: 1.5px solid black;
+                    display: inline-block;
+
+                    &:last-child {
+                        margin-right: 0;
+                        padding-right: 0;
+                        border-right: 0;
+                    }
                 }
             }
         }
+    }
+
+    .backdrop {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        background: linear-gradient(
+            -90deg,
+            lighten($teal, 95%) 0%,
+            lighten($teal, 85%) 10%,
+            lighten($teal, 75%) 25%,
+            lighten($teal, 65%) 45%,
+            lighten($teal, 55%) 60%,
+            lighten($teal, 45%) 75%,
+            lighten($teal, 35%) 85%,
+            $teal 100%
+        );
+    }
+
+    .backdrop::before,
+    .backdrop::after,
+    .backdrop > .backdrop-blobs,
+    .backdrop > .backdrop-blobs::before,
+    .backdrop > .backdrop-blobs::after {
+        filter: blur(75px);
+    }
+
+    .backdrop::before,
+    .backdrop::after {
+        position: absolute;
+        content: "";
+        width: 390px;
+        height: 390px;
+        border-radius: 100%;
+    }
+
+    .backdrop::before {
+        background: #ffecf5;
+        top: -195px;
+        left: -195px;
+    }
+
+    .backdrop::after {
+        background: #86e1ef;
+        right: -195px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .backdrop > .backdrop-blobs,
+    .backdrop > .backdrop-blobs::before,
+    .backdrop > .backdrop-blobs::after {
+        border-radius: 100%;
+        position: absolute;
+    }
+
+    .backdrop > .backdrop-blobs::before,
+    .backdrop > .backdrop-blobs::after {
+        content: "";
+        width: 140px;
+        height: 140px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .backdrop > .backdrop-blobs {
+        width: 230px;
+        height: 230px;
+        background: #ffc285;
+        bottom: -60px;
+        left: 75px;
+    }
+
+    .backdrop > .backdrop-blobs::before {
+        background: #8600ff;
+        left: -40%;
+    }
+
+    .backdrop > .backdrop-blobs::after {
+        background: #ff0000;
+        right: -20%;
     }
 }
