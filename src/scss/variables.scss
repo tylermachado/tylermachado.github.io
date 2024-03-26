@@ -3,8 +3,10 @@
 $black: #2B251E;
 $white: #fff;
 
-$teal: #0F5358;
-$pearl: lighten($teal, 95%);
+$teal-dark: #0F5358;
+
+$teal: color.scale($teal-dark, $lightness: 30%, $saturation: 20%);
+$pearl: color.scale($teal-dark, $lightness: 99%, $saturation: -95%);
 $orange: #F56720;
 
 $color-light: $pearl;

@@ -8,7 +8,7 @@
         width: -webkit-fill-available;
         bottom: 0;
         height: 10vh;
-        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+        background: linear-gradient(0deg, rgba($pearl,1) 0%, rgba($pearl,0) 100%);
         display: block;
         overflow-x: hidden;
     }
@@ -69,14 +69,14 @@
         overflow: hidden;
         background: linear-gradient(
             -90deg,
-            lighten($teal, 95%) 0%,
-            lighten($teal, 80%) 10%,
-            lighten($teal, 65%) 25%,
-            lighten($teal, 75%) 45%,
-            lighten($teal, 85%) 60%,
-            lighten($teal, 70%) 75%,
-            lighten($teal, 55%) 85%,
-            lighten($teal, 40%) 100%
+            lighten($teal-dark, 95%) 0%,
+            lighten($teal-dark, 80%) 10%,
+            lighten($teal-dark, 65%) 25%,
+            lighten($teal-dark, 75%) 45%,
+            lighten($teal-dark, 85%) 60%,
+            lighten($teal-dark, 70%) 75%,
+            lighten($teal-dark, 55%) 85%,
+            lighten($teal-dark, 40%) 100%
         );
     }
 
