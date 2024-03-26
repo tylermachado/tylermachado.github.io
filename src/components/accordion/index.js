@@ -16,7 +16,7 @@ const Accordion = ({ title, subtitles, content, cardMode }) => {
 
   return (
     <>
-      <div className={`accordion-item ${isOpen ? 'open' : ''}`}>
+      <div className={`accordion-item${isOpen ? ' open' : ''}`}>
         <div className="accordion-item__heading">
           <button
             className="item-toggle"
