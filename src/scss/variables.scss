@@ -5,7 +5,7 @@ $white: #fff;
 
 $teal-dark: #0F5358;
 
-$teal: color.scale($teal-dark, $lightness: 30%, $saturation: 20%);
+$teal: color.scale($teal-dark, $lightness: 50%, $saturation: -20%);
 $pearl: color.scale($teal-dark, $lightness: 99%, $saturation: -95%);
 $orange: #F56720;
 

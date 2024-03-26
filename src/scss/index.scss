@@ -84,7 +84,7 @@ p {
   font-size: 1.1rem;
   font-weight: $font-normal;
   letter-spacing: -.015rem;
-  line-height: 1.5;
+  line-height: 1.8;
 
   a {
     border-bottom: 4px solid $teal;
@@ -94,9 +94,10 @@ p {
     transition: all $transform-speed ease;
 
     &:hover {
-      color: $white;
       background-color: $teal;
-      border-top: 4px solid $teal;
+      border: 0;
+      box-shadow: 0 0 1.25px 1.25px $pearl inset;
+      padding: 4px 0;
     }
   }
 }
