@@ -7,9 +7,48 @@ footer {
   justify-content: center;
   margin: 3rem 0 1rem;
   padding: 0 2rem;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+      24deg,
+      lighten($teal, 40%) 0%,
+      lighten($teal, 75%) 20%,
+      lighten($teal, 90%) 50%,
+      lighten($teal, 70%) 70%,
+      lighten($teal, 90%) 100%
+  );
+
+  &::before { 
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 0;
+    height: 15vh;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    display: block;
+    overflow-x: hidden;
+    margin: 0 -2rem;
+    z-index: 4;
+}
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 40vh;
+    height: 40vh;
+    background: #c49fe7;
+    left: 45%;
+    bottom: 0;
+    transform: translateX(100%) translateY(40%);
+    border-radius: 100%;
+    z-index: 3;
+    filter: blur(60px);
+    overflow-x: hidden;
+  }
 
   @media screen and (min-width: 768px) {
-    margin: 3rem 0 15vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
   }
 
   p {
