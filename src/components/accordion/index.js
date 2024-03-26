@@ -6,6 +6,11 @@ const Accordion = ({ title, subtitles, content, cardMode }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAcc = () => {
+    document.querySelectorAll('.open').forEach((item) => {
+      if (item.classList.contains('open')) {
+        item.classList.remove('open');
+      }
+    });
     setIsOpen(!isOpen);
   };
 
