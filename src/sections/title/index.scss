@@ -20,7 +20,7 @@
         padding: 0;
 
         li {
-            display: inline-block;
+            display: block;
             text-transform: uppercase;
             font-weight: $font-extrabold;
             margin-right: 1rem;
@@ -28,12 +28,13 @@
 
             @media screen and (min-width: 768px) {
                 border-right: 1.5px solid black;
-            }
+                display: inline-block;
 
-            &:last-child {
-                margin-right: 0;
-                padding-right: 0;
-                border-right: 0;
+                &:last-child {
+                    margin-right: 0;
+                    padding-right: 0;
+                    border-right: 0;
+                }
             }
         }
     }
