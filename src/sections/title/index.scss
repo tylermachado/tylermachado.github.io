@@ -2,6 +2,15 @@
 @import '../../scss/variables.scss';
 
 #Title {
+    &::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        bottom: 0;
+        height: 10vh;
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+        display: block;
+    }
     .content-container {
         position: absolute;
         top: 0;
@@ -60,13 +69,13 @@
         background: linear-gradient(
             -90deg,
             lighten($teal, 95%) 0%,
-            lighten($teal, 85%) 10%,
-            lighten($teal, 75%) 25%,
-            lighten($teal, 65%) 45%,
-            lighten($teal, 55%) 60%,
-            lighten($teal, 45%) 75%,
-            lighten($teal, 35%) 85%,
-            $teal 100%
+            lighten($teal, 80%) 10%,
+            lighten($teal, 65%) 25%,
+            lighten($teal, 75%) 45%,
+            lighten($teal, 85%) 60%,
+            lighten($teal, 70%) 75%,
+            lighten($teal, 55%) 85%,
+            lighten($teal, 40%) 100%
         );
     }
 
@@ -82,55 +91,55 @@
     .backdrop::after {
         position: absolute;
         content: "";
-        width: 390px;
-        height: 390px;
+        width: 100%;
+        height: 100vh;
         border-radius: 100%;
     }
 
     .backdrop::before {
-        background: #ffecf5;
-        top: -195px;
-        left: -195px;
+        background: #eac8d8;
+        top: -50%;
+        left: -50%;
     }
 
     .backdrop::after {
-        background: #86e1ef;
-        right: -195px;
-        top: 50%;
+        background: #c49fe7;
+        right: -65%;
+        top: 25%;
         transform: translateY(-50%);
     }
 
-    .backdrop > .backdrop-blobs,
-    .backdrop > .backdrop-blobs::before,
-    .backdrop > .backdrop-blobs::after {
-        border-radius: 100%;
-        position: absolute;
-    }
+    // .backdrop > .backdrop-blobs,
+    // .backdrop > .backdrop-blobs::before,
+    // .backdrop > .backdrop-blobs::after {
+    //     border-radius: 100%;
+    //     position: absolute;
+    // }
 
-    .backdrop > .backdrop-blobs::before,
-    .backdrop > .backdrop-blobs::after {
-        content: "";
-        width: 140px;
-        height: 140px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+    // .backdrop > .backdrop-blobs::before,
+    // .backdrop > .backdrop-blobs::after {
+    //     content: "";
+    //     width: 35%;
+    //     height: 100vh;
+    //     top: 50%;
+    //     transform: translateY(-50%);
+    // }
 
-    .backdrop > .backdrop-blobs {
-        width: 230px;
-        height: 230px;
-        background: #ffc285;
-        bottom: -60px;
-        left: 75px;
-    }
+    // .backdrop > .backdrop-blobs {
+    //     width: 230px;
+    //     height: 230px;
+    //     background: #ffc285;
+    //     bottom: -60px;
+    //     left: 75px;
+    // }
 
-    .backdrop > .backdrop-blobs::before {
-        background: #8600ff;
-        left: -40%;
-    }
+    // .backdrop > .backdrop-blobs::before {
+    //     background: #8600ff;
+    //     left: -40%;
+    // }
 
-    .backdrop > .backdrop-blobs::after {
-        background: #ff0000;
-        right: -20%;
-    }
+    // .backdrop > .backdrop-blobs::after {
+    //     background: #ff0000;
+    //     right: -20%;
+    // }
 }

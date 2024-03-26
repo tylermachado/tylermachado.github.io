@@ -5,7 +5,7 @@ const Title = () => (
   <>
     <section id="Title">
       <div class="backdrop">
-        <div class="backdrop-blobs"></div>
+        {/* <div class="backdrop-blobs"></div> */}
       </div>
       <div className="content-container">
         <h1>Tyler Machado</h1>
