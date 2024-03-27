@@ -20,7 +20,11 @@
       width: 100%;
 
       &:hover {
-        color: $teal;
+        color: color.adjust($teal, $lightness: -25%);
+      }
+
+      &:active {
+        color: $black;
       }
 
       &__text {
@@ -46,7 +50,7 @@
         scale: 2;
         position: absolute;
         right: 0.33rem;
-        top: 1rem;
+        top: 1.15rem;
         transition: transform $transform-speed ease-in-out;
 
         .accordion-item.open & {
@@ -113,7 +117,7 @@
 
       &:hover {
         background-color: $color-dark;
-        color: $color-light;
+        color: color.adjust($color-light, $lightness: -20%);
       }
 
       @media screen and (min-width: 900px) {
