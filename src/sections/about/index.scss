@@ -18,12 +18,26 @@
             lighten($teal-dark, 100%) 72%,
             lighten($teal-dark, 100%) 100%,
         );
-        border-bottom: 1px solid $black;
-        border-left: 1px solid $black;
         float: right;
         line-height: 0;
         margin: 0 0 0.2rem 1rem;
-        width: 120px;
+        width: 150px;
+        box-shadow: 0 0 3px 3px white inset;
+        position: relative;
+        border-radius: 75px;
+
+
+
+        &::after {
+            box-shadow: 0 0 3px 3px white inset;
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 20;
+            }
     }
 
     img.headshot {
@@ -32,7 +46,8 @@
         height: auto;
         max-width: 100%;
         max-height: 100%;
-        transform: scale(1.01);
         object-fit: contain;
+        transform: scale(0.95);
+        border-radius: 75px;
     }
 }
