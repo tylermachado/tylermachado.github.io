@@ -25,18 +25,6 @@
         box-shadow: 0 0 3px 3px white inset;
         position: relative;
         border-radius: 75px;
-
-
-
-        &::after {
-            box-shadow: 0 0 3px 3px white inset;
-            content: '';
-            display: block;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            width: 100%;
-            }
     }
 
     img.headshot {
