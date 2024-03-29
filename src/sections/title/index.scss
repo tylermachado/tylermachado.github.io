@@ -2,6 +2,8 @@
 @import '../../scss/variables.scss';
 
 #Title {
+    max-width: unset;
+    
     &::after {
         position: absolute;
         content: "";
