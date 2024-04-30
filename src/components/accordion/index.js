@@ -2,16 +2,9 @@ import React, { useState } from 'react';
 import { FiPlus as ToggleButton } from "react-icons/fi";
 import './index.scss';
 
-const Accordion = ({ title, subtitles, content, cardMode }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
+const Accordion = ({ itemCount, title, subtitles, content, cardMode, isOpen, setOpenItem }) => {
   const toggleAcc = () => {
-    document.querySelectorAll('.open').forEach((item) => {
-      if (item.classList.contains('open')) {
-        item.classList.remove('open');
-      }
-    });
-    setIsOpen(!isOpen);
+    setOpenItem(itemCount);
   };
 
   return (
@@ -23,6 +16,7 @@ const Accordion = ({ title, subtitles, content, cardMode }) => {
             aria-expanded={isOpen}
             aria-controls="menu"
             aria-label="Toggle item"
+            // When this button is clicked, it should set the open item in the parent component to the current index
             onClick={toggleAcc}
           >
             <div className="item-toggle__text">

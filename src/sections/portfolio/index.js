@@ -3,8 +3,13 @@ import Accordion from '../../components/accordion'
 import './index.scss';
 
 const Portfolio = () => {
-
   const [content, setContent] = useState([]);
+  const [openItem, setOpenItem] = useState(null);
+
+  const toggleOpenItem = (index) => {
+    setOpenItem(openItem === index ? null : index);
+  }
+
   const disciplines = [
     "WordPress blocks and themes",
     "Data visualizations and graphics",
@@ -29,6 +34,9 @@ const Portfolio = () => {
               title={item}
               content={content ? content.filter((project) => project.category === item) : null}
               cardMode={true}
+              itemCount={index}
+              isOpen={openItem === index}
+              setOpenItem={toggleOpenItem}
             />
           ))}
         </div>

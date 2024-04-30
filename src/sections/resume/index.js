@@ -3,8 +3,12 @@ import Accordion from '../../components/accordion'
 import './index.scss';
 
 const Resume = () => {
-
   const [content, setContent] = useState([]);
+  const [openItem, setOpenItem] = useState(null);
+
+  const toggleOpenItem = (index) => {
+    setOpenItem(openItem === index ? null : index);
+  }
 
   useEffect(() => {
     let url = "/content/resume.json";
@@ -22,6 +26,9 @@ const Resume = () => {
             title={item.workplace}
             subtitles={item.titles}
             content={item.duties}
+            itemCount={index}
+            isOpen={openItem === index}
+            setOpenItem={toggleOpenItem}
           />
         ))}
       </div>
