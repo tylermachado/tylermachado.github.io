@@ -132,14 +132,16 @@
 
       li {
         background-color: $black;
+        font-weight: 500;
         margin: 0;
+        padding: 0.5rem 0.5rem;
         width: 100%;
-        padding: 0.5rem 0;
 
         @media screen and (min-width: 768px) {
-          font-size: 1.25rem;
+          font-size: 1.2rem;
           line-height: 1.5;
           margin: 0 0 1.5rem;
+          padding: 0.5rem 0;
         }
 
         &:last-child {
