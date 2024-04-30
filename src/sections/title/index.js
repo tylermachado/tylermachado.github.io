@@ -4,7 +4,7 @@ import './index.scss';
 const Title = () => (
   <>
     <section id="Title">
-      <div class="backdrop">
+      <div className="backdrop">
         {/* <div class="backdrop-blobs"></div> */}
       </div>
       <div className="content-container">
