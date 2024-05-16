@@ -7,12 +7,11 @@
             "User Experience Developer II, March 2021-present"
         ],
         "duties": [
-            "Building bespoke blocks, templates, and patterns for modern enterprise WordPress sites",
-            "Leveraging WordPress’s REST and Block APIs using HTML/CSS, JavaScript/React, and PHP",
-            "Designing and implementing in-editor interfaces to improve the user experience for content creators and producers",
+            "Building features for enterprise websites, using React, HTML, CSS and WordPress REST and block APIs",
+            "Designing and implementing in-CMS interfaces to improve UX for site editors",
+            "Leading backlog refinement, epic planning, and client demos on certain features",
             "Prototyping and building static and interactive chart designs for dataviz projects",
-            "Contributing to company-wide shared component libraries",
-            "Working in a remote Agile environment with teammates and stakeholders, using Git and Jira"
+            "Improving performance and accessibility via site audits and internal component Storybook"
         ]
     },{
         "workplace": "Northeastern University",
@@ -22,10 +21,11 @@
             "Front-end and Data Developer, April 2019-March 2021"
         ],
         "duties": [
-            "Produced data visualizations, interactive maps, and custom digital presentations for university news stories, working with academic research, public datasets, and journalistic explainers",
+            "Brainstormed and developed data graphics, interactive maps, and microsites to pair with university communications, primarily using a Svelte/D3 chart-making rig that I developed",
             "Designed and built the university’s public-facing COVID-19 testing dashboard",
-            "Built project library using Svelte and D3 to streamline development, deployment, and branding",
-            "Contributed maintenance to the university’s WordPress theme, using the Timber framework"
+            "Implemented style guide merging dataviz best practices with university branding standards",
+            "Developed and deployed microsites for university initiatives and collaborations",
+            "Contributed to ongoing site maintenance, using WordPress and the Timber framework"
         ]
     },
     {
@@ -36,8 +36,9 @@
             "Front-end Developer/Designer, February 2018-April 2019"
         ],
         "duties": [
-            "Designed, maintained, and built WordPress websites for nonprofit news organizations, using the in-house framework Largo",
-            "Created wireframes, prototypes and design systems to guide UI/UX decisions, in collaboration with partner organizations and clients",
+            "Worked with a small, remote scrum team providing agency services to nonprofit media outlets",
+            "Designed, built, and supported WordPress websites and plugins",
+            "Created UI wireframes, prototypes, style tiles and design systems for client projects",
             "Updated internal branding guidelines and assets, for both print and digital uses"
         ]
     },
@@ -50,7 +51,7 @@
         ],
         "duties": [
             "Designed and built web-native tools and data visualizations based on new and archive content",
-            "Managed new processes to bridge design, tech, and editorial desks",
+            "Managed new processes at the nexus of design, technology, and editorial departments",
             "Built and maintained Node-based chatbots on Slack and Facebook"
         ]
     },
@@ -63,9 +64,9 @@
             "Deputy Web Editor, June 2010-August 2012"
         ],
         "duties": [
-            "Created WordPress websites for Kids VT, the Vermont Tech Jam, and Vermont Restaurant Week",
-            "Revamped layout designs and managed daily production for six email newsletters, and led the migration of said newsletters from Constant Contact to Mailchimp",
-            "Directed newsroom initiatives on analytics, content strategy and social media",
+            "Created Bootstrap-based WordPress websites for company events and publications, including Kids VT, Restaurant Week, and the Vermont Tech Jam",
+            "Managed migration projects, redesigns and daily production of six email newsletters",
+            "Developed UX features for both the overall publication site and individual articles",
             "Hosted election night coverage on social media, live blogs, chats, and results dashboards"
         ]
     }
