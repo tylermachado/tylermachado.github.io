@@ -4,14 +4,13 @@
         "location": "remote",
         "url": "https://alley.com/",
         "titles": [
-            "User Experience Developer II, March 2021-present"
+            "User Experience Developer II, March 2021-July 2024"
         ],
         "duties": [
-            "Building features for enterprise websites, using React, HTML, CSS and WordPress REST and block APIs",
-            "Designing and implementing in-CMS interfaces to improve UX for site editors",
-            "Leading backlog refinement, epic planning, and client demos on certain features",
-            "Prototyping and building static and interactive chart designs for dataviz projects",
-            "Improving performance and accessibility via site audits and internal component Storybook"
+            "Built features for enterprise websites, using React, HTML, CSS and WordPress APIs",
+            "Designed and implemented in-CMS interfaces to improve UX for site editors",
+            "Prototyped and built static and interactive chart designs for dataviz projects",
+            "Improved performance and accessibility via site audits and internal component Storybook"
         ]
     },{
         "workplace": "Northeastern University",
