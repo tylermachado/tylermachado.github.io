@@ -11,8 +11,8 @@ const Portfolio = () => {
   }
 
   const disciplines = [
-    "WordPress blocks and themes",
     "Data visualizations and graphics",
+    "WordPress blocks and themes",
     "Interactive web tools",
     "Visual design and branding",
   ]

@@ -11,8 +11,8 @@ const Title = () => (
         <h1>Tyler Machado</h1>
         <ul>
           <li>Data Visualization</li>
-          <li>UI/UX Design</li>
           <li>Frontend Development</li>
+          <li>UI/UX</li>
         </ul>
       </div>
     </section>
