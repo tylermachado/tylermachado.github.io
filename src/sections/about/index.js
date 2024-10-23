@@ -21,10 +21,7 @@ const About = () => (
           Perhaps you’ve seen my freelance work in <a href="https://pudding.cool/2024/10/nba-uniforms/">the Pudding</a>, <a href="https://www.sciencenews.org/century/atom-matter-neutron-nuclear-power-fusion#sn-responsive-iframe-19">Science News</a>, or on a <a href="https://www.facebook.com/nerevolution/photos/thanks-to-nerevs-fan-tyler-machado-for-designing-tomorrows-matchday-postertylerm/10153827387493230/">New England Revolution</a> soccer poster. I co-led sessions at SRCCON events in <a href="https://source.opennews.org/articles/lonely-newsroom-coder/">2015</a>, <a href="https://medium.com/@tylermachado/a-data-analysis-of-my-drinking-habits-a7a626bf17ed">2016</a> and <a href="https://work.srccon.org/sessions/#proposal-2">2017</a>, and I've given talks at Boston University’s <a href="/archive/storytelling-with-data-2016.pdf">Storytelling With Data</a> workshop and <a href="https://github.com/tylermachado/slides-responsive-dataviz">CASCADE BOS</a>.
         </p>
         <p>
-          I'm spending summer 2024 working on some contract dataviz work that I'm really excited about. I'll be looking for new work as the calendar turns to fall, either freelance or full-time; if you think you may want to work with me, please send me an email or LinkedIn message!
-        </p>
-        <p>
-          You can reach me at tyler.machado@gmail.com.
+          I'm currently available for new work! I'm open to full-time, part-time, or contract/freelance roles -- as long as the work is mission-driven and technically interesting. If you might want to collaborate, please find me on <a href="//www.linkedin.com/in/tylermachado/">LinkedIn</a> or email me at <a href="mailto:tyler.machado@gmail.com">tyler.machado@gmail.com</a>.
         </p>
       </div>
     </section>
