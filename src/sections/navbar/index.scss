@@ -149,8 +149,11 @@
         }
 
         a {
-          border: 0;
+          background-color: unset;
+          border: unset;
+          box-shadow: unset;
           color: $color-light;
+          font-weight: 600;
           text-decoration: none;
           text-transform: uppercase;
           width: 100%;
