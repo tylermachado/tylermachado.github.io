@@ -45,7 +45,9 @@ const Accordion = ({ itemCount, title, subtitles, content, cardMode, isOpen, set
               ? <p>{content}</p>
               : <ul>
                 {
-                  content.map((item, index) => <li key={index}>{item}</li>)
+                  content.map((item, index) => (
+                    <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
+                  ))
                 }
               </ul>
             }

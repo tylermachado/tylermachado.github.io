@@ -1,5 +1,17 @@
 [
     {
+        "workplace": "self-employed",
+        "location": "remote",
+        "url": "https://alley.com/",
+        "titles": [
+            "Freelance Developer and Dataviz Specialist, July 2024-present"
+        ],
+        "duties": [
+            "Gathered and cleaned data, developed charts and bespoke UI, and wrote copy for a story about NBA uniform for <a href='https://pudding.cool/2024/10/nba-uniforms/'>the Pudding</a>",
+            "Turned an illustration of the standard model of particle physics into a React-based interactive for <a href='https://www.sciencenews.org/century/atom-matter-neutron-nuclear-power-fusion#sn-responsive-iframe-19'>Science News</a>",
+            "Visualized federal funding data through charts and maps for <a href='https://journalistsresource.org/author/tylermachado1/'>Journalist's Resource</a>"
+        ]
+    },{
         "workplace": "Alley",
         "location": "remote",
         "url": "https://alley.com/",

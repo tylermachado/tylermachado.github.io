@@ -88,25 +88,21 @@ p {
   font-weight: $font-normal;
   letter-spacing: -.015rem;
   line-height: 1.6;
-
-  a {
-    border-bottom: 2.5px solid $teal;
-    color: $black;
-    font-weight: bold;
-    text-decoration: none;
-    transition: all $transform-speed ease;
-
-    &:hover {
-      background-color: $teal;
-      border: 0;
-      box-shadow: 0 0 1.25px 1.25px $pearl inset;
-      padding: 4px 0;
-    }
-  }
 }
 
 a {
+  border-bottom: 2.5px solid $teal;
+  color: $black;
+  font-weight: bold;
   text-decoration: none;
+  transition: all $transform-speed ease;
+
+  &:hover {
+    background-color: $teal;
+    border: 0;
+    box-shadow: 0 0 1.25px 1.25px $pearl inset;
+    padding: 4px 0;
+  }
 }
 
 pre {
