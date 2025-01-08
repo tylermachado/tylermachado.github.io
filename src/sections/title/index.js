@@ -12,7 +12,7 @@ const Title = () => (
         <ul>
           <li>Data Visualization</li>
           <li>Frontend Development</li>
-          <li>UI/UX</li>
+          <li>UI/UX Design</li>
         </ul>
       </div>
     </section>
