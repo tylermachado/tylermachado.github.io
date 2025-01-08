@@ -12,10 +12,7 @@ const About = () => (
           Hello, I'm Tyler. I design and build things on the web.
         </p>
         <p>
-          I'm a developer, designer, and dataviz specialist with a decade of experience building creative, engaging, and accessible web experiences. Things I love working on include data dashboards, visual storytelling, design systems and front-end buildouts. I've spent most of my career working with independent media outlets and nonprofits, and I'm particularly interested in working with small-yet-ambitious, mission-driven organizations.
-        </p>
-        <p>
-          For much of my career, I’ve worked with independent media organizations. Whether I’m telling a story through data-driven visual narratives, helping others tell stories with editor-side CMS tools, or crafting intuitive and accessible user interfaces, I’m always excited to work in this corner of the industry helping both editors and end users.
+          I'm a web creative with a decade of experience building creative, engaging, and accessible experiences with a hybrid design/development mindset. Things I love working on include data dashboards, visual storytelling, design systems and frontend buildouts. I've spent most of my career working with independent media outlets and nonprofits, and I'm particularly interested in working with small-yet-ambitious, mission-driven organizations.
         </p>
         <p>
           Perhaps you’ve seen my freelance work in <a href="https://pudding.cool/2024/10/nba-uniforms/">the Pudding</a>, <a href="https://www.sciencenews.org/century/atom-matter-neutron-nuclear-power-fusion#sn-responsive-iframe-19">Science News</a>, or on a <a href="https://www.facebook.com/nerevolution/photos/thanks-to-nerevs-fan-tyler-machado-for-designing-tomorrows-matchday-postertylerm/10153827387493230/">New England Revolution</a> soccer poster. I’ve facilitated conference sessions about accessibility, dataviz, and professional development at four <a href="//srccon.org/">SRCCON</a> events as well as Boston University’s <a href="/archive/storytelling-with-data-2016.pdf">Storytelling With Data</a> workshop and <a href="https://github.com/tylermachado/slides-responsive-dataviz">CASCADE BOS</a>.
