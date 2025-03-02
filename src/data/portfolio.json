@@ -7,7 +7,7 @@
     "category": "Data visualizations and graphics",
     "show": "1",
     "screenshot": "lenfest.png",
-    "blurb\r": "\r"
+    "blurb": "\r"
   },
   {
     "title": "Colors of the Court",
@@ -17,7 +17,7 @@
     "category": "Data visualizations and graphics",
     "show": "1",
     "screenshot": "pudding.png",
-    "blurb\r": "\r"
+    "blurb": "\r"
   },
   {
     "title": "New England Revolution 2024 victory jerseys",
@@ -27,7 +27,7 @@
     "category": "Visual design and branding",
     "show": "1",
     "screenshot": "24jerseys.jpg",
-    "blurb\r": "Inspired by Pete Rogers's Celtics victory jersey designs, I'm designing a concept away kit for the New England Revolution every time they win a match in 2024."
+    "blurb": "Inspired by Pete Rogers's Celtics victory jersey designs, I'm designing a concept away kit for the New England Revolution every time they win a match in 2024."
   },
   {
     "title": "MLS downloadable calendars",
@@ -37,7 +37,7 @@
     "category": "Interactive web tools",
     "show": "1",
     "screenshot": "mlsical.jpg",
-    "blurb\r": "Using data from Major League Soccer, I built subscribable, downloadable digital calendars for each team that includes matches from all competitions."
+    "blurb": "Using data from Major League Soccer, I built subscribable, downloadable digital calendars for each team that includes matches from all competitions."
   },
   {
     "title": "KFF State Profiles for Women's Health",
@@ -47,7 +47,7 @@
     "category": "WordPress blocks and themes",
     "show": "1",
     "screenshot": "spfwh.png",
-    "blurb\r": "\r"
+    "blurb": "\r"
   },
   {
     "title": "American Alliance of Museums",
@@ -57,7 +57,7 @@
     "category": "WordPress blocks and themes",
     "show": "1",
     "screenshot": "aam.png",
-    "blurb\r": "\r"
+    "blurb": "\r"
   },
   {
     "title": "Bassmaster",
@@ -67,7 +67,7 @@
     "category": "WordPress blocks and themes",
     "show": "1",
     "screenshot": "bassmaster.png",
-    "blurb\r": "\r"
+    "blurb": "\r"
   },
   {
     "title": "Knight Foundation",
@@ -77,7 +77,7 @@
     "category": "WordPress blocks and themes",
     "show": "1",
     "screenshot": "knight.png",
-    "blurb\r": "\r"
+    "blurb": "\r"
   },
   {
     "title": "National Science Foundation State Indicators",
@@ -87,7 +87,7 @@
     "category": "Data visualizations and graphics",
     "show": "1",
     "screenshot": "nsf.png",
-    "blurb\r": "\r"
+    "blurb": "\r"
   },
   {
     "title": "Standard model of particle physics",
@@ -97,7 +97,7 @@
     "category": "Interactive web tools",
     "show": "1",
     "screenshot": "scinews.png",
-    "blurb\r": "Working with designers and editors at Science News, I built a small interactive graphic to help readers explore the standard model of particle physics."
+    "blurb": "Working with designers and editors at Science News, I built a small interactive graphic to help readers explore the standard model of particle physics."
   },
   {
     "title": "Svelte dataviz template",
@@ -107,7 +107,7 @@
     "category": "Data visualizations and graphics",
     "show": "1",
     "screenshot": "unemployment.png",
-    "blurb\r": "I built this chart library using Svelte, D3 and Mapbox for the data graphics that my team regularly produces. This template helps streamline production, simplifies deployment, and implements a consistent visual style for our dataviz content. I used this to visualize <a href=\\\"\"https://news.northeastern.edu/2020/08/13/fewer-people-are-using-public-transportation-in-the-us-heres-why-thats-trouble-in-the-long-run/\\\"\">public transit trends</a>, <a href=\\\"\"https://news.northeastern.edu/2020/12/18/the-recovery-of-the-us-economy-after-the-covid-19-pandemic-hinges-on-federal-support/\\\"\">unemployment rates</a>, and <a href=\\\"\"https://news.northeastern.edu/2020/07/01/theres-been-a-23000-percent-jump-in-fireworks-complaints-in-some-parts-of-the-us-this-summer-you-read-that-right/\\\"\">fireworks complaints</a>, among many others."
+    "blurb": "I built this chart library using Svelte, D3 and Mapbox for the data graphics that my team regularly produces. This template helps streamline production, simplifies deployment, and implements a consistent visual style for our dataviz content. I used this to visualize <a href=\\\"\"https://news.northeastern.edu/2020/08/13/fewer-people-are-using-public-transportation-in-the-us-heres-why-thats-trouble-in-the-long-run/\\\"\">public transit trends</a>, <a href=\\\"\"https://news.northeastern.edu/2020/12/18/the-recovery-of-the-us-economy-after-the-covid-19-pandemic-hinges-on-federal-support/\\\"\">unemployment rates</a>, and <a href=\\\"\"https://news.northeastern.edu/2020/07/01/theres-been-a-23000-percent-jump-in-fireworks-complaints-in-some-parts-of-the-us-this-summer-you-read-that-right/\\\"\">fireworks complaints</a>, among many others."
   },
   {
     "title": "COVID-19 testing dashboard",
@@ -117,7 +117,7 @@
     "category": "Data visualizations and graphics",
     "show": "1",
     "screenshot": "testdashboard.png",
-    "blurb\r": "I designed and built Northeastern's public COVID-19 testing dashboard, using Svelte, D3 and a spreadsheet-based backend. "
+    "blurb": "I designed and built Northeastern's public COVID-19 testing dashboard, using Svelte, D3 and a spreadsheet-based backend. "
   },
   {
     "title": "The 2020 census and Title I funding for schools: Interactive maps to localize your state’s stakes",
@@ -127,7 +127,7 @@
     "category": "Data visualizations and graphics",
     "show": "1",
     "screenshot": "jr2.png",
-    "blurb\r": "I worked with university researchers on this series of posts on the U.S. Census and federal funding, specifically to create a series of graphics that local reporters can embed on their own websites. The graphics use D3 and Mapbox, all living inside of a shared React app."
+    "blurb": "I worked with university researchers on this series of posts on the U.S. Census and federal funding, specifically to create a series of graphics that local reporters can embed on their own websites. The graphics use D3 and Mapbox, all living inside of a shared React app."
   },
   {
     "title": "Facing the Future: Northeastern/Gallup AI Research",
@@ -137,7 +137,7 @@
     "category": "Data visualizations and graphics",
     "show": "1",
     "screenshot": "gallup.png",
-    "blurb\r": "I worked on the data visualization, front-end and UI pieces of this mini-site, the introduction to a university campaign on artificial intelligence that translated an academic report to a general audience."
+    "blurb": "I worked on the data visualization, front-end and UI pieces of this mini-site, the introduction to a university campaign on artificial intelligence that translated an academic report to a general audience."
   },
   {
     "title": "Institute for Nonprofit News style guide",
@@ -147,7 +147,7 @@
     "category": "Visual design and branding",
     "show": "1",
     "screenshot": "innstyle.png",
-    "blurb\r": "Inheriting style guide duties at INN, I updated the brand standards to use a new, refined color palette, and created and demonstrated expectations on what the identity should look like when used in digital content."
+    "blurb": "Inheriting style guide duties at INN, I updated the brand standards to use a new, refined color palette, and created and demonstrated expectations on what the identity should look like when used in digital content."
   },
   {
     "title": "The most and least digital jobs -- and how well they pay",
@@ -157,7 +157,7 @@
     "category": "Data visualizations and graphics",
     "show": "1",
     "screenshot": "digitaljobs.png",
-    "blurb\r": "This interactive was based on public data and new research; the twin goals were to allow users to find their own industries of interest while also clearly packing a lot of variables into a small space.\r"
+    "blurb": "This interactive was based on public data and new research; the twin goals were to allow users to find their own industries of interest while also clearly packing a lot of variables into a small space.\r"
   },
   {
     "title": "Matchday poster",
@@ -167,7 +167,7 @@
     "category": "Data visualizations and graphics",
     "show": "1",
     "screenshot": "revs.jpg",
-    "blurb\r": "I designed the poster for a 2016 Major League Soccer match, handed out to nearly 20,000 fans at the stadium. The design is based on the history of New England vs. Columbus matches dating back 20 years."
+    "blurb": "I designed the poster for a 2016 Major League Soccer match, handed out to nearly 20,000 fans at the stadium. The design is based on the history of New England vs. Columbus matches dating back 20 years."
   },
   {
     "title": "The decline of Yahoo in its own words",
@@ -177,7 +177,7 @@
     "category": "development",
     "show": "1",
     "screenshot": "yahoo.png",
-    "blurb\r": "I designed and developed this annotated visualization — actually two, as the data is presented in radically different ways on large screens vs. small ones."
+    "blurb": "I designed and developed this annotated visualization — actually two, as the data is presented in radically different ways on large screens vs. small ones."
   },
   {
     "title": "How corporate boards connect, in charts",
@@ -187,7 +187,7 @@
     "category": "Data visualizations and graphics",
     "show": "1",
     "screenshot": "interlocks.png",
-    "blurb\r": "For this piece for Harvard Business Review’s website, accompanying new research on how large companies’ boards have historically shared members, I was specifically tasked with working up a data visualization that skewed closer to an art piece than a standard chart type available in spreadsheet software."
+    "blurb": "For this piece for Harvard Business Review’s website, accompanying new research on how large companies’ boards have historically shared members, I was specifically tasked with working up a data visualization that skewed closer to an art piece than a standard chart type available in spreadsheet software."
   },
   {
     "title": "Meeting Cost Calculator",
@@ -197,7 +197,7 @@
     "category": "Interactive web tools",
     "show": "1",
     "screenshot": "meetings.png",
-    "blurb\r": "In a development role, I collaborated with design and UX-minded colleagues to create this simple, mobile-friendly web app that allows the user to guess at how much money is being spent on the meeting they're sitting in. We won an award from Folio for Best Consumer Tool in 2016."
+    "blurb": "In a development role, I collaborated with design and UX-minded colleagues to create this simple, mobile-friendly web app that allows the user to guess at how much money is being spent on the meeting they're sitting in. We won an award from Folio for Best Consumer Tool in 2016."
   },
   {
     "title": "The Best-Performing CEOs in the World",
@@ -207,6 +207,6 @@
     "category": "Visual design and branding",
     "show": "1",
     "screenshot": "100ceos.png",
-    "blurb\r": "\r"
+    "blurb": "\r"
   }
 ]

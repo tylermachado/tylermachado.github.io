@@ -11,7 +11,7 @@
     <SidebarWrapper class="bg-transparent">
       <SidebarGroup>
         {#each resumeSections as section}
-          <SidebarItem label="{spaceWords(section)}" href="/">
+          <SidebarItem label={spaceWords(section)} href={`#${section}`}>
           </SidebarItem>
         {/each}
       </SidebarGroup>
@@ -20,7 +20,7 @@
 </div>
 
 <div class="col-span-5">
-  <h2>Work Experience</h2>
+  <h2 id="WorkExperience">Work Experience</h2>
   <Accordion flush>
     {#each resume.WorkExperience as job}
       <AccordionItem>
@@ -37,7 +37,7 @@
     {/each}
   </Accordion>
 
-  <h2>Talks</h2>
+  <h2 id="Talks">Talks</h2>
   <Accordion flush>
     {#each resume.Talks as talk}
       <AccordionItem>
@@ -50,7 +50,7 @@
     {/each}
   </Accordion>
 
-  <h2>Volunteer Positions</h2>
+  <h2 id="VolunteerPositions">Volunteer Positions</h2>
   <Accordion flush>
     {#each resume.VolunteerPositions as job}
       <AccordionItem>
