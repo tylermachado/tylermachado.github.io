@@ -8,7 +8,7 @@
 
 <div class="col-span-1">
   <Sidebar class="w-auto">
-    <SidebarWrapper>
+    <SidebarWrapper class="bg-transparent">
       <SidebarGroup>
         {#each resumeSections as section}
           <SidebarItem label="{spaceWords(section)}" href="/">

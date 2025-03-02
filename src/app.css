@@ -7,10 +7,8 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-
-
 @theme {
-  --font-body: Rubik, sans-serif;
+  --font-body: 'Helvetica Neue', sans-serif;
 }
 
 @layer base {
@@ -25,4 +23,8 @@
   p {
     @apply mt-5 font-body
   }
+}
+
+html {
+
 }

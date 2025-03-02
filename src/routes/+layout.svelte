@@ -6,7 +6,7 @@
 	let { children } = $props();
 </script>
 
-<div class="nav-container bg-gray-100 dark:bg-gray-800">
+<div class="nav-container">
 	<Navbar class="max-w-5xl mx-auto bg-transparent">
 		<NavBrand href="/">
 			<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Tyler Machado</span>
