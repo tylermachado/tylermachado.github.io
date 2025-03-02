@@ -1,51 +1,65 @@
 <script>
-// @ts-nocheck
-
   import { AccordionItem, Accordion } from 'flowbite-svelte';
   import { Sidebar, SidebarBrand, SidebarCta, SidebarDropdownItem, SidebarDropdownWrapper, SidebarGroup, SidebarItem, SidebarWrapper } from 'flowbite-svelte';
+  import { spaceWords } from '../../lib/spaceWords';
+  import resume from '../../data/resume.json';
+  const resumeSections = Object.keys(resume);
 </script>
 
-<Sidebar>
-  <SidebarWrapper>
-    <SidebarGroup>
-      <SidebarItem label="Dashboard" href="/">
-        <svelte:fragment slot="icon">
-        </svelte:fragment>
-      </SidebarItem>
-      <SidebarItem label="Accordion" href="/docs/components/accordion">
-        <svelte:fragment slot="icon">
-        </svelte:fragment>
-      </SidebarItem>
-    </SidebarGroup>
-  </SidebarWrapper>
-</Sidebar>
+<div class="col-span-1">
+  <Sidebar class="w-auto">
+    <SidebarWrapper>
+      <SidebarGroup>
+        {#each resumeSections as section}
+          <SidebarItem label="{spaceWords(section)}" href="/">
+          </SidebarItem>
+        {/each}
+      </SidebarGroup>
+    </SidebarWrapper>
+  </Sidebar>
+</div>
 
-<h2>Work Experience</h2>
+<div class="col-span-5">
+  <h2>Work Experience</h2>
+  <Accordion flush>
+    {#each resume.WorkExperience as job}
+      <AccordionItem>
+        <span slot="header">
+          <h3>{job.job}</h3>
+          <span>{job.title}, {job.time}</span>
+        </span>
+        <ul>
+          {#each job.duties as duty}
+            <li>{duty}</li>
+          {/each}
+        </ul>
+      </AccordionItem>
+    {/each}
+  </Accordion>
 
-<Accordion>
-  <AccordionItem flush>
-    <span slot="header">
-      <h3>self-employed</h3>
-      <span>Freelance Data Visualization Developer, April 2021-present</span>
-    </span>
-    <p class="mb-2 text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...</p>
-    <p class="text-gray-500 dark:text-gray-400">
-      Check out this guide to learn how to <a href="/" target="_blank" rel="noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline"> get started </a>
-      and start developing websites even faster with components on top of Tailwind CSS.
-    </p>
-  </AccordionItem>
-  <AccordionItem>
-    <span slot="header">My Header 2</span>
-    <p class="mb-2 text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...</p>
-    <p class="mb-2 text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ab necessitatibus sint explicabo ...</p>
-    <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-    <ul class="list-disc ps-5 dark:text-gray-400 text-gray-500">
-      <li>
-        <a href="/" target="_blank" rel="noreferrer" class="text-blue-600 dark:text-blue-500 hover:underline"> Lorem ipsum </a>
-      </li>
-      <li>
-        <a href="https://tailwindui.com/" rel="noreferrer" target="_blank" class="text-blue-600 dark:text-blue-500 hover:underline"> Tailwind UI </a>
-      </li>
-    </ul>
-  </AccordionItem>
-</Accordion>
+  <h2>Talks</h2>
+  <Accordion flush>
+    {#each resume.Talks as talk}
+      <AccordionItem>
+        <span slot="header">
+          <h3>{talk.title}</h3>
+          <span>{talk.event}, {talk.date}</span>
+        </span>
+        <p>{talk.content}</p>
+      </AccordionItem>
+    {/each}
+  </Accordion>
+
+  <h2>Volunteer Positions</h2>
+  <Accordion flush>
+    {#each resume.VolunteerPositions as job}
+      <AccordionItem>
+        <span slot="header">
+          <h3>{job.org}</h3>
+          <span>{job.position}, {job.date}</span>
+        </span>
+        <p>{job.content}</p>
+      </AccordionItem>
+    {/each}
+  </Accordion>
+</div>
