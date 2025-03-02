@@ -19,3 +19,13 @@
 }
 
 @source "../node_modules/flowbite-svelte/dist";
+
+@layer base {
+  h2:not(.group) {
+    @apply text-2xl font-bold mt-10
+  }
+
+  p {
+    @apply mt-5
+  }
+}
