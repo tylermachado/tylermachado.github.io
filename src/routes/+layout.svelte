@@ -21,6 +21,6 @@
 	</Navbar>
 </div>
 
-<div class="grid grid-cols-6 gap-4 max-w-5xl mx-auto">
+<div class="grid md:grid-cols-6 gap-4 max-w-5xl mx-auto">
 {@render children()}
 </div>

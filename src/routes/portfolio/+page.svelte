@@ -1,3 +1,3 @@
-<h1 class="text-3xl font-bold underline">
-  Hello world!
-</h1>
+<script>
+  import { AccordionItem, Accordion } from 'flowbite-svelte';
+</script>

@@ -17,7 +17,24 @@ const fetchGoogle = async ({ id, gid }) => {
 		const response = await fetch(url);
 		const text = await response.text();
 
-		if (gid) return text;
+		if (gid) {
+			const lines = text.split('\n');
+			const headers = lines[0].split(',');
+			const result = [];
+
+			for (let i = 1; i < lines.length; i++) {
+				const obj = {};
+				const currentLine = lines[i].match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g).map(s => s.replace(/^"(.*)"$/, '$1'));
+
+
+				for (let j = 0; j < headers.length; j++) {
+					obj[headers[j]] = currentLine[j];
+				}
+				
+				if (obj['show'] == '1') { result.push(obj) };
+			}
+			return JSON.stringify(result);
+		}
 
 		const parsed = archieml.load(text);
 		const str = JSON.stringify(parsed);
