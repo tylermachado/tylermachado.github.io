@@ -5,15 +5,20 @@
 @plugin 'flowbite/plugin';
 @source "../node_modules/flowbite-svelte/dist";
 
+@plugin "@iconify/tailwind4";
+
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
   --font-body: 'Helvetica Neue', sans-serif;
+  /* --font-body: 'Inconsolata', sans-serif; */
 }
 
 @layer base {
   * {
-    @apply font-body
+    @apply font-body;
+    letter-spacing: -0.01rem;
   }
 
   h2:not(.group) {
@@ -23,8 +28,12 @@
   p {
     @apply mt-5 font-body
   }
+
+  a {
+    @apply text-blue-600 hover:text-blue-800 underline;
+  }
 }
 
 html {
-
+    min-height: 100.5vh;
 }

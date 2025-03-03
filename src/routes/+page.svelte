@@ -7,14 +7,15 @@
 </div>
 
 <div class="p-8 col-span-5">
+  <img src="/images/headshot.jpg" alt="Tyler Machado" class="rounded-2xl w-48 h-48 float-right mr-8 mb-8" />
+
+  <p class="text-2xl font-bold">Hi, I'm Tyler.</p>
+
   <p>I make websites, dashboards, data visualizations, and design systems.</p>
 
-  <p>I approach my work with a mix of technical experience, design mindset, and journalistic training. I’ve been building creative, engaging, accessible digital experiences for more than a decade, having collaborated with both enterprise-scale international media websites and tiny startup nonprofits. These days I'm particularly interested in working with ambitious small teams and mission-driven organizations.</p>
+  <p>I’ve been a web developer and design technologist for more than a decade, pulling from my technical experience, design mindset, and journalism training. Whether I’m building behind-the-scenes tools or platform enhancements for journalists, or producing my own creative interactive content for readers, I'm here to help independent media brands thrive on the modern web.</p>
 
-  <p>My toolkit these days includes (but is not limited to): Svelte, React, D3.js, Python, WordPress block themes.</p>
+  <p>I’m currently working on freelance projects, and I have capacity for more contract work or fractional roles for spring/summer 2025. <a href="/contact">Want to work together?</a></p>
 
-  <p>When I’m not at my desk, you’ll most likely find me at the restaurants, rock clubs, and soccer fields of New England. I live in Boston with my partner, my cat, and entirely too many records.</p>
-
-  <p>I’m currently working on freelance projects, and I'm looking to book more freelance work or fractional roles through spring and summer of 2025. </p>
 
 </div>

@@ -9,9 +9,9 @@
 <div class="col-span-1">
   <Sidebar class="w-auto">
     <SidebarWrapper class="bg-transparent">
-      <SidebarGroup>
+      <SidebarGroup class="m-0">
         {#each resumeSections as section}
-          <SidebarItem label={spaceWords(section)} href={`#${section}`}>
+          <SidebarItem label={spaceWords(section)} href={`#${section}`} class="-ms-3 leading-5">
           </SidebarItem>
         {/each}
       </SidebarGroup>
@@ -19,7 +19,7 @@
   </Sidebar>
 </div>
 
-<div class="col-span-5">
+<div class="col-span-5 px-5">
   <h2 id="WorkExperience">Work Experience</h2>
   <Accordion flush>
     {#each resume.WorkExperience as job}
