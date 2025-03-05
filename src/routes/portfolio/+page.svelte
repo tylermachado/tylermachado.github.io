@@ -10,7 +10,7 @@
 <div class="col-span-5">
   <Accordion flush multiple>
     {#each portfolioCategories as category}
-      <AccordionItem>
+      <AccordionItem >
         <span slot="header">
           <h3>{category}</h3>
         </span>

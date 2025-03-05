@@ -23,14 +23,14 @@
   <h2 id="WorkExperience">Work Experience</h2>
   <Accordion flush>
     {#each resume.WorkExperience as job}
-      <AccordionItem>
+      <AccordionItem class="text-stone-800">
         <span slot="header">
           <h3>{job.job}</h3>
-          <span>{job.title}, {job.time}</span>
+          <span class="font-normal">{job.title}, {job.time}</span>
         </span>
-        <ul>
+        <ul class="text-stone-800 list-disc">
           {#each job.duties as duty}
-            <li>{duty}</li>
+            <li class="mb-2.5 ml-5">{duty}</li>
           {/each}
         </ul>
       </AccordionItem>
@@ -40,10 +40,10 @@
   <h2 id="Talks">Talks</h2>
   <Accordion flush>
     {#each resume.Talks as talk}
-      <AccordionItem>
+      <AccordionItem class="text-stone-800">
         <span slot="header">
           <h3>{talk.title}</h3>
-          <span>{talk.event}, {talk.date}</span>
+          <span  class="font-normal">{talk.event}, {talk.date}</span>
         </span>
         <p>{talk.content}</p>
       </AccordionItem>
@@ -53,10 +53,10 @@
   <h2 id="VolunteerPositions">Volunteer Positions</h2>
   <Accordion flush>
     {#each resume.VolunteerPositions as job}
-      <AccordionItem>
+      <AccordionItem class="text-stone-800">
         <span slot="header">
           <h3>{job.org}</h3>
-          <span>{job.position}, {job.date}</span>
+          <span class="font-normal">{job.position}, {job.date}</span>
         </span>
         <p>{job.content}</p>
       </AccordionItem>
