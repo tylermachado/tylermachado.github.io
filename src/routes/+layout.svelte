@@ -33,7 +33,7 @@
 
 <footer class="h-[100px] w-full px-10 py-5 bg-green-950 text-white align-right">
 	<div class="max-w-5xl mx-auto">
-    <span>© 2025 Tyler Machado</span>
+    <span class="text-sm">© 2025 Tyler Machado</span>
 		<SocialIcons lightIcons />
 	</div>
 	</footer>
