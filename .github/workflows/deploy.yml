@@ -28,7 +28,7 @@ jobs:
 
       - name: Build project
         run: |
-          export BASE_PATH="/tylermachado.github.io"
+          export NODE_ENV=production
           npm run build
 
       - name: Configure GitHub Pages
