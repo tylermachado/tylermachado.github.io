@@ -6,24 +6,12 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter({
-			// default options are shown. On some platforms
-			// these options are set automatically — see below
-			pages: 'build',
-			assets: 'build',
-			fallback: undefined,
-			precompress: false,
-			strict: true
-		}),
-		prerender: {
-			handleMissingId: 'warn', // Avoid hard errors on dynamic routes
-			entries: ['*'] // Pre-render everything possible
-		},
-		paths: {
-			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
-		},
-		appDir: 'app' // Avoid conflicts with GitHub Pages `_` directories
-	}
+    adapter: adapter(),
+    paths: {
+      base: process.env.BASE_PATH || '', // Set in GitHub Actions
+    },
+    appDir: 'app', // Avoids conflicts with GitHub Pages
+  }
 };
 
 export default config;
