@@ -7,15 +7,21 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			fallback: 'index.html' // Needed for SPA mode (GitHub Pages)
+			// default options are shown. On some platforms
+			// these options are set automatically — see below
+			pages: 'build',
+			assets: 'build',
+			fallback: undefined,
+			precompress: false,
+			strict: true
 		}),
 		prerender: {
 			handleMissingId: 'warn', // Avoid hard errors on dynamic routes
 			entries: ['*'] // Pre-render everything possible
 		},
-		 paths: {
-      base: process.env.NODE_ENV === 'production' ? '/tylermachado.github.io' : '',
-    },
+		paths: {
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+		},
 		appDir: 'app' // Avoid conflicts with GitHub Pages `_` directories
 	}
 };

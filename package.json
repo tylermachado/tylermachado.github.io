@@ -13,7 +13,7 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
 		"lint": "prettier --check .",
-    "deploy": "npm build && npx gh-pages -d build -t true"
+    "deploy": "npm run build && npx gh-pages -d build -t true"
 	},
 	"devDependencies": {
 		"@iconify-json/fa6-brands": "^1.2.5",
