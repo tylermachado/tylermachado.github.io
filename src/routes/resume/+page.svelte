@@ -11,7 +11,7 @@
     <SidebarWrapper class="bg-transparent">
       <SidebarGroup class="m-0">
         {#each resumeSections as section}
-          <SidebarItem label={spaceWords(section)} href={`#${section}`} class="-ms-3 leading-5">
+          <SidebarItem label={spaceWords(section)} href={`#${section}`} class="-ms-3 leading-5 no-underline">
           </SidebarItem>
         {/each}
       </SidebarGroup>
@@ -23,12 +23,12 @@
   <h2 id="WorkExperience">Work Experience</h2>
   <Accordion flush>
     {#each resume.WorkExperience as job}
-      <AccordionItem class="text-stone-800">
+      <AccordionItem>
         <span slot="header">
           <h3>{job.job}</h3>
           <span class="font-normal">{job.title}, {job.time}</span>
         </span>
-        <ul class="text-stone-800 list-disc">
+        <ul class="text-stone-800 list-disc mt-0">
           {#each job.duties as duty}
             <li class="mb-2.5 ml-5">{duty}</li>
           {/each}
@@ -40,12 +40,12 @@
   <h2 id="Talks">Talks</h2>
   <Accordion flush>
     {#each resume.Talks as talk}
-      <AccordionItem class="text-stone-800">
+      <AccordionItem>
         <span slot="header">
           <h3>{talk.title}</h3>
           <span  class="font-normal">{talk.event}, {talk.date}</span>
         </span>
-        <p>{talk.content}</p>
+        <p class="mt-0">{talk.content}</p>
       </AccordionItem>
     {/each}
   </Accordion>
@@ -53,12 +53,12 @@
   <h2 id="VolunteerPositions">Volunteer Positions</h2>
   <Accordion flush>
     {#each resume.VolunteerPositions as job}
-      <AccordionItem class="text-stone-800">
+      <AccordionItem>
         <span slot="header">
           <h3>{job.org}</h3>
           <span class="font-normal">{job.position}, {job.date}</span>
         </span>
-        <p>{job.content}</p>
+        <p class="mt-0">{job.content}</p>
       </AccordionItem>
     {/each}
   </Accordion>

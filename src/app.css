@@ -36,12 +36,31 @@
     @apply text-green-800 hover:text-green-950;
   }
 
+  aside li a {
+    @apply no-underline;
+  }
+
   .content a {
     @apply underline;
   }
+
 }
 
 html {
     @apply bg-stone-100;
-    min-height: 100.5vh;
+    min-height: 100vh;
+}
+
+body > div {
+      display: flex !important;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-container {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 1;
 }
