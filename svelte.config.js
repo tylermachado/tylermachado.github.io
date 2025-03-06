@@ -10,7 +10,7 @@ const config = {
 	kit: {
     adapter: adapter(),
     paths: {
-      base: dev ? '' : '/tylermachado.github.io', // Use the repo name as the base in production
+      base: '',
     },
     appDir: 'app',
   }
