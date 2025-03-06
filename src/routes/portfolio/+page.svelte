@@ -25,7 +25,7 @@
   <h2>Portfolio</h2>
   <Accordion flush multiple>
     {#each portfolioCategories as category}
-      <AccordionItem>
+      <AccordionItem class="cursor-pointer">
         <span slot="header">
           <h3>{category}</h3>
         </span>

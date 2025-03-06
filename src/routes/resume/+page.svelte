@@ -23,7 +23,7 @@
   <h2 id="WorkExperience">Work Experience</h2>
   <Accordion flush>
     {#each resume.WorkExperience as job}
-      <AccordionItem>
+      <AccordionItem class="cursor-pointer">
         <span slot="header">
           <h3>{job.job}</h3>
           <span class="font-normal">{job.title}, {job.time}</span>
@@ -40,7 +40,7 @@
   <h2 id="Talks">Talks</h2>
   <Accordion flush>
     {#each resume.Talks as talk}
-      <AccordionItem>
+      <AccordionItem class="cursor-pointer">
         <span slot="header">
           <h3>{talk.title}</h3>
           <span  class="font-normal">{talk.event}, {talk.date}</span>
@@ -53,7 +53,7 @@
   <h2 id="VolunteerPositions">Volunteer Positions</h2>
   <Accordion flush>
     {#each resume.VolunteerPositions as job}
-      <AccordionItem>
+      <AccordionItem class="cursor-pointer">
         <span slot="header">
           <h3>{job.org}</h3>
           <span class="font-normal">{job.position}, {job.date}</span>
