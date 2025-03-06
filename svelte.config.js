@@ -7,7 +7,7 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			fallback: 'app.html' // Needed for SPA mode (GitHub Pages)
+			fallback: 'index.html' // Needed for SPA mode (GitHub Pages)
 		}),
 		prerender: {
 			handleMissingId: 'warn', // Avoid hard errors on dynamic routes
