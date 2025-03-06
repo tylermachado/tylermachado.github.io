@@ -13,9 +13,9 @@ const config = {
 			handleMissingId: 'warn', // Avoid hard errors on dynamic routes
 			entries: ['*'] // Pre-render everything possible
 		},
-		paths: {
-			base: process.env.BASE_PATH || '' // Ensure correct base path for GitHub Pages
-		},
+		 paths: {
+      base: process.env.NODE_ENV === 'production' ? '/tylermachado.github.io' : '',
+    },
 		appDir: 'app' // Avoid conflicts with GitHub Pages `_` directories
 	}
 };
