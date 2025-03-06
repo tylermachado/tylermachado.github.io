@@ -3,19 +3,21 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	// Consult https://svelte.dev/docs/kit/integrations
-	// for more information about preprocessors
 	preprocess: vitePreprocess(),
 
 	kit: {
-    adapter: adapter(),
-    paths: {
-      base: process.env.BASE_PATH || ''
-    },
-    prerender: {
-      entries: ['*']
-    }
-  }
+		adapter: adapter({
+			fallback: 'index.html' // Needed for SPA mode (GitHub Pages)
+		}),
+		prerender: {
+			handleMissingId: 'warn', // Avoid hard errors on dynamic routes
+			entries: ['*'] // Pre-render everything possible
+		},
+		paths: {
+			base: process.env.BASE_PATH || '' // Ensure correct base path for GitHub Pages
+		},
+		appDir: 'app' // Avoid conflicts with GitHub Pages `_` directories
+	}
 };
 
 export default config;
