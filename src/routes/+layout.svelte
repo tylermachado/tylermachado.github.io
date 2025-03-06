@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from '$app/paths';
 
 	import '../app.css';
   import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
@@ -16,10 +17,10 @@
 		</NavBrand>
 		<NavHamburger  />
 		<NavUl>
-			<NavLi href="/">Home</NavLi>
-			<NavLi href="/portfolio">Portfolio</NavLi>
-			<NavLi href="/resume">Resume/CV</NavLi>
-			<NavLi href="/contact">Contact</NavLi>
+			<NavLi href="{base}/">Home</NavLi>
+			<NavLi href="{base}/portfolio">Portfolio</NavLi>
+			<NavLi href="{base}/resume">Resume/CV</NavLi>
+			<NavLi href="{base}/contact">Contact</NavLi>
 		</NavUl>
 	</Navbar>
 </div>

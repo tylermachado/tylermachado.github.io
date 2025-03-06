@@ -1,4 +1,5 @@
 <script>
+    import { base } from '$app/paths';
   import { Alert } from 'flowbite-svelte';
   import SocialIcons from '../components/SocialIcons.svelte';
 </script>
@@ -16,7 +17,7 @@
 
   <p>I’ve been a web developer and design technologist for more than a decade. I help nonprofits and independent media outlets create engaging, data-driven visual content for readers and delightful, functional CMS experiences for editors.</p>
 
-  <p>I’m currently working on freelance projects, and I have capacity for more contract work or fractional roles for spring/summer 2025. <a href="/contact">Want to work together?</a></p>
+  <p>I’m currently working on freelance projects, and I have capacity for more contract work or fractional roles for spring/summer 2025. <a href="{base}/contact">Want to work together?</a></p>
 
   	<SocialIcons lightIcons={false} className={"mt-5"} size={8} />
 
