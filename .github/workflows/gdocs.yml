@@ -2,7 +2,8 @@ name: Get GDocs Content
 
 on:
   schedule:
-    - cron: '0 19 * * *'
+    - cron: '0 11 * * *'
+  workflow_dispatch:
 
 jobs:
   run-script:
