@@ -3,7 +3,12 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Adjust to match your default branch
+      - main
+  workflow_run:
+    workflows: ["Update Content from Google Docs"]
+    types:
+      - completed
+  workflow_dispatch:
 
 permissions:
   contents: read
