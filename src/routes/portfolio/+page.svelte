@@ -31,7 +31,7 @@
         </span>
         <div class="flex flex-wrap gap-4">
           {#each portfolio.filter(item => item.category === category) as item}
-            <Card href={item.link} img={`../../screenshots/${item.screenshot}`} padding="sm" class="w-[calc(33%-1rem)] md:w-[calc(25%-1rem)] shadow-none rounded-none  no-underline text-stone-800">
+            <Card horizontal href={item.link} img={`../../screenshots/${item.screenshot}`} padding="sm" class="shadow-none rounded-none no-underline text-stone-800">
               <h3 class="mb-1 text-sm md:text-lg leading-4 md:leading-5 font-bold tracking-tight">
                 {item.title}
               </h3>
