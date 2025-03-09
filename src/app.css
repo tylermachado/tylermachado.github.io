@@ -52,7 +52,7 @@ html {
 }
 
 body > div {
-      display: flex !important;
+    display: flex !important;
     flex-direction: column;
     min-height: 100vh;
 }
