@@ -36,7 +36,7 @@
 
 <footer class="align-right h-[100px] w-full bg-green-950 px-10 py-5 text-white">
 	<div class="mx-auto max-w-5xl">
-		<span class="text-sm">© 2025 Tyler Machado</span>
+		<span class="text-sm">© Designed and built by Tyler Machado in 2025.</span>
 		<SocialIcons lightIcons />
 	</div>
 </footer>
