@@ -15,7 +15,7 @@
 
   <p>I live in Boston, MA and I make websites, dashboards, data visualizations, and design systems.</p>
 
-  <p>I’ve been a web developer and design technologist for more than a decade. I help nonprofits and independent media outlets create engaging, data-driven visual content for readers and delightful, functional CMS experiences for editors.</p>
+  <p>I’ve been a web developer and design technologist for more than a decade, helping mission-driven organizations tell stories and inform people through digital, visual, data-driven experiences. For me that’s meant creating data-driven interactive essays, fleshing out design systems for modern rebrands, auditing and implementing web accessibility improvements, and hacking on WordPress to help customize and improve the CMS experience — to name just some of the work that I like to do.</p>
 
   <p>I’m currently working on freelance projects, and I have capacity for more contract work or fractional roles for spring/summer 2025. <a href="{base}/contact">Want to work together?</a></p>
 
