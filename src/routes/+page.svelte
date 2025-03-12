@@ -1,14 +1,12 @@
 <script>
-    import { base } from '$app/paths';
-  import { Alert } from 'flowbite-svelte';
+  import { base } from '$app/paths';
   import SocialIcons from '../components/SocialIcons.svelte';
 </script>
 
 <div class="col-span-1">
-
 </div>
 
-<div class="px-5 col-span-5 mb-20">
+<div class="col-span-4">
   <img src="/images/headshot.jpg" alt="Tyler Machado" class="rounded-2xl md:w-48 md:h-48 mb-8 hidden md:block mx-auto md:float-right md:mx-8" />
 
   <p class="text-2xl font-bold">Hi, I'm Tyler.</p>

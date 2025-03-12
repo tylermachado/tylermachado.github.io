@@ -7,7 +7,7 @@
 <div class="col-span-1">
 </div>
 
-<div class="col-span-5 px-5">
+<div class="col-span-5">
   <h2>Contact</h2>
   <p>I'm currently booking more freelance/contract/fractional work for early-to-mid 2025. Want to work together? Here's where you can find me:</p>
   <ul class="list-disc list-inside mt-4">
