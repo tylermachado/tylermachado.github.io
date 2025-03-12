@@ -9,9 +9,9 @@
 </div>
 
 <div class="px-5 col-span-5 mb-20">
-  <img src="/images/headshot.jpg" alt="Tyler Machado" class="rounded-2xl md:w-48 md:h-48 mb-8 mt-10 hidden md:block mx-auto md:float-right md:mx-8" />
+  <img src="/images/headshot.jpg" alt="Tyler Machado" class="rounded-2xl md:w-48 md:h-48 mb-8 hidden md:block mx-auto md:float-right md:mx-8" />
 
-  <p class="text-2xl font-bold mt-10">Hi, I'm Tyler.</p>
+  <p class="text-2xl font-bold">Hi, I'm Tyler.</p>
 
   <p>I live in Boston, MA and I make websites, dashboards, data visualizations, and design systems.</p>
 

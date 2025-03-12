@@ -14,13 +14,13 @@
 
 <header class="bg-[var(--color-dark)]">
 	<Navbar class="mx-auto max-w-5xl bg-transparent">
-		<NavBrand href="/" class="text-[var(--color-light)]">
+		<NavBrand href="/" class="text-[var(--color-light)] nav-brand">
 			<img src="/images/icon.png" alt="Tyler Machado" class="mr-4 h-10 w-10 rounded-full" />
 			<span class="self-center text-xl font-semibold whitespace-nowrap"
 				>Tyler Machado</span
 			>
 		</NavBrand>
-		<NavHamburger />
+		<NavHamburger  />
 		<NavUl>
       {#each pages as page}
         <NavLi
@@ -33,6 +33,8 @@
 		</NavUl>
 	</Navbar>
   <PeaksTop
-    light="#f5f5f4"
+    dark="var(--color-dark)"
+    mid="var(--color-mid-50)"
+    light="var(--color-light)"
   />
 </header>

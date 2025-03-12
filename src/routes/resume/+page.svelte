@@ -19,7 +19,7 @@
   </Sidebar>
 </div>
 
-<div class="col-span-5 px-5">
+<div class="col-span-5 px-5 pt-0 pb-5">
   <h2 id="WorkExperience">Work Experience</h2>
   <Accordion flush>
     {#each resume.WorkExperience as job}
