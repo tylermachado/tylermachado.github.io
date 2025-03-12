@@ -12,9 +12,13 @@
 
 @theme {
   --font-body: 'Helvetica Neue', sans-serif;
-  /* --font-body: 'Inconsolata', sans-serif; */
   
-  --color-beige: #f2f1ed;
+  --color-base-white: #fff;
+  --color-base-black: #000;
+  
+  --color-light: #f5f5f4;
+  --color-mid-50: #56ccb3;
+  --color-dark: #042d04;
   
 }
 
