@@ -32,17 +32,15 @@
     @apply mt-5 font-body
   }
 
-  a {
-    @apply text-green-800 hover:text-green-950;
+  /* Select all links that aren't SVG icons */
+  a:not(:has(> svg)) {
+    @apply text-green-800 hover:text-green-950 font-semibold relative no-underline after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-current after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100;
   }
 
   aside li a {
     @apply no-underline;
   }
 
-  .content a {
-    @apply underline;
-  }
 
 }
 
