@@ -28,7 +28,7 @@
     {#each portfolioCategories as category}
       <AccordionItem class="cursor-pointer">
         <span slot="header">
-          <h3>{category}</h3>
+          <h3 class="text-lg">{category}</h3>
         </span>
         <div class="flex flex-wrap gap-4">
           {#each portfolio.filter(item => item.category === category) as item}

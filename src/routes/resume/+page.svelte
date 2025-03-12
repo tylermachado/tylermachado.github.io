@@ -27,16 +27,19 @@
     <Accordion flush class="mb-10">
       {#each resume[section] as job}
         <AccordionItem class="cursor-pointer">
-          <span slot="header">
+          <span slot="header" class="leading-[1.25]">
             {#if ['WorkExperience'].includes(section)}
-              <h3>{job.job}</h3>
-              <span class="font-normal">{job.title}, {job.time}</span>
+              <h3 class="text-lg">{job.job}</h3>
+              <div class="font-normal">{job.title}</div>
+              <div class="font-normal">{job.time}</div>
             {:else if ['Talks'].includes(section)}
-              <h3>{job.title}</h3>
-              <span class="font-normal">{job.event}, {job.date}</span>
+              <h3 class="text-lg">{job.title}</h3>
+              <div class="font-normal">{job.event}</div>
+              <div class="font-normal">{job.date}</div>
             {:else if ['VolunteerPositions'].includes(section)}
-              <h3>{job.org}</h3>
-              <span class="font-normal">{job.position}, {job.date}</span>
+              <h3 class="text-lg">{job.org}</h3>
+              <div class="font-normal">{job.position}</div>
+              <div class="font-normal">{job.date}</div>
             {/if}
           </span>
           {#if ['WorkExperience'].includes(section)}
