@@ -16,8 +16,8 @@
     }>();
 
   let iconColor = lightIcons 
-    ? 'text-[var(--color-base-white)] hover:text-[var(--color-mid-50)] dark:text-gray-500' 
-    : 'text-[var(--color-base-black)] hover:text-[var(--color-dark)] dark:text-gray-400';
+    ? 'text-[var(--color-base-white)] hover:text-gray-300 dark:text-gray-500' 
+    : 'text-[var(--color-base-black)] hover:text-gray-700 dark:text-gray-400';
 
   let sizeClasses = `w-${size} h-${size}`
   let iconClasses = `${sizeClasses} ${iconColor}`;
