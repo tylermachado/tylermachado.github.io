@@ -2,7 +2,7 @@
   import { AccordionItem, Accordion } from 'flowbite-svelte';
   import Card from '../../components/Card.svelte';
   import portfolio from '../../data/portfolio.json';
-  $: portfolioCategories = ['Data visualizations and graphics', 'Web development', 'WordPress blocks and themes', 'Branding and graphic design'];
+  $: portfolioCategories = ['Data visualizations and graphics', 'WordPress blocks and themes', 'UX/UI development', 'Branding and graphic design'];
 
   import { onMount } from 'svelte';
   
