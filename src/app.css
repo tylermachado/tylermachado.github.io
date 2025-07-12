@@ -11,7 +11,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --font-body: 'Helvetica Neue', sans-serif;
+  --font-body: 'Public Sans', 'Helvetica Neue', sans-serif;
   
   --color-base-white: #fff;
   --color-base-black: #000;
