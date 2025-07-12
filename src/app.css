@@ -32,8 +32,12 @@
     @apply text-2xl font-bold mb-4
   }
 
-  p {
+  p, ul {
     @apply mb-5 font-body
+  }
+
+  ul {
+    @apply pl-4;
   }
 
   /* Select all links that aren't SVG icons */
