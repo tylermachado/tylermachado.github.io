@@ -15,7 +15,7 @@
 
   <ul>
     <li>📊 Designing, building and writing <span class="font-bold">data stories and interactives</span> that turn numbers into engaging visual narratives</li>
-    <li>🎨 Working on <span class="font-bold">UX, frontend, and branding</span> to help organizations connect with their communities</li>
+    <li>🎨 Working on <span class="font-bold">UX, frontend, and branding projects</span> that define visual identities and experiences</li>
     <li>📝 Customizing <span class="font-bold">content management systems (especially WordPress)</span> to help journalists do their jobs in the most web-savvy, pain-free ways possible</li>
   </ul>
 
