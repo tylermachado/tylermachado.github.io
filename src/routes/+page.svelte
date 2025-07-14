@@ -11,7 +11,7 @@
 
   <p class="text-2xl">Hi, I'm Tyler and <span class="font-bold">I'm a creative technologist</span> from Boston.</p>
 
-  <p>I make websites, dashboards, data visualizations, and design systems that <span class="font-bold">help mission-driven organizations and publishers make the most of visual, digital storytelling</span>. Across 10+ years of working on the web, my career has included:</p>
+  <p>I design and build digital tools — including data visualizations, dashboards, and websites — that help mission-driven organizations tell stories and engage their communities. Across 10+ years of working on the web, my career has included:</p>
 
   <ul>
     <li>📊 Designing, building and writing <span class="font-bold">data stories and interactives</span> that turn numbers into engaging visual narratives</li>
