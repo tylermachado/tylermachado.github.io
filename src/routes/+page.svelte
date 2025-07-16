@@ -11,17 +11,17 @@
 
   <p class="text-2xl">Hi, I'm Tyler and <span class="font-bold">I'm a creative technologist</span> from Boston.</p>
 
-  <p>I design and build digital tools — including data visualizations, dashboards, and websites — that help mission-driven organizations tell stories and engage their communities. Across 10+ years of working on the web, my career has included:</p>
+  <p>I work on digital tools — like data visualizations, dashboards, and websites — that help mission-driven organizations tell compelling stories and connect with their communities. My experience includes:</p>
 
   <ul>
-    <li>📊 Designing, building and writing <span class="font-bold">data stories and interactives</span> that turn numbers into engaging visual narratives</li>
-    <li>🎨 Working on <span class="font-bold">UX, frontend, and branding projects</span> that define visual identities and experiences</li>
-    <li>📝 Customizing <span class="font-bold">content management systems (especially WordPress)</span> to help journalists do their jobs in the most web-savvy, pain-free ways possible</li>
+    <li>📊 Designing and building <span class="font-bold">data-driven stories and interactive visualizations</span> to make narratives from numbers</li>
+    <li>🎨 Crafting <span class="font-bold">UIs, branding, and design systems</span> that define digital experiences</li>
+    <li>📝 Customizing <span class="font-bold">WordPress</span> platforms to empower journalists, editors and storytellers</li>
   </ul>
 
 <p>When I’m not at my desk, you’ll most likely find me at the restaurants, rock clubs, and soccer fields of New England.</p>
 
-<p>I'm currently splitting my time between building WordPress sites with my friends at Modern Tribe and taking on freelance dataviz and frontend projects. <a href="{base}/contact">Want to work together?</a></p>
+<p><span class="font-bold">I'm always looking to collaborate with teams that value a healthy blend of design, data, and storytelling to make an impact.</span> I'm currently splitting my time between building WordPress sites with my friends at Modern Tribe and taking on freelance dataviz and frontend projects. <a href="{base}/contact">Want to work together?</a></p>
 
   <SocialIcons lightIcons={false} className={"mt-5"} size={8} />
 
