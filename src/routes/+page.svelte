@@ -14,8 +14,8 @@
   <p>I work on digital tools — like data visualizations, dashboards, and websites — that help mission-driven organizations tell compelling stories and connect with their communities. My experience includes:</p>
 
   <ul>
-    <li>📊 Designing and building <span class="font-bold">data-driven stories and interactive visualizations</span> to make narratives from numbers</li>
-    <li>🎨 Crafting <span class="font-bold">UIs, branding, and design systems</span> that define digital experiences</li>
+    <li>📊 Creating <span class="font-bold">data-driven stories and interactive visualizations</span> to make narratives from numbers</li>
+    <li>🎨 Crafting digital identity through <span class="font-bold">brand graphics, design systems and frontend implementation</span></li>
     <li>📝 Customizing <span class="font-bold">WordPress</span> platforms to empower journalists, editors and storytellers</li>
   </ul>
 
