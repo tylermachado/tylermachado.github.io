@@ -1,3 +1,4 @@
+// @ts-nocheck
 import fs from "fs";
 import archieml from "archieml";
 import docs from "../google.config.js";
