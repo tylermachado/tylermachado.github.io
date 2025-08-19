@@ -11,12 +11,14 @@
 
   <p class="text-2xl">Hi, I'm Tyler and <span class="font-bold">I'm a creative technologist</span> from Boston.</p>
 
-  <p>I design and build digital tools — like data visualizations, dashboards, and websites — that support and elevate digital storytelling. Whether I'm visualizing complex data, developing WordPress platforms, or translating editorial needs into thoughtful UX, I'm here to help mission-driven teams communicate clearly and connect with their audiences on the modern web. My experience includes:</p>
+  <p>I design and build data-rich web apps, dashboards, and visual stories for journalism, nonprofit, and editorial teams. I bridge product, design, data, and code—translating messy datasets and newsroom goals into accessible, performant tools that people love to use.</p>
+
+  <p>How I can help:</p>
 
   <ul>
-    <li>📊 Shaping data into <span class="font-bold">interactive stories and dashboards</span> that make narratives from numbers</li>
-    <li>🎨 Crafting <span class="font-bold">branding kits, design systems and UX/UI components</span> that align with brand identity</li>
-    <li>📝 Developing flexible <span class="font-bold">CMS platforms</span> for journalists, storytellers, and nonprofits</li>
+    <li>📊 Turning complex data into <span class="font-bold">engaging, interactive narratives and decision-ready dashboards</span></li>
+    <li>🎨 Crafting <span class="font-bold">branding kits, design systems and component-driven frontends</span> that align with editorial voice and brand identity</li>
+    <li>📝 Developing flexible, content-first <span class="font-bold">WordPress and Next.js sites</span> for journalists, storytellers, and nonprofits</li>
   </ul>
 
 <p>When I’m not at my desk, you’ll most likely find me at the restaurants, rock clubs, and soccer fields of New England.</p>
