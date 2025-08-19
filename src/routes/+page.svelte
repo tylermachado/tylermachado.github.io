@@ -9,7 +9,7 @@
 <div class="col-span-4">
   <img src="/images/headshot.jpg" alt="Tyler Machado" class="rounded-2xl md:w-48 md:h-48 mb-8 hidden md:block mx-auto md:float-right md:mx-8" />
 
-  <p class="text-2xl">Hi, I'm Tyler and <span class="font-bold">I'm a creative technologist</span> from Boston.</p>
+  <p class="text-2xl">Hi, I'm Tyler and <span class="font-bold">I'm a freelance front-end engineer and digital designer</span> from Boston.</p>
 
   <p>I design and build data-rich web apps, dashboards, and visual stories for journalism, nonprofit, and editorial teams. I bridge product, design, data, and code—translating messy datasets and newsroom goals into accessible, performant tools that people love to use.</p>
 
