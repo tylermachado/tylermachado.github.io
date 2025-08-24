@@ -11,9 +11,7 @@
 
   <p class="text-2xl">Hi, I'm Tyler and <span class="font-bold">I'm a freelance front-end engineer and digital designer</span> from Boston.</p>
 
-  <p>I design and build data-rich web apps, dashboards, and visual stories for journalism, nonprofit, and editorial teams. I bridge product, design, data, and code—translating messy datasets and newsroom goals into accessible, performant tools that people love to use.</p>
-
-  <p>How I can help:</p>
+  <p>I design and build data-driven web apps, dashboards, and visual stories for nonprofit and editorial teams, bridging product, design, data, and code. Here's how I can help:</p>
 
   <ul>
     <li>📊 Turning complex data into <span class="font-bold">engaging, interactive narratives and decision-ready dashboards</span></li>
