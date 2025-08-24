@@ -13,7 +13,7 @@
   <ul class="list-disc list-inside mt-4">
     <li><a href="mailto:tyler.machado@gmail.com">Email</a>
     </li>
-    <li><a href="https://linked.com/in/tylermachado">LinkedIn</a></li>
+    <li><a href="https://linkedin.com/in/tylermachado">LinkedIn</a></li>
     <li><a href="//github.com/tylermachado">GitHub</a></li>
     <li><a href="//bsky.app/user/tylermachado">Bluesky</a></li>
       </ul>
