@@ -9,7 +9,7 @@
 
 <div class="col-span-5">
   <h2>Contact</h2>
-  <p>I'm currently booking more freelance/contract/fractional work from late summer 2025. Want to work together? Here's where you can find me:</p>
+  <p>I'm currently booking more freelance/contract/fractional work for 2026. Want to work together? Here's where you can find me:</p>
   <ul class="list-disc list-inside mt-4">
     <li><a href="mailto:tyler.machado@gmail.com">Email</a>
     </li>
