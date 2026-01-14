@@ -9,9 +9,9 @@
 <div class="col-span-4">
   <img src="/images/headshot.jpg" alt="Tyler Machado" class="rounded-2xl md:w-48 md:h-48 mb-8 hidden md:block mx-auto md:float-right md:mx-8" />
 
-  <p class="text-2xl">Hi, I'm Tyler and <span class="font-bold">I'm a freelance front-end engineer and digital designer</span> from Boston.</p>
+  <p class="text-2xl">Hi, I'm Tyler and <span class="font-bold">I'm a freelance design technologist and UX/UI engineer</span> from Boston.</p>
 
-  <p>I design and build data-driven web apps, dashboards, and visual stories for nonprofit and editorial teams, bridging product, design, data, and code. Here's how I can help:</p>
+  <p>I design and build data-driven web apps, dashboards and systems for nonprofit and editorial teams, bridging product, design, data, and code. Here's how I can help:</p>
 
   <ul>
     <li>📊 Turning complex data into <span class="font-bold">engaging, interactive narratives and decision-ready dashboards</span></li>
