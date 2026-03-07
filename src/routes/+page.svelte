@@ -11,7 +11,7 @@
 
   <p class="text-2xl">Hi, I'm Tyler and <span class="font-bold">I'm a freelance design technologist and UX/UI engineer</span> from Boston.</p>
 
-  <p>I design and build data-driven web apps, dashboards and systems for nonprofit and editorial teams, bridging product, design, data, and code. Here's how I can help:</p>
+  <p>I design and build data-driven web apps, dashboards and systems for nonprofit and editorial teams, bridging product, design, data, and code. What I can help with:</p>
 
   <ul>
     <li>📊 Turning complex data into <span class="font-bold">engaging, interactive narratives and decision-ready dashboards</span></li>
