@@ -15,7 +15,7 @@
     </li>
     <li><a href="https://linkedin.com/in/tylermachado">LinkedIn</a></li>
     <li><a href="//github.com/tylermachado">GitHub</a></li>
-    <li><a href="//bsky.app/user/tylermachado">Bluesky</a></li>
+    <li><a href="//bsky.app/user/tylermachado.com">Bluesky</a></li>
       </ul>
   
 </div>
