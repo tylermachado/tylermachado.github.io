@@ -21,7 +21,7 @@
     <li>📝 Developing <span class="font-bold">bespoke, content-driven digital platforms</span> that help journalists and nonprofits deliver stories and information to the world</li>
   </ul>
 
-<p>I'm currently the Senior Web Developer/Designer at <a href="https://www.inovalon.com/">Inovalon</a>, and I also design digital and physical graphics for <a href="//bostonisa.com/">Boston ISA</a>, the independent supporters' group for the Boston Legacy FC soccer team. When I’m not at my desk, you’ll most likely find me at the restaurants, rock clubs, and soccer fields of New England. I live in Boston with my partner, my cat, and entirely too many records.</p>
+<p>I'm currently working on design and development at <a href="https://www.inovalon.com/">Inovalon</a> and for other clients, and I also design digital and physical graphics for <a href="//bostonisa.com/">Boston ISA</a>, the independent supporters' group for the Boston Legacy FC soccer team. When I’m not at my desk, you’ll most likely find me at the restaurants, rock clubs, and soccer fields of New England. I live in Boston with my partner, my cat, and entirely too many records.</p>
 
 <p><span class="font-bold">I'm always looking to collaborate with teams that value a healthy blend of design, data, and storytelling to make an impact.</span> <a href="{base}/contact">Want to work together?</a></p>
 

@@ -6,6 +6,7 @@
   import { spaceWords } from '../../lib/spaceWords';
   import resume from '../../data/resume.json';
   const resumeSections = Object.keys(resume);
+  const isVisible = (item) => String(item.show ?? 'true').trim().toLowerCase() !== 'false';
 </script>
 
 <div class="col-span-1">
@@ -25,7 +26,7 @@
   {#each resumeSections as section}
     <h2 id="{section}">{spaceWords(section)}</h2>
     <Accordion flush class="mb-10">
-      {#each resume[section] as job}
+      {#each resume[section].filter(isVisible) as job}
         <AccordionItem class="cursor-pointer">
           <span slot="header" class="leading-[1.25]">
             {#if ['WorkExperience'].includes(section)}
