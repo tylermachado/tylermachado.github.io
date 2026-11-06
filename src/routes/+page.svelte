@@ -11,17 +11,17 @@
 
   <p class="text-2xl">Hi, I'm Tyler and <span class="font-bold">I'm a design technologist and frontend engineer</span> from Boston. I'm interested in digital-visual storytelling, and the systems, platforms, and people that make it happen.</p>
 
-  <p>I've spent more than a decade designing and building websites, dashboards, and data-driven interactives for mission-driven organizations and editorial teams, bridging product, design, data, and code, and I have a track record of helping small teams punch above their weight on the modern web. You may know me from such hits as <a href="https://pudding.cool/2024/10/nba-uniforms/">the Pudding's NBA uniforms deep dive</a>, the <a href="https://www.tylermachado.com/nicar-schedule/">alternative conference schedule grid for NICAR 2026</a>, and <a href="https://www.tylermachado.com/archive/dash-brief.pdf">Northeastern's campus COVID testing dashboard</a>.</p>
+  <p>I've spent more than a decade designing and building websites, dashboards, and data-driven interactives for mission-driven organizations, editorial teams, and marketing sites. My work bridges the disciplines of design, data, and code, and I have a track record of helping small teams punch above their weight on the modern web. You may know me from such hits as the <a href="https://mynativeplantlist.com">My Native Plant List</a> web app for home gardeners, <a href="https://pudding.cool/2024/10/nba-uniforms/">the Pudding's NBA uniforms deep dive</a>, the <a href="https://www.tylermachado.com/nicar-schedule/">alternative conference schedule grid for NICAR 2026</a>, and <a href="https://www.tylermachado.com/archive/dash-brief.pdf">Northeastern's campus COVID testing dashboard</a>.</p>
     
   <p>What I can help with:</p>
 
   <ul>
-    <li>📊 Transforming complex datasets into <span class="font-bold">engaging, clarifying, interactive narratives and dashboards</span></li>
-    <li>🎨 Crafting <span class="font-bold">branding kits, design systems and component-driven frontends</span> that establish identity and editorial voice for mission-driven organizations</li>
-    <li>📝 Developing <span class="font-bold">bespoke, content-driven digital platforms</span> that help journalists and nonprofits deliver stories and information to the world</li>
+    <li><span aria-hidden="true">🛠️</span> Leading <span class="font-bold">platform strategy for content-heavy websites</span>, from migrations and release workflows to design/UX work for the editor experience</li>
+    <li><span aria-hidden="true">📊</span> Transforming complex datasets into <span class="font-bold">engaging, clarifying, interactive narratives and dashboards</span></li>
+    <li><span aria-hidden="true">🎨</span> Crafting <span class="font-bold">branding kits, design systems and component-driven frontends</span> that establish identity and editorial voice for mission-driven organizations</li>
   </ul>
 
-<p>I'm currently working on design and development at <a href="https://www.inovalon.com/">Inovalon</a> and for other clients, and I also design digital and physical graphics for <a href="//bostonisa.com/">Boston ISA</a>, the independent supporters' group for the Boston Legacy FC soccer team. When I’m not at my desk, you’ll most likely find me at the restaurants, rock clubs, and soccer fields of New England. I live in Boston with my partner, my cat, and entirely too many records.</p>
+<p>I'm currently the Senior Web Designer/Developer at <a href="https://www.inovalon.com/">Inovalon</a>, and I also design branding and merch for <a href="//bostonisa.com/">Boston ISA</a>, the independent supporters' group for the Boston Legacy FC soccer team. When I’m not at my desk, you’ll most likely find me at the restaurants, rock clubs, and soccer fields of New England.</p>
 
 <p><span class="font-bold">I'm always looking to collaborate with teams that value a healthy blend of design, data, and storytelling to make an impact.</span> <a href="{base}/contact">Want to work together?</a></p>
 
